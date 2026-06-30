@@ -1,22 +1,5 @@
----
-title: "Weather Map: A Diachronic Visual Model for Controversy Mapping"
-year: 2023
-venue: "Zoomland: Exploring Scale in Digital History and Humanities"
-publisher: "De Gruyter"
-type: "chapter"
-author: "Dario Rodighiero and Jean Daniélou"
-editor: "Florentina Armaselu and Andreas Fickers"
-place: "Berlin"
-pages: "449–466"
-isbn: "978-3-11-131777-9"
-doi: "https://doi.org/10.1515/9783111317779-017"
-img: "@publications/Weather-Map.webp"
-img_width: 700
-img_height: 525
-thumb: "weather-map-a-diachronic-visual-model-for-controversy-mapping/fig_002.webp"
-figures: true
-excerpt_separator: "<!--more-->"
----
+# Weather Map: A Diachronic Visual Model for Controversy Mapping
+
 The Weather Map is a visual model to investigate public debates on media. Relying on the Media Cloud archives, the visual model transforms a simple query into a sophisticated visualization by employing the visual grammar of synoptic weather charts. Peaks of pressure and clashes between airmasses are used to describe the conflicts in media through the temporal dimension, diving into the human and non-human dynamics that make the controversy alive. The Weather Map was conceived as a digital tool to help students and scholars analyze public debates, according to the controversy mapping field founded by Bruno Latour. In particular, the visual model pushes the boundaries of network visualization, exploring advanced techniques of graphic design. The outcome is a web-based application developed in JavaScript and Python at the disposal of education and research.
 
 <!--more-->
@@ -78,58 +61,3 @@ An example of navigation can start from this area (see Figure 10). Looking for c
 Weather Map’s visual grammar transforms the heuristic scope of controversy mapping by modifying the conditions of the representation. At Sciences Po and École des Mines, the field of controversy mapping uses static networks of actors or event-based chronologies. According to this methodology, the relations that articulate networks remain invariably inert. The lines connecting the different points harden, reduce and immobilize the social game of friction (Tsing 2005), enrolment tactics (Callon 1986) and alliance strategies (Callon and Latour 2017). A static representation prevents viewers from seeing lines’ whole life, including the passage into new arenas of debate (Dodier 2003). The same is true for the chronological frieze, which reframes the past into a dot alignment whose relational logic is summarized in a game of successions and accumulations: this event + this event + this event = the controversy. Like entomologists killed and pinned butterflies on blank sheets of paper to observe them, controversy mapping is currently equipped with tools that kill the controversy to study it.
 
 Faced with these challenges, the Weather Map offers an alternative. First, it uses thermal semiotics polarized between warm and cold to approach the controversy in the making by mapping the formation of fronts where the debate crystallizes. This visual method opens the way to studying multi-positional movements through the plurality of actors that shape controversial events. Instead of re-examining once it occurred, the controversial event is captured in statu nascendi before becoming an event. In addition, the whole logic of visualization is turned upside down. To put it with an image, it is no longer a question of waiting for the rain to fall but of considering the clouds announcing its coming. Technically, the Weather Map promises a shift in observing controversies’ emergence and growth by placing the inquiry’s standpoint one step ahead of their institutionalization and public recognition. This shift brings the controversy studies closer to social life in motion. It makes it possible to return to the initial program expressed by Bruno Latour, which consisted of looking at science and society in the process of being made rather than already made (Latour 1999).
-
-## References
-
-- Ahrens, C. Donald, and Robert Henson. 2019. *Meteorology Today: An Introduction to Weather, Climate, and the Environment*. 12th ed. Boston, MA: Cengage.
-- Akrich, Madeleine, Michel Callon, and Bruno Latour. 2006. *Sociologie de la traduction: textes fondateurs*. Paris: École des mines de Paris.
-- Barabási, Albert-László, Mónica Bello, Julia Kluge-Fabényi, et al. 2020. *Hidden Patterns: Visualizing Networks at BarabásiLab*. Edited by Alanna Stang and Peter Weibel. Berlin: Hatje Cantz Verlag.
-- Baya-Laffite, Nicolas, and Jean-Philippe Cointet. 2014. “Cartographier la trajectoire de l’adaptation dans l’espace des négociations sur le climat.” *Réseaux* 188 (6): 159–198.
-- Benzi, Kirell Maël. 2017. “From Recommender Systems to Spatio-Temporal Dynamics with Network Science.” PhD diss., EPFL. [doi:10.5075/EPFL-THESIS-7428](https://doi.org/10.5075/EPFL-THESIS-7428).
-- Berger, Matthew, Katherine McDonough, and Lee M. Seversky. 2017. “Cite2vec: Citation-Driven Document Exploration via Word Embeddings.” *IEEE Transactions on Visualization and Computer Graphics* 23 (1): 691–700. [doi:10.1109/TVCG.2016.2598667](https://doi.org/10.1109/TVCG.2016.2598667).
-- Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. 2011. “D3: Data-Driven Documents.” *IEEE Transactions on Visualization and Computer Graphics* 17 (12): 2301–9. [doi:10/b7bhhf](https://doi.org/10/b7bhhf).
-- Bowker, Geoffrey C., and Susan Leigh Star. 1999. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.
-- Burdick, Anne, Johanna Drucker, Peter Lunenfeld, Todd Presner, and Jeffrey Schnapp. 2012. *Digital_Humanities*. Cambridge, MA: MIT Press.
-- Callon, Michel. 1986. “Élements pour une sociologie de la traduction: La domestication des coquilles Saint-Jacques et des marins-pêcheurs dans la baie de Saint-Brieuc.” *L’Année sociologique* 36: 169–208.
-- Callon, Michel, and Bruno Latour. 2017. “Unscrewing the Big Leviathan: How Actors Macro-Structure Reality and How Sociologists Help Them to Do So.” In *Advances in Social Theory and Methodology: Toward an Integration of Micro- and Macro-Sociologies*, edited by Karin Knorr-Cetina and Aaron Victor Cicourel, 277–303. New York: Routledge.
-- Chapple, Steeve, and Reebee Garofalo. 1977. *Rock ’n’ Roll Is Here to Pay: The History and Politics of the Music Industry*. Chicago: Nelson-Hall.
-- Cruz, Pedro, John Wihbey, Avni Ghael, Felipe Shibuya, and Stephen Costa. 2022. “Dendrochronology of U.S. Immigration.” *Information Design Journal* 25 (1): 6–20. [doi:10.1075/idj.25.1.01cru](https://doi.org/10.1075/idj.25.1.01cru).
-- Data-Driven Documents. (2017) 2023. “D3-Contour.” Version 3.0.1. GitHub. [github.com/d3/d3-contour](https://github.com/d3/d3-contour).
-- De Pryck, Kary. 2022. *GIEC: la voix du climat*. Paris: Presses de Sciences Po.
-- Density Design. (2014) 2022. “Strumentalia-Seealsology.” GitHub. [github.com/densitydesign/strumentalia-seealsology](https://github.com/densitydesign/strumentalia-seealsology).
-- Dodier, Nicolas. 2003. *Leçons politiques de l’épidémie de sida*. Paris: Éditions de l’École des hautes études en sciences sociales. [doi:10.4000/books.editionsehess.1760](https://doi.org/10.4000/books.editionsehess.1760).
-- Drucker, Johanna. 2010. *Subjective Meteorology*. Graphical Pamphlet Series 3. Los Angeles, CA: Druckwerk.
-- Flusser, Vilém. 2014. “Crisis of Linearity.” Translated by Adelheid Mers. *Boot Print*: 19–21. [monoskop.org](https://monoskop.org/images/c/c0/Flusser_Vilem_1988_2006_The_Crisis_of_Linearity.pdf).
-- Gray, Jonathan, Liliana Bounegru, Richard Rogers, et al. 2022. “Engaged Research-Led Teaching: Composing Collective Inquiry with Digital Methods and Data.” *Digital Culture & Education* 14 (3): 55–86.
-- Huron, Samuel. 2014. “Constructive Visualization: A Token-Based Paradigm Allowing to Assemble Dynamic Visual Representation for Non-Experts.” PhD diss., Université Paris-Sud. [tel.archives-ouvertes.fr/tel-02924469](https://tel.archives-ouvertes.fr/tel-02924469).
-- Jacomy, Alexis. (2012) 2022. “Sigma.js.” Version 3.0.0. GitHub. [github.com/jacomyal/sigma.js](https://github.com/jacomyal/sigma.js).
-- Jacomy, Mathieu, Paul Girard, Benjamin Ooghe-Tabanou, and Tommaso Venturini. 2016. “Hyphe, a Curation-Oriented Approach to Web Crawling for the Social Sciences.” In *Proceedings of the Tenth International AAAI Conference on Web and Social Media (ICWSM 2016)*.
-- Jacomy, Mathieu, Tommaso Venturini, Sebastien Heymann, and Mathieu Bastian. 2014. “ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software.” *PLoS ONE* 9 (6): e98679. [doi:10.1371/journal.pone.0098679](https://doi.org/10.1371/journal.pone.0098679).
-- Klein, Lauren. 2022. “What Data Visualization Reveals: Elizabeth Palmer Peabody and the Work of Knowledge Production.” *Harvard Data Science Review* 4 (2). [doi:10.1162/99608f92.5dec149c](https://doi.org/10.1162/99608f92.5dec149c).
-- Kräutli, Florian. 2016. “Visualising Cultural Data: Exploring Digital Collections through Timeline Visualisations.” PhD diss., Royal College of Art.
-- Latour, Bruno. 1999. *Pandora’s Hope: Essays on the Reality of Science Studies*. Cambridge, MA: Harvard University Press.
-- ———. 2005. *Reassembling the Social: An Introduction to Actor-Network-Theory*. Oxford: Oxford University Press.
-- ———. 2014. “Anti-Zoom.” In *Olafur Eliasson: Contact*. Paris: Flammarion and Fondation Louis Vuitton.
-- ———. 2021. “Préface.” In *Controverses mode d’emploi*, edited by Clémence Seurat and Thomas Tari, 11–21. Paris: Presses de Sciences Po.
-- Lazer, David M. J., Alex Pentland, Lada Adamic, et al. 2009. “Computational Social Science.” *Science* 323 (5915): 721–23. [doi:10.1126/science.1167742](https://doi.org/10.1126/science.1167742).
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- McInnes, Leland, John Healy, and Steve Astels. 2017. “HDBSCAN: Hierarchical Density-Based Clustering.” *The Journal of Open Source Software* 2 (11): 205. [doi:10.21105/joss.00205](https://doi.org/10.21105/joss.00205).
-- McInnes, Leland, John Healy, and James Melville. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” arXiv. [doi:10.48550/arXiv.1802.03426](https://doi.org/10.48550/arXiv.1802.03426).
-- Moreno, Jacob L. 1934. *Who Shall Survive?* Washington, DC: Nervous and Mental Disease Publishing Co.
-- Munroe, Randall. 2015. *Thing Explainer: Complicated Stuff in Simple Words*. Boston: Houghton Mifflin Harcourt.
-- Pearce, Robert P., ed. 2002. *Meteorology at the Millennium*. International Geophysics Series 83. London: Academic Press.
-- Rigal, Alexandre, and Dario Rodighiero. 2017. “Méduse, vers des visualisations plus complexes que le réseau.” In *Chronotopies: lecture et écriture des mondes en mouvement*, edited by Guillaume Drevon, Luc Gwiazdzinski, and Olivier Klein, 136–47. Grenoble: Elya Éditions. [doi:10.5281/zenodo.3516222](https://doi.org/10.5281/zenodo.3516222).
-- Roberts, Hal, Rahul Bhargava, Linas Valiukas, et al. 2021. “Media Cloud: Massive Open Source Collection of Global News on the Open Web.” In *Proceedings of the Fifteenth International AAAI Conference on Web and Social Media (ICWSM 2021)*, 1034–45.
-- Rodighiero, Dario. 2021. “Weather Map.” Version 1.0.0. GitHub. [github.com/rodighiero/weather-map](https://github.com/rodighiero/weather-map).
-- Rodighiero, Dario, and Alberto Romele. 2022. “Reading Network Diagrams by Using Contour Lines and Word Clouds.” In *Proceedings of Graphs and Networks in the Humanities*, 1–7. Amsterdam: Royal Netherlands Academy of Arts and Sciences.
-- Rosenberg, Daniel, and Anthony Grafton. 2010. *Cartographies of Time*. New York: Princeton Architectural Press.
-- Scott, John. (1991) 2000. *Social Network Analysis: A Handbook*. 2nd ed. London: SAGE Publications.
-- Seurat, Clémence, and Thomas Tari. 2021. *Controverses, mode d’emploi*. Paris: Presses de Sciences Po.
-- Shneiderman, Ben. 1996. “The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations.” In *Proceedings 1996 IEEE Symposium on Visual Languages*, 336–43. Boulder, CO: IEEE Computer Society Press. [doi:10/fwdq26](https://doi.org/10/fwdq26).
-- Tsing, Anna Lowenhaupt. 2005. *Friction: An Ethnography of Global Connection*. Princeton, NJ: Princeton University Press.
-- Vane, Olivia. 2019. “Timeline Design for Visualising Cultural Heritage Data.” PhD diss., Royal College of Art. [researchonline.rca.ac.uk/4325](https://researchonline.rca.ac.uk/4325/).
-- Venturini, Tommaso, Nicolas Baya-Laffite, Jean-Philippe Cointet, et al. 2014. “Three Maps and Three Misunderstandings: A Digital Mapping of Climate Diplomacy.” *Big Data & Society* 1 (2). [doi:10.1177/2053951714543804](https://doi.org/10.1177/2053951714543804).
-- Venturini, Tommaso, and Anders Kristian Munk. 2022. *Controversy Mapping: A Field Guide*. Cambridge: Polity.
-- Wikimedia Commons contributors. 2015. “Umberto Boccioni’s Unique Forms of Continuity in Space.” Wikimedia Commons. [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Umberto_Boccioni_Forme_uniche_nella_continuità_dello_spazio_1913.jpg&oldid=671445131).
-- ———. 2021. “Étienne-Jules Marey’s Pelican.” Wikimedia Commons. [commons.wikimedia.org](https://commons.wikimedia.org/w/index.php?title=File:Marey_-_birds.jpg&oldid=662313658).
-- Windhager, Florian, Saminu Salisu, Roger A. Leite, Velitchko Filipov, and Silvia Miksch. 2020. “Many Views Are Not Enough: Designing for Synoptic Insights in Cultural Collections.” *IEEE Computer Graphics and Applications*: 58–71.

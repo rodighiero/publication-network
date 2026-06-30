@@ -1,15 +1,5 @@
----
-title: "Printing Walkable Visualizations"
-year: 2018
-venue: "Biennial Research Transdisciplinary Imaging Conference"
-type: "conference"
-author: "Dario Rodighiero"
-doi: "https://doi.org/10.6084/m9.figshare.6104693.v2"
-img: "@publications/Printing-Walkable-Visualizations.webp"
-img_width: 1200
-img_height: 1607
-figures: true
----
+# Printing Walkable Visualizations
+
 This article concerns a specific actor in the actualization process, the media. The conventional media for visualizations is the computer screen, a visual device that supports the practices of design and reading. However, visualizations also appear in other ways, for example as posters, articles, books, or projections. This article focuses, in particular, on a pretty unusual medium called floor or walkable visualization.
 
 <!--more-->
@@ -109,34 +99,3 @@ However, the movement does not concern a specific reader, but rather the collect
 Reading a visualization on the screen of a laptop or a mobile phone is usually an intimate activity that the reader performs alone (Hall 1990). Indeed, small screens favor a one-to-one reading. However, when the size of the medium becomes bigger, as in the case of the walkable visualization, the reading becomes social. This is not just because the size of the screen can host more users at the same time, but also because the size makes the screen content public and visible from longer distances (Rodighiero 2018). The size of the walkable visualization fosters encounters between readers browsing the environment. And encounters stimulate discussion among the readers. Just as Philippe Starck commented on the poor functionality of his beautiful juicer when he claimed that it is an object that would start conversations, walkable visualizations may be considered spaces to start discussions as well. Indeed, the public dimension of the walkable visualization is important because it creates a social space. Reasoning by analogy, it can be said that there exist three spaces: the space of practice, where the daily work takes place; the space of representation, which aims at visually representing the practice; and the space of self-recognition, where the readers meet and discuss both the natural and the represented spaces.
 
 The point of this section is that, if the intimate reading brings new insights, the social reading creates knowledge. Assuming that knowledge is the scientific, literary, and intellectual culture agreed upon between specialists of the same field, the way to improve that knowledge is a constructive discussion between these specialists. During the two case studies, the research collectives were both represented and invited to the reading. It was a moment for them to realize that they were part of a larger collective, through the recognition of the single and the collective self. An open discussion is the basis of every solid community. Data visualization, in such cases, allows the members of a collective to explore the wholeness of their own organization, reflecting on its current state and the following steps toward its future. As Paul Ricoeur wrote, self-recognition brings forth two directions: the past and the future (Ricoeur 2005). The past is represented by the memories of digital traces that have been transformed into the visualization, while the future is represented by the promises readers make to plan a common future.
-
-## References
-
-- Arnheim, Rudolf. 1982. _The Power of the Center: A Study of Composition in the Visual Arts_. Berkeley: University of California Press.
-- Bastian, Mathieu, Sebastien Heymann, and Mathieu Jacomy. 2009. “Gephi: An Open Source Software for Exploring and Manipulating Networks.” In _Proceedings of the Third International ICWSM Conference_.
-- Croxall, Brian. 2014. “Found the @serendipomatic team. Need to get @sekleinman and @mia_out in one with me. Alas, @fontnerd. #dh2014.” Twitter. <https://twitter.com/briancroxall/status/486167328821088257>.
-- Deleuze, Gilles, and Claire Parnet. 2007. _Dialogues II_. New York: Columbia University Press.
-- Desargues, Gérard, and Abraham Bosse. 1648. _Manière universelle de Mr. Girard Desargues, pour pratiquer la perspective par petit-pied_. Paris: Imprimerie de Pierre Des-Hayes.
-- Duchamp, Marcel. 1994. _The Creative Act_. Brussels: Sub Rosa Records.
-- Fruchterman, Thomas M. J., and Edward M. Reingold. 1991. “Graph Drawing by Force-Directed Placement.” _Software: Practice and Experience_ 21 (11): 1129–64.
-- Gibson, James J. 1979. _The Ecological Approach to Visual Perception_. Boston: Houghton Mifflin.
-- Gold, Matthew K., and Lauren F. Klein. 2016. _Debates in the Digital Humanities_. Minneapolis: University of Minnesota Press.
-- Hall, Edward T. 1990. _The Hidden Dimension_. New York: Anchor Books.
-- Heer, Jeffrey, Fernanda B. Viégas, and Martin Wattenberg. 2009. “Voyagers and Voyeurs.” _Communications of the ACM_ 52 (1): 87–97. <https://doi.org/10.1145/1435417.1435439>.
-- Jacob, Christian. 2006. _The Sovereign Map: Theoretical Approaches in Cartography throughout History_. Chicago: University of Chicago Press.
-- Jansen, Yvonne, Pierre Dragicevic, Petra Isenberg, et al. 2015. “Opportunities and Challenges for Data Physicalization.” In _Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing Systems_, 3227–36. <https://doi.org/10.1145/2702123.2702180>.
-- Latour, Bruno. 2014. “Anti-Zoom.” In _Olafur Eliasson: Contact_, edited by Suzanne Pagé, Laurence Bossé, Hans Ulrich Obrist, and Claire Staebler.
-- Lefebvre, Henri. 1991. _The Production of Space_. Oxford; Cambridge, MA: Blackwell.
-- Moretti, Franco. 2007. _Graphs, Maps, Trees: Abstract Models for Literary History_. London; New York: Verso.
-- Norman, Donald A. 2013. _The Design of Everyday Things_. New York: Basic Books.
-- Obscura Digital. 2011. “Connections for Facebook.”
-- Pavillon de l’Arsenal. 2011. “Paris, a City in the Making.” <http://www.parismetropole2020.com/evenement/>.
-- Ricoeur, Paul. 2005. _The Course of Recognition_. Cambridge, MA: Harvard University Press.
-- Rigal, Alexandre, and Dario Rodighiero. 2015. “Trajectoire d’une représentation cartographique en réseau.” _Cartes & Géomatique_ 225: 33–41.
-- Rodighiero, Dario. 2015. “Representing the Digital Humanities Community: Unveiling the Social Network Visualization of an International Conference.” _Parsons Journal of Information Mapping_ VII (2).
-- Rodighiero, Dario. 2018. _Mapping Affinities: Visualizing Academic Practice through Collaboration_. PhD diss., EPFL. <https://doi.org/10.5075/epfl-thesis-8242>.
-- Rodighiero, Dario, and Loup Cellard. 2016. “Self-Recognition in Data Visualization: How People See Themselves in Social Visualizations.” <https://infoscience.epfl.ch/record/218454/>.
-- Rodighiero, Dario, Frédéric Kaplan, and Boris Beaude. 2018. “Mapping Affinities in Academic Organizations.” _Frontiers in Research Metrics and Analytics_ 3: 185. <https://doi.org/10.3389/frma.2018.00004>.
-- Shneiderman, Ben. 1996. “The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations.” In _Proceedings 1996 IEEE Symposium on Visual Languages_, 336–43. IEEE Computer Society Press. <https://doi.org/10.1109/VL.1996.545307>.
-- Swift, Jonathan. 1800. _Gulliver’s Travels_. Philadelphia; New York: J. Wanamaker.
-- Vande Moere, Andrew, and Dan Hill. 2012. “Designing for the Situated and Public Visualization of Urban Data.” _Journal of Urban Technology_ 19 (2): 25–46. <https://doi.org/10.1080/10630732.2012.698065>.

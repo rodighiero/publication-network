@@ -1,19 +1,5 @@
----
-title: "Making Visible the Invisible Work of Scientists during the COVID-19 Pandemic"
-year: 2021
-venue: "Visual Culture Studies"
-type: "journal"
-author: "Dario Rodighiero and Eveline Wandl-Vogt and Elian Carsenat"
-issue: "2"
-pages: "143–165"
-doi: "https://doi.org/10.5281/zenodo.5115621"
-img: "@publications/Making-Visible-the-Invisible-Work-of-Scientists-during-the-COVID-19-Pandemic.webp"
-img_width: 700
-img_height: 700
-thumb: "making-visible-the-invisible-work-of-scientists-during-the-covid-19-pandemic/fig_005.webp"
-figures: true
-excerpt_separator: "<!--more-->"
----
+# Making Visible the Invisible Work of Scientists during the COVID-19 Pandemic
+
 Despite the perceptibility of the effects they impart on their hosts, the most incredible capacity of viruses is in their invisibility. Invisibility is the most frightening side of the current pandemic, and invisible is also the work of the scientists striving to find a solution. This proposal presents a data visualization that aims to give visibility to those scientists working on COVID-19. Their scientific publications have been computationally analyzed and transformed into a relational structure based on lexical similarity. The result is a network of scientists whose proximity is given by their closeness in writing. An innovative visual method that hybridizes network visualizations and word clouds shows the scientists in a deep space, explorable through keywords. In such a space, individuals are situated according to their lexical similarity, and keywords are used to clarify their proximity. By zooming, the visualization reveals more information about scientists and their clusters. While a lot of visualizations during the pandemic focused on showing the spread of infection, causing anxiety among the readers, this visualization reveals the efforts of science in eradicating the virus. Making visible the enormous number of scientists working on COVID-19 research will contribute to coping more positively with the pandemic.
 
 <!--more-->
@@ -137,73 +123,3 @@ The Cartography of COVID-19 situates itself among this landscape of data visuali
 The cartography of COVID-19 is an ongoing project, which will find a new form during 2021. Besides being regularly updated with new releases of the CORD-19 dataset, a collaboration with the Austrian cultural, educational, and scientific institute Ars Electronica has been established to bring the cartography in a new form. One of the current limits of the cartography of COVID-19 is given by the programming language: even though JavaScript enabled accessibility through the Internet, the Unity environment will allow us to draw every single scientist in a star map. Indeed, the current version of the map can represent only around 5,000 scientists out of 190,000. Unity is a language for video games and a three-dimensional environment that allows for higher performance. Furthermore, this upgrade will allow room for different devices such as smartphones or immersive environments like the Deep Space 8K, a multifunctional presentation room in which twelve projectors compose a dynamic image with dimensions of 16:9 meters by projecting on both the floor and the wall (Ars Electronica 2021).
 
 Among many data visualizations that are scaring the world, the cartography of COVID-19 is intended to give a positive message by showing the scientists working to end the pandemic. Looking at how data and their visual representation are increasingly used by the media, it is important to develop visual literacy for properly reading visual information. As society has been shaped first by writing and later by coding, it is now the time to develop a new literacy that may encompass the later generations. Developing such knowledge is extremely important to understand all these phenomena that are not visible to our own eyes and pass through several transformations before being readable. The current pandemic is an opportunity to develop such expertise and scholars from all over the world can contribute to improving the interpretation of the visualization of data, including those belonging to visual cultural studies.
-
-## References
-
-- Anderson, Chris. 2008. “The End of Theory: The Data Deluge Makes the Scientific Method Obsolete.” *Wired*, June 23. [wired.com/2008/06/pb-theory](https://www.wired.com/2008/06/pb-theory/).
-- Ars Electronica Futurelab. 2021. “Deep Space 8K.” Ars Electronica. [ars.electronica.art/futurelab/en/projects-deep-space-8k](https://ars.electronica.art/futurelab/en/projects-deep-space-8k/).
-- Bentham, Jeremy. 1995. *The Panopticon Writings*. Edited by Miran Božovič. London: Verso.
-- Brubaker, Rogers. 2005. “The ‘Diaspora’ Diaspora.” *Ethnic and Racial Studies* 28 (1): 1–19. [doi:10/c2zt6r](https://doi.org/10/c2zt6r).
-- Callon, Michel, and Bruno Latour. 2017. “Unscrewing the Big Leviathan: How Actors Macro-Structure Reality and How Sociologists Help Them to Do So.” In *Advances in Social Theory and Methodology: Toward an Integration of Micro- and Macro-Sociologies*, edited by Karin Knorr-Cetina and Aaron Victor Cicourel, 277–303. Abingdon: Routledge.
-- Card, Stuart K., Jock D. Mackinlay, and Ben Shneiderman. 1999. *Readings in Information Visualization: Using Vision to Think*. The Morgan Kaufmann Series in Interactive Technologies. San Francisco: Morgan Kaufmann Publishers.
-- Casey, Edward S. 2002. *Representing Place: Landscape Painting and Maps*. Minneapolis: University of Minnesota Press.
-- Cinelli, Matteo, Walter Quattrociocchi, Alessandro Galeazzi, et al. 2020. “The COVID-19 Social Media Infodemic.” *Scientific Reports* 10 (1): 16598. [doi:10/ghhx8d](https://doi.org/10/ghhx8d).
-- Colombo, Sara, and Paolo Ciuccarelli. 2020. “Design for Emergency: An Open Design Platform to Face Emerging Issues, Together.” Design for Emergency. [designforemergency.org](https://designforemergency.org).
-- De Gaetano, Roberto, and Angela Maiello, eds. 2020. *Virale: Il presente al tempo dell’epidemia*. Cosenza: Pellegrini Editore.
-- Dinoi, Marco. 2008. *Lo sguardo e l’evento: i media, la memoria, il cinema*. Firenze: Le Lettere.
-- Dondis, Donis A. (1973) 1975. *A Primer of Visual Literacy*. Cambridge, MA: MIT Press.
-- Dong, Ensheng, Hongru Du, and Lauren Gardner. 2020. “An Interactive Web-Based Dashboard to Track COVID-19 in Real Time.” *The Lancet Infectious Diseases* 20 (5): 533–34. [doi:10/ggnsjk](https://doi.org/10/ggnsjk).
-- Dur, Banu İnanç Uyan. 2014. “Data Visualization and Infographics in Visual Communication Design Education at the Age of Information.” *Journal of Arts and Humanities* 3 (5).
-- Foley, Becca. 2021. “Becca Foley on Twitter.” Twitter, February 21. [twitter.com/beccapfoley/status/1363338950518206472](https://twitter.com/beccapfoley/status/1363338950518206472).
-- Gagnon, Francis. 2021. “Voilà: Francis Gagnon on Twitter.” Twitter, February 21. [twitter.com/chezVoila/status/1363530540092186627](https://twitter.com/chezVoila/status/1363530540092186627).
-- Giaccardi, Chiara, Jérôme Bourdon, Nico Carpentier, et al. 2020. “Learning from the Virus: The Impact of the Pandemic on Communication, Media and Performing Arts Disciplinary Fields. A Round-Table.” *Comunicazioni Sociali*, no. 2: 157–69. [doi:10/ghqvkd](https://doi.org/10/ghqvkd).
-- Goody, Jack. 1973. “Evolution and Communication: The Domestication of the Savage Mind.” *The British Journal of Sociology* 24 (1): 1. [doi:10/bkrfgs](https://doi.org/10/bkrfgs).
-- Guichard, Eric. 2018. “Linux.” In *Abécédaire des mondes lettrés*.
-- Hand, D. J. 2008. *Statistics: A Very Short Introduction*. Very Short Introductions 196. Oxford: Oxford University Press.
-- Hobbs, Robert Carleton. 2004. *Mark Lombardi: Global Networks*. New York: Independent Curators International.
-- Horowitz, Jason, and Fabio Bucciarelli. 2020. “The Lost Days That Made Bergamo a Coronavirus Tragedy.” *The New York Times*, November 29. [nytimes.com/2020/11/29/world/europe/coronavirus-bergamo-italy.html](https://www.nytimes.com/2020/11/29/world/europe/coronavirus-bergamo-italy.html).
-- Johns Hopkins University. (2020) 2021. “Johns Hopkins Coronavirus Resource Center.” [coronavirus.jhu.edu](https://coronavirus.jhu.edu/).
-- Jones, David S., and Stefan Helmreich. 2020. “The Shape of Epidemics.” *Boston Review*, June 26. [bostonreview.net/science-nature/david-s-jones-stefan-helmreich-shape-epidemics](http://bostonreview.net/science-nature/david-s-jones-stefan-helmreich-shape-epidemics).
-- Keidl, Philipp Dominik, Laliv Melamed, Vinzenz Hediger, and Antonio Somaini. 2020. *Pandemic Media: Preliminary Notes toward an Inventory*. Lüneburg: Meson Press.
-- Kubrick, Stanley, dir. 1964. *Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb*. Columbia Pictures.
-- Lanciano, Tiziana, Giusi Graziano, Antonietta Curci, et al. 2020. “Risk Perceptions and Psychological Effects During the Italian COVID-19 Emergency.” *Frontiers in Psychology* 11: 580053. [doi:10/gh2dz2](https://doi.org/10/gh2dz2).
-- Lancioni, Tarcisio. 2020. *E inseguiremo ancora unicorni: alterità immaginate e dinamiche culturali*. Insegne 26. Milano: Mimesis.
-- Latour, Bruno. 2005. *Reassembling the Social: An Introduction to Actor-Network-Theory*. Clarendon Lectures in Management Studies. Oxford: Oxford University Press.
-- ———. 2017. *Où atterrir? Comment s’orienter en politique*. Paris: La Découverte.
-- ———. 2020. “Immaginare gesti-barriera contro il ritorno alla produzione pre-crisi.” Translated by Daniele Guido, Donato Ricci, Dario Rodighiero, and Giulia Taurino. *Antinomie: Scritture e Immagini*, April 9. [antinomie.it/index.php/2020/04/09/immaginare-gesti-barriera-contro-il-ritorno-alla-produzione-pre-crisi](https://antinomie.it/index.php/2020/04/09/immaginare-gesti-barriera-contro-il-ritorno-alla-produzione-pre-crisi/).
-- Lazer, David M. J., Alex Pentland, Duncan J. Watts, et al. 2020. “Computational Social Science: Obstacles and Opportunities.” *Science* 369 (6507): 1060–62. [doi:10/ghg7nj](https://doi.org/10/ghg7nj).
-- Lee, Crystal, Tanya Yang, Gabrielle Inchoco, et al. 2021. “Viral Visualizations: How Coronavirus Skeptics Use Orthodox Data Practices to Promote Unorthodox Science Online.” *arXiv:2101.07993*, January 20. [doi:10.1145/3411764.3445211](https://doi.org/10.1145/3411764.3445211).
-- Lee, Gavin. 2020. “Coronavirus: Why so Many People Are Dying in Belgium.” *BBC News*, May 2. [bbc.com/news/world-europe-52491210](https://www.bbc.com/news/world-europe-52491210).
-- LePan, Nicholas. 2020. “Visualizing the History of Pandemics.” *Visual Capitalist*, March 14. [visualcapitalist.com/history-of-pandemics-deadliest](https://www.visualcapitalist.com/history-of-pandemics-deadliest/).
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- Lorusso, Anna Maria, Gianfranco Marrone, and Stefano Jacoviello. 2020. *Diario semiotico sul coronavirus*. Associazione Italiana Studi Semiotici.
-- Luhn, Hans Peter. 1957. “A Statistical Approach to Mechanized Encoding and Searching of Literary Information.” *IBM Journal of Research and Development* 1 (4): 309–17. [doi:10/ds9qfr](https://doi.org/10/ds9qfr).
-- Lynch, Michael. 1988. “The Externalized Retina: Selection and Mathematization in the Visual Documentation of Objects in the Life Sciences.” *Human Studies* 11 (2/3): 201–34. [jstor.org/stable/20009026](http://www.jstor.org/stable/20009026).
-- Manning, Christopher D., and Hinrich Schütze. 1999. *Foundations of Statistical Natural Language Processing*. Cambridge, MA: MIT Press.
-- McLuhan, Marshall. 1994. *Understanding Media: The Extensions of Man*. Cambridge, MA: MIT Press.
-- Mitchell, W. J. T. 2010. *Cloning Terror: The War of Images, 9/11 to the Present*. Chicago: University of Chicago Press.
-- ———. 2015. *Image Science: Iconology, Visual Culture, and Media Aesthetics*. Chicago: University of Chicago Press.
-- Moon, Chloe Ye Eun, and Dario Rodighiero. 2020. “Mapping as a Contemporary Instrument for Orientation in Conferences.” In *Atti del IX Convegno Annuale AIUCD. La svolta inevitabile: sfide e prospettive per l’informatica umanistica*. Zenodo. [doi:10.5281/zenodo.3611340](https://doi.org/10.5281/zenodo.3611340).
-- Noichl, Maximilian. 2019. “Modeling the Structure of Recent Philosophy.” *Synthese*, October 26. [doi:10/ghp7f4](https://doi.org/10/ghp7f4).
-- Ooghe-Tabanou, Benjamin. (2020) 2021. *Boogheta/Coronavirus-Countries*. JavaScript. [github.com/boogheta/coronavirus-countries](https://github.com/boogheta/coronavirus-countries).
-- Roberts, Siobhan. 2020. “Flattening the Coronavirus Curve.” *The New York Times*, March 27. [nytimes.com/article/flatten-curve-coronavirus.html](https://www.nytimes.com/article/flatten-curve-coronavirus.html).
-- Rodighiero, Dario, and Loup Cellard. 2019. “Self-Recognition in Data Visualization.” *EspacesTemps.net: Electronic Journal of Humanities and Social Sciences*, August 8. [doi:10/ghmsrc](https://doi.org/10/ghmsrc).
-- Rodighiero, Dario, Eveline Wandl-Vogt, and Elian Carsenat. (2020) 2021. *Cartography of COVID-19*. JavaScript. [doi:10.5281/zenodo.3940636](https://doi.org/10.5281/zenodo.3940636).
-- ———. 2022. “A Visual Translation of the Pandemic.” *Leonardo* 55 (3): 297–303. [doi:10.1162/leon_a_02203](https://doi.org/10.1162/leon_a_02203).
-- Scaglioni, Massimo, and Marianna Sala, eds. 2020. *L’altro virus: comunicazione e disinformazione al tempo del Covid-19*. Milano: Vita e Pensiero.
-- Scherlis, Lily. 2020. “Distantiated Communities.” *Cabinet Magazine*, April 30. [cabinetmagazine.org/kiosk/scherlis_lily_30_april_2020.php](http://cabinetmagazine.org/kiosk/scherlis_lily_30_april_2020.php).
-- Scott, John. (1991) 2000. *Social Network Analysis: A Handbook*. 2nd ed. London: SAGE Publications.
-- Shaw, D. M. 2020. “Invisible Enemies: Coronavirus and Other Hidden Threats.” *Journal of Bioethical Inquiry* 17 (4): 531–34. [doi:10/gh4d26](https://doi.org/10/gh4d26).
-- Spärck Jones, Karen. 1972. “A Statistical Interpretation of Term Specificity and Its Application in Retrieval.” *Journal of Documentation* 28 (1): 11–21. [doi:10/fjhg7g](https://doi.org/10/fjhg7g).
-- The New York Times. 2020. “2020: The Year in Visual Stories and Graphics.” *The New York Times*, December 30. [nytimes.com/interactive/2020/12/30/us/2020-year-in-graphics.html](https://www.nytimes.com/interactive/2020/12/30/us/2020-year-in-graphics.html).
-- Thunström, Linda, Stephen C. Newbold, David Finnoff, et al. 2020. “The Benefits and Costs of Using Social Distancing to Flatten the Curve for COVID-19.” *Journal of Benefit-Cost Analysis* 11 (2): 179–95. [doi:10/ggwj48](https://doi.org/10/ggwj48).
-- Tufte, Edward R. 1990. *Envisioning Information*. Cheshire, CT: Graphics Press.
-- ———. 1997. *Visual Explanations: Images and Quantities, Evidence and Narrative*. Cheshire, CT: Graphics Press.
-- ———. 2001. *The Visual Display of Quantitative Information*. Cheshire, CT: Graphics Press.
-- ———. 2006. *Beautiful Evidence*. Cheshire, CT: Graphics Press.
-- Unwin, Anthony. 2020. “Why Is Data Visualization Important? What Is Important in Data Visualization?” *Harvard Data Science Review*, January 31. [doi:10/ggjvhr](https://doi.org/10/ggjvhr).
-- Venturini, Tommaso. 2011. “What Is Second-Degree Objectivity and How Could It Be Represented.” [medialab.sciencespo.fr/publications/Venturini-Second_Degree_Objectivity_draft1.pdf](https://medialab.sciencespo.fr/publications/Venturini-Second_Degree_Objectivity_draft1.pdf).
-- Wang, Lucy Lu, Kyle Lo, Yoganand Chandrasekhar, et al. 2020. “CORD-19: The COVID-19 Open Research Dataset.” In *Proceedings of the Workshop on NLP for COVID-19 at ACL 2020*. Association for Computational Linguistics. [arxiv.org/abs/2004.10706](https://arxiv.org/abs/2004.10706).
-- Wise, M. Norton. 2006. “Making Visible.” *Isis* 97 (1): 75–82. [doi:10/cn9m9f](https://doi.org/10/cn9m9f).
-- Wurman, Richard Saul. 2001. *Information Anxiety 2*. Indianapolis, IN: Que.
-- Zampano, Giada. 2020. “Italy’s Coronavirus Death Toll Could Be 19,000 Higher than Official Total, According to Experts.” *The Telegraph*, May 22. [telegraph.co.uk/news/2020/05/22/italys-coronavirus-death-toll-could-19000-higher-official-total](https://www.telegraph.co.uk/news/2020/05/22/italys-coronavirus-death-toll-could-19000-higher-official-total/).

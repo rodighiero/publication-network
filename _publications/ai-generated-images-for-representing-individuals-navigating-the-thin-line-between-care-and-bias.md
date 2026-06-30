@@ -1,15 +1,5 @@
----
-title: "AI-Generated Images for Representing Individuals: Navigating the Thin Line between Care and Bias"
-year: 2025
-venue: "IEEE VIS Arts Program (VISAP)"
-type: "conference"
-author: "Julia C. Ahrend and Björn Döge and Tom M. Duscher and Dario Rodighiero"
-doi: "https://doi.org/10.48550/arXiv.2509.03071"
-img: "ai-generated-images-for-representing-individuals-navigating-the-thin-line-between-care-and-bias/fig_001.webp"
-img_width: 1198
-img_height: 1600
-figures: true
----
+# AI-Generated Images for Representing Individuals: Navigating the Thin Line between Care and Bias
+
 This research discusses the figurative tensions that arise when using portraits to represent individuals behind a dataset. In the broader effort to communicate European data related to depression, the Kiel Science Communication Network (KielSCN) team attempted to engage a wider audience by combining interactive data graphics with AI-generated images of people. This article examines the project’s decisions and results, reflecting on the reaction from the audience when information design incorporates figurative representations of individuals within the data.
 
 <!--more-->
@@ -139,18 +129,3 @@ This project set out to explore how generative AI might help audiences see “th
 Throughout the process, it became clear that neither generative models nor their outputs are neutral. From prompt design to aesthetic framing, every decision shapes how mental health is represented – or neglected. Our workshop findings highlighted both the limits of our initial visual language and the potential for more diverse and resonant interpretations. In this sense, care is not a static value but a method: iterative, dialogic, and open to critique.
 
 As science communicators and designers working with AI, we must be vigilant not only about the images we generate but also the assumptions we carry. Navigating the line between care and bias means acknowledging that representation always involves a choice – and that thoughtful, participatory design can challenge default modes of seeing.
-
-## References
-
-- Eurostat. 2021. “Persons Reporting a Chronic Disease, by Disease, Sex, Age and Educational Attainment Level.” https://ec.europa.eu/eurostat/databrowser/view/hlth_ehis_cd1e/default/table?lang=en
-- Franconeri, Steven L., Lace M. Padilla, Priti Shah, Jeffrey M. Zacks, and Jessica Hullman. 2021. “The Science of Visual Data Communication: What Works.” _Psychological Science in the Public Interest_ 22, no. 3: 110–161. https://doi.org/10.1177/15291006211051956
-- Gschwendtner, Andrea. 2018. “Analyse der Filmmontage.” In _Die Entschlüsselung der Bilder – Methoden zur Erforschung visueller Kommunikation. Ein Handbuch_, 2nd ed., edited by Tanja Petersen and Christoph Schwender, 127–143. Köln: Herbert von Halem Verlag.
-- Hombach, Stella Marie. 2024. “Depression: Fördert unsere Gesellschaft psychische Erkrankungen?” _Spektrum der Wissenschaft_. https://www.spektrum.de/angebote/visuelle-wissenschaftskommunikation/depression-foerdert-unsere-gesellschaft-psychische-erkrankungen/2200836
-- Massie, Jennifer P., Danny Y. Cho, Christina J. Kneib, Joshua R. Burns, Courtney S. Crowe, Megan Lane, Amira Shakir, David L. Sobol, Jason Sabin, João D. Sousa, Eduardo D. Rodriguez, Travis Satterwhite, and Scott D. Morrison. 2019. “Patient Representation in Medical Literature: Are We Appropriately Depicting Diversity?” _Plastic and Reconstructive Surgery – Global Open_ 7, no. 12: e2563. https://doi.org/10.1097/GOX.0000000000002563
-- Midjourney. 2023. “Legacy Features.” https://docs.midjourney.com/hc/en-us/articles/33329788681101-Legacy-Features
-- Navas, Ana Isabel C., and Sara G. Rubio. 2020. “Study on the Cinematographic Image Composition: Frame, Light, and Colour as Expressive Elements in Roger Deakins’s Work.” _Doxa Comunicación_ 31: 207–238. https://doi.org/10.31921/doxacom.n31a10
-- Rodighiero, Dario. 2021. _Mapping Affinities: Democratizing Data Visualization_. Geneva: MétisPresses. https://www.metispresses.ch/en/mapping-affinities
-- Rodighiero, Dario, and Loup Cellard. 2019. “Self-Recognition in Data Visualization: How Individuals See Themselves in Visual Representations.” _EspacesTemps.net: Electronic Journal of Humanities and Social Sciences_, August. https://doi.org/10.26151/espacestemps.net-wztp-cc46
-- Tajfel, Henri, and John C. Turner. 2019. “The Social Identity Theory of Intergroup Behavior.” In _Political Psychology_. https://doi.org/10.4324/9780203505984-16
-- Villanueva, Iris I., Naomi Li, Thomas Jilk, Julia Renner, Bradley R. van Matre, and Dominique Brossard. 2024. “When Science Meets Art on Instagram: Examining the Effects of Visual Art on Emotions, Interest, and Social Media Engagement.” _Science Communication_ 46, no. 2: 210–238. https://doi.org/10.1177/10755470241228279
-- Wang, Wen. 2020. “Exemplification and Stigmatization of the Depressed: Depression as the Main Topic versus an Incidental Topic in National US News Coverage.” _Health Communication_ 35, no. 8: 1033–1041. https://doi.org/10.1080/10410236.2019.1606874

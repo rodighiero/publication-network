@@ -1,18 +1,5 @@
----
-title: "Alfabetizzazione delle reti: Come comprendere, progettare e leggere modelli relazionali visivi"
-year: 2025
-venue: "Progetto Grafico"
-type: "journal"
-author: "Dario Rodighiero"
-doi: "https://doi.org/10.82068/pgjournal.2025.22.41.08"
-img: "network-literacy-how-to-understand-design-and-read-a-visual-relational-model/fig_001.webp"
-img_width: 1432
-img_height: 1100
-figures: true
-lang: it
-translation_of: network-literacy-how-to-understand-design-and-read-a-visual-relational-model
-excerpt_separator: "<!--more-->"
----
+# Alfabetizzazione delle reti: Come comprendere, progettare e leggere modelli relazionali visivi
+
 I modelli ci aiutano a capire la complessità offrendo strutture semplificate che rendono leggibili le dinamiche sociali altrimenti invisibili. In questo contesto, le reti si distinguono per la loro capacità di rappresentare informazioni relazionali: nodi e collegamenti riducono la società ad attori e connessioni, facendo emergere schemi che spesso restano nascosti ai nostri occhi. Dal XVIII secolo le reti sono passate dall’essere curiosi oggetti matematici a strumenti essenziali in molte discipline. Le prime visualizzazioni di rete rivelavano schemi di amicizia in classe mettendo in luce legami sociali, mentre oggi gli studi computazionali mappano una grande diversità di dati, dalle ricette di cucina alle collaborazioni scientifiche. Con la loro grammatica visuale, le reti oggi invitano al confronto, alla classificazione e all’interpretazione in una moltitudine di discipline. La loro diffusione, però, porta anche rischi: le reti possono essere scambiate per spazi oggettivi, i nodi centrali per più importanti, e la densità ammirata per l’estetica. Per affrontare queste sfide serve una nuova forma di alfabetizzazione. L’alfabetizzazione delle reti può essere definita come la capacità di comprendere, progettare e leggere modelli relazionali visivi, unendo conoscenze concettuali di sistemi complessi a competenze pratiche di visualizzazione e interpretazione critica. Questo articolo sviluppa l’idea di alfabetizzazione delle reti come competenza civica e professionale, mettendo in dialogo le tradizioni di alfabetizzazione dei dati e visiva. Ripercorre la storia delle reti dalle origini matematiche fino alla loro integrazione nei media digitali, mostrando una nuova modalità di lettura relazionale. L’articolo esplora tre dimensioni delle reti: le scelte progettuali che plasmano il significato, il pensiero spaziale che guida l’interpretazione e i progetti sperimentali che trasformano la visualizzazione in pratica performativa. Collocando le reti all’incrocio tra design dell’informazione, ricerca critica e pratica culturale, l’articolo sostiene che diffondere l’alfabetizzazione delle reti sia essenziale per confrontarsi con il design della conoscenza nel tessuto sociale di oggi.
 
 <!--more-->
@@ -98,55 +85,3 @@ Questo testo ha esplorato tre dimensioni chiave dell’alfabetizzazione delle re
 Uno degli sviluppi più recenti in questo panorama è l’uso dell’intelligenza artificiale per ampliare il modo in cui le reti vengono prodotte e lette. I modelli linguistici possono ora etichettare automaticamente i cluster, traducendo strutture relazionali dense in categorie più interpretabili (Ficozzi et al. 2025). Questo apre possibilità di interpretazione multi-scala, in cui diversi livelli di zoom rivelano etichette adattate alla granularità della visualizzazione. Il progetto Toponymy di McInnes illustra bene questo approccio: incorpora semantiche contestuali nel clustering, permettendo un’annotazione gerarchica che si adatta dinamicamente mentre gli utenti passano da panoramiche globali a dettagli locali (McInnes 2025). Insieme, queste tecniche riconfigurano l’equilibrio tra interpretazione umana e annotazione automatica: se da un lato offrono nuovi modi per estendere l’analisi su vasti corpora, dall’altro sollevano interrogativi su quali tipi di significato vengano introdotti, oscurati o distorti attraverso l’etichettatura algoritmica (Munk et al. 2024).
 
 Coltivare l’alfabetizzazione delle reti, dunque, non significa soltanto imparare a progettare o leggere reti, ma anche lavorare criticamente con l’intelligenza artificiale come collaboratore nella produzione di significato. Per i designer, questo implica compiere scelte informate e creative restando attenti alle conseguenze epistemiche ed etiche dell’interpretazione automatizzata. Così come la lettura del codice trasformò un tempo l’alfabetizzazione culturale, imparare a leggere e a mettere in discussione le reti arricchite dall’IA potrebbe diventare una competenza altrettanto trasformativa per la nostra epoca. La sfida che ci attende è integrare questi strumenti senza cancellare l’interpretazione umana, assicurando che le reti restino spazi di dialogo tra intuizione computazionale e immaginazione umana.
-
-## Bibliografia
-
-- Barabási, Albert-László. 2002. *Linked: The New Science of Networks*. Cambridge, MA: Perseus Pub.
-- Barabási, Albert-László, Mónica Bello, Julia Kluge-Fabényi, et al. 2020. *Hidden Patterns: Visualizing Networks at BarabásiLab*. A cura di Alanna Stang e Peter Weibel. Berlino: Hatje Cantz Verlag.
-- Bastian, Mathieu, Sebastien Heymann e Mathieu Jacomy. 2009. “Gephi: An Open Source Software for Exploring and Manipulating Networks.” *Proceedings of the Third International ICWSM Conference*.
-- Blasius, Jörg e Andreas Schmitz. 2014. “Empirical Construction of Bourdieu’s Social Space.” In *Visualization and Verbalization of Data*, a cura di Jörg Blasius e Michael Greenacre. Boca Raton: CRC Press.
-- Bostock, Michael. 2017. “A Better Way to Code.” *Medium*, 28 aprile. [medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0](https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0).
-- Bostock, Michael, Vadim Ogievetsky e Jeffrey Heer. 2011. “D3: Data-Driven Documents.” *IEEE Transactions on Visualization and Computer Graphics* 17 (12): 2301–9. [doi:10.1109/TVCG.2011.185](https://doi.org/10.1109/TVCG.2011.185).
-- Boullier, Dominique. 2018. “Médialab Stories: How to Align Actor Network Theory and Digital Methods.” *Big Data & Society* 5 (2). [doi:10/gfpmxh](https://doi.org/10/gfpmxh).
-- Bourdieu, Pierre. (1979) 1984. *Distinction: A Social Critique of the Judgement of Taste*. Cambridge, MA: Harvard University Press.
-- D’Ignazio, Catherine. 2017. “Creative Data Literacy: Bridging the Gap between the Data-Haves and Data-Have Nots.” *Information Design Journal* 23 (1): 6–18. [doi:10.1075/idj.23.1.03dig](https://doi.org/10.1075/idj.23.1.03dig).
-- Dondis, Donis A. (1973) 1975. *A Primer of Visual Literacy*. Cambridge, MA: MIT Press.
-- Duhaime, Douglas. (2017) 2021. *PixPlot*. Yale Digital Humanities Lab. [github.com/YaleDHLab/pix-plot](https://github.com/YaleDHLab/pix-plot).
-- Eco, Umberto. 2009. *Vertigine della lista*. Milano: Bompiani.
-- Euler, Leonhard. 1953. “Leonhard Euler and the Koenigsberg Bridges.” *Scientific American* 189 (1): 66–72. [jstor.org/stable/24944279](http://www.jstor.org/stable/24944279).
-- Ficozzi, Matilde, Mathieu Jacomy, Dario Rodighiero, Anne Beaulieu e Anders Kristian Munk. 2025. “Grounding AI Map: The Consequences of Living with the Trouble of an Irreductionist Map.” *Design et Abstractions, Revue Design Arts Medias*, giugno. [journal.dampress.org/issues/design-et-abstractions/grounding-ai-map](https://journal.dampress.org/issues/design-et-abstractions/grounding-ai-map-the-consequences-of-living-with-the-trouble-of-an-irreductionist-map).
-- Grandjean, Martin. 2014. “La connaissance est un réseau.” *Les Cahiers du Numérique* 10 (3): 37–54. [doi:10.3166/lcn.10.3.37-54](https://doi.org/10.3166/lcn.10.3.37-54).
-- ———. 2015. “GEPHI – Introduction to Network Analysis and Visualization.” martingrandjean.ch. [martingrandjean.ch/gephi-introduction](http://www.martingrandjean.ch/gephi-introduction).
-- ———. 2021. “Introduction to Social Network Analysis.” Paper presentato alla HNR+ResHist Conference, 30 giugno. [halshs.archives-ouvertes.fr/halshs-03351755](https://halshs.archives-ouvertes.fr/halshs-03351755/document).
-- Gray, Jonathan, Carolin Gerlitz e Liliana Bounegru. 2018. “Data Infrastructure Literacy.” *Big Data & Society* 5 (2). [doi:10.1177/2053951718786316](https://doi.org/10.1177/2053951718786316).
-- Harman, Graham. 2009. *Prince of Networks: Bruno Latour and Metaphysics*. Melbourne: Re.press.
-- Hobbs, Robert Carleton. 2004. *Mark Lombardi: Global Networks*. New York: Independent Curators International.
-- Jacomy, Mathieu, Tommaso Venturini, Sebastien Heymann e Mathieu Bastian. 2014. “ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software.” *PLoS ONE* 9 (6). [doi:10.1371/journal.pone.0098679](https://doi.org/10.1371/journal.pone.0098679).
-- Latour, Bruno. 2005. *Reassembling the Social: An Introduction to Actor-Network-Theory*. Oxford: Oxford University Press.
-- ———. 2013. *An Inquiry into Modes of Existence: An Anthropology of the Moderns*. Cambridge, MA: Harvard University Press.
-- Lazer, David M. J., Alex Pentland, Lada Adamic, et al. 2009. “Computational Social Science.” *Science* 323 (5915): 721–23. [doi:10.1126/science.1167742](https://doi.org/10.1126/science.1167742).
-- Lévy, Jacques, Ogier Maitre e Thibault Romany. 2016. “Rebattre les cartes.” *Réseaux* 195 (1): 17. [doi:10/ghqdk7](https://doi.org/10/ghqdk7).
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- Löwgren, Jonas e Erik Stolterman. 2004. *Thoughtful Interaction Design*. Cambridge, MA: MIT Press.
-- Maaten, Laurens van der e Geoffrey Hinton. 2008. “Visualizing Data Using T-SNE.” *Journal of Machine Learning Research* 9 (86): 2579–605. [jmlr.org/papers/v9/vandermaaten08a.html](http://jmlr.org/papers/v9/vandermaaten08a.html).
-- Manovich, Lev. 2018. “Can We Think Without Categories?” *Digital Culture & Society* 4 (1): 17–27. [doi:10/gjt7qq](https://doi.org/10/gjt7qq).
-- Marres, Noortje. 2017. *Digital Sociology: The Reinvention of Social Research*. Cambridge: Polity.
-- McInnes, Leland. 2025. “Toponymy.” GitHub. [github.com/TutteInstitute/toponymy](https://github.com/TutteInstitute/toponymy).
-- McInnes, Leland, John Healy e James Melville. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” arXiv. [doi:10.48550/arXiv.1802.03426](https://doi.org/10.48550/arXiv.1802.03426).
-- Moreno, Jacob L. 1934. *Who Shall Survive?* Washington, DC: Nervous and Mental Disease Publishing Co.
-- Munk, Anders Kristian, Mathieu Jacomy, Matilde Ficozzi e Torben Elgaard Jensen. 2024. “Beyond Artificial Intelligence Controversies.” *Big Data & Society* 11 (3). [doi:10.1177/20539517241255107](https://doi.org/10.1177/20539517241255107).
-- Noichl, Maximilian. 2019. “Modeling the Structure of Recent Philosophy.” *Synthese*. [doi:10/ghp7f4](https://doi.org/10/ghp7f4).
-- Ricci, Donato, Robin De Mourat, Christophe Leclercq e Bruno Latour. 2017. “Clues. Anomalies. Understanding.” In *Designing Interactive Hypermedia Systems*, a cura di Everardo Reyes-Garcia e Nasreddine Bouhaï. Hoboken, NJ: John Wiley & Sons. [doi:10.1002/9781119388272.ch6](https://doi.org/10.1002/9781119388272.ch6).
-- Rodighiero, Dario. 2021. *Mapping Affinities: Democratizing Data Visualization*. Métis Presses. [doi:10.37866/0563-99-9](https://doi.org/10.37866/0563-99-9).
-- Rodighiero, Dario e Jean Daniélou. 2023. “Weather Map: A Diachronic Visual Model for Controversy Mapping.” In *Zoomland: Exploring Scale in Digital History and Humanities*, a cura di Florentina Armaselu e Andreas Fickers. Berlino: De Gruyter. [doi:10.1515/9783111317779-017](https://doi.org/10.1515/9783111317779-017).
-- Rodighiero, Dario, Lins Derry, Douglas Duhaime, et al. 2022. “Surprise Machines: Revealing Harvard Art Museums’ Image Collection.” *Information Design Journal* 27 (1): 21–34. [doi:10.1075/idj.22013.rod](https://doi.org/10.1075/idj.22013.rod).
-- Rodighiero, Dario, Philippe Rivière e Sarah Kenderdine. 2024. “Super-Vision: Tracing EPFL History through 8,000 Doctoral Theses.” *Journal of Digital History* 3 (1). [doi:10.1515/JDH-2023-0004](https://doi.org/10.1515/JDH-2023-0004).
-- Rodighiero, Dario, Eveline Wandl-Vogt, Elian Carsenat, et al. 2022. “Immersive Architectures for Visual Data Literacy.” *Information Design Journal* 27 (3): 295–308. [doi:10.1075/idj.22016.rod](https://doi.org/10.1075/idj.22016.rod).
-- Romele, Alberto e Dario Rodighiero. 2020. “Digital Habitus or Personalization without Personality.” *HUMANA.MENTE Journal of Philosophical Studies* 13 (37): 98–126. [doi:10.5281/zenodo.3950030](https://doi.org/10.5281/zenodo.3950030).
-- Sachs, Horst, Michael Stiebitz e Robin J. Wilson. 1988. “An Historical Note: Euler’s Königsberg Letters.” *Journal of Graph Theory* 12 (1): 133–39. [doi:10.1002/jgt.3190120114](https://doi.org/10.1002/jgt.3190120114).
-- Scott, John. 2000. *Social Network Analysis: A Handbook*. 2ª ed. Londra: SAGE Publications.
-- Shields, Rob. 2012. “Cultural Topology: The Seven Bridges of Königsburg, 1736.” *Theory, Culture & Society* 29 (4–5): 43–57. [doi:10.1177/0263276412451161](https://doi.org/10.1177/0263276412451161).
-- Venturini, Tommaso, Mathieu Jacomy, Axel Meunier e Bruno Latour. 2017. “An Unexpected Journey: A Few Lessons from Sciences Po Médialab’s Experience.” *Big Data & Society* 4 (2). [doi:10/gf7tk2](https://doi.org/10/gf7tk2).
-- Venturini, Tommaso, Anders Kristian Munk e Mathieu Jacomy. 2019. “Actor-Network vs Network Analysis vs Digital Networks.” In *DigitalSTS: A Field Guide for Science & Technology Studies*, a cura di Janet Vertesi e David Ribes. Princeton, NJ: Princeton University Press.
-- Venturini, Tommaso, Mathieu Jacomy e Pablo Jensen. 2021. “What Do We See When We Look at Networks.” *Big Data & Society* 8 (1). [doi:10.1177/20539517211018488](https://doi.org/10.1177/20539517211018488).
-- Windhager, Florian, Saminu Salisu, Roger A. Leite, Velitchko Filipov e Silvia Miksch. 2020. “Many Views Are Not Enough.” *IEEE Computer Graphics and Applications*, 58–71.

@@ -1,18 +1,18 @@
 #!/usr/bin/env node
 /*
- * Precompute the home network view's force-directed layout.
+ * Precompute the network view's force-directed layout.
  *
  * Reads {nodes, similarity} as JSON on stdin and writes
  * {canvas, positions, links} as JSON on stdout. It reuses the EXACT same
  * d3-force configuration, seed, and constants the browser used to run at
- * render time, so the baked positions are identical to what _layouts/home.html
+ * render time, so the baked positions are identical to what _layouts/network.html
  * produced live — only now they are computed once, offline.
  *
  * Invoked automatically at the end of scripts/build-network.py. Standalone:
  *     node scripts/layout-network.js < _data/network.json
  *
  * The layout constants below are the single source of truth for the graph
- * geometry. _layouts/home.html only fit-scales these positions into the live
+ * geometry. _layouts/network.html only fit-scales these positions into the live
  * stage and draws the baked links; it no longer owns any layout math. Keep
  * NODE_RADIUS / STRONG_SIM in sync between the two (the layout bakes them here;
  * the page reuses NODE_RADIUS for drawing only).
@@ -22,7 +22,7 @@
 const path = require('path');
 const d3 = require(path.resolve(__dirname, '..', 'js', 'd3.v7.min.js'));
 
-// ── Layout constants (formerly in _layouts/home.html) ──
+// ── Layout constants (formerly in _layouts/network.html) ──
 const NODE_RADIUS = 3;
 const NODE_SPACING = 24;
 const CHARGE_STRENGTH = -280;
@@ -69,7 +69,7 @@ function main(input) {
     });
   }
 
-  // Seeded RNG — identical LCG to the former makeRng() in home.html.
+  // Seeded RNG — identical LCG to the former makeRng() in network.html.
   let s = LAYOUT_SEED >>> 0;
   function rand() { s = (Math.imul(s, 1664525) + 1013904223) >>> 0; return s / 4294967296; }
 

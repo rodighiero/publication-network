@@ -1,16 +1,5 @@
----
-title: "Mapping Techniques for an Automated Library Classification: The Case Study of Library Loans at Bibliotheca Hertziana"
-year: 2024
-venue: "Linking Theory and Practice of Digital Libraries"
-type: "conference"
-author: "Hannah Laureen Casey and Alessandro Adamou and Dario Rodighiero"
-doi: "https://zenodo.org/records/13862868"
-img: "@publications/Mapping-Techniques-for-an-Automated-Library-Classification.webp"
-img_width: 700
-img_height: 525
-figures: true
-excerpt_separator: "<!--more-->"
----
+# Mapping Techniques for an Automated Library Classification: The Case Study of Library Loans at Bibliotheca Hertziana
+
 This paper introduces an innovative analytical method for visualising research libraries, overcoming the limitations of the assumptions made by their classification systems. The approach combines user loan data with deep mapping techniques to graphically display usage patterns and thematic clusters. Dimensionality reduction is used to visualise the catalogue by book loans, and prompt engineering with large language models is used to describe loan clusters with detailed summaries and titles. This approach was applied to the library collection owned by Bibliotheca Hertziana, a renowned research institute for art history based in Rome. The final output was assessed by a group of experts through interviews supported by an atlas providing statistical information on clusters. This yielded promising results towards a more general framework for visually mapping textual collections and capturing their transformation and usage from an interdisciplinary perspective.
 
 <!--more-->
@@ -147,37 +136,3 @@ Scientists engaged with a scientific library form a clear target group for a rec
 
 [^1]: More information about Bibliotheca Hertziana at [biblhertz.it](http://www.biblhertz.it/).
 [^2]: Details of the questionnaire, answers, and code repository can be found in Casey (2024).
-
-## References
-
-- Bibliotheca Hertziana. 2018. *Italy in a Global Context*. Available online at: https://www.biblhertz.it/en/dept-weddigen/global-context.
-- Bowker, Geoffrey C., and Susan Leigh Star. 2008. *Sorting Things Out: Classification and Its Consequences*. Inside Technology. Cambridge, MA: MIT Press.
-- Boyack, Kevin W., Richard Klavans, and Katy Börner. 2005. “Mapping the backbone of science.” *Scientometrics* 64 (3): 351–374. [doi:10.1007/s11192-005-0255-6](https://doi.org/10.1007/s11192-005-0255-6).
-- Börner, Katy. 2015. *Atlas of Knowledge: Anyone Can Map*. Cambridge, MA: MIT Press.
-- Börner, Katy, Chaomei Chen, and Kevin W. Boyack. 2003. “Visualizing knowledge domains.” *Annual Review of Information Science and Technology* 37 (1): 179–255. [doi:10.1002/aris.1440370106](https://doi.org/10.1002/aris.1440370106).
-- Campello, Ricardo J. G. B., Davoud Moulavi, and Jörg Sander. 2013. “Density-based clustering based on hierarchical density estimates.” In *Advances in Knowledge Discovery and Data Mining*, edited by Jian Pei, Vincent S. Tseng, Longbing Cao, Hiroshi Motoda, and Guandong Xu, 160–172. Lecture Notes in Computer Science. Berlin, Heidelberg: Springer. [doi:10.1007/978-3-642-37456-2_14](https://doi.org/10.1007/978-3-642-37456-2_14).
-- Casey, Hannah Laureen. 2024. *Mapping Bibliotheca Hertziana*. Master’s thesis, EPFL. [doi:10.5281/zenodo.11056129](https://doi.org/10.5281/zenodo.11056129).
-- Chari, Tara, and Lior Pachter. 2023. “The specious art of single-cell genomics.” *PLOS Computational Biology* 19 (8): e1011288. [doi:10.1371/journal.pcbi.1011288](https://doi.org/10.1371/journal.pcbi.1011288).
-- Chen, Chaomei. 2017. “Science mapping: a systematic review of the literature.” *Journal of Data and Information Science* 2 (2): 1–40. [doi:10.1515/jdis-2017-0006](https://doi.org/10.1515/jdis-2017-0006).
-- Glinka, Katrin, Christopher Pietsch, Carsten Dilba, and Marian Dörk. 2016. “Linking structure, texture and context in a visualization of historical drawings by Frederick William IV (1795–1861).” *International Journal for Digital Art History* (2). [doi:10.11588/dah.2016.2.33530](https://doi.org/10.11588/dah.2016.2.33530).
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- Mauri, Michele, Tommaso Elli, Giorgio Caviglia, Giorgio Uboldi, and Matteo Azzi. 2017. “RAWGraphs: a visualisation platform to create open outputs.” In *Proceedings of the 12th Biannual Conference on Italian SIGCHI Chapter*, 1–5. Cagliari: ACM. [doi:10.1145/3125571.3125585](https://doi.org/10.1145/3125571.3125585).
-- McInnes, Leland, John Healy, and Steve Astels. 2016. *How HDBSCAN Works — hdbscan 0.8.1 Documentation*. Available online at: https://hdbscan.readthedocs.io/en/latest/how_hdbscan_works.html.
-- McInnes, Leland, John Healy, and Steve Astels. 2017. “hdbscan: hierarchical density based clustering.” *Journal of Open Source Software* 2 (11): 205. [doi:10.21105/joss.00205](https://doi.org/10.21105/joss.00205).
-- McInnes, Leland, John Healy, and James Melville. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” arXiv. [doi:10.48550/arXiv.1802.03426](https://doi.org/10.48550/arXiv.1802.03426).
-- NLTK Project. 2023. *NLTK: Natural Language Toolkit*. Available online at: https://www.nltk.org/.
-- Noichl, Maximilian. 2023. “How localized are computational templates? A machine learning approach.” *Synthese* 201 (3): 107. [doi:10.1007/s11229-023-04057-x](https://doi.org/10.1007/s11229-023-04057-x).
-- OpenAI. 2020. *OpenAI API*. Available online at: https://openai.com/blog/openai-api.
-- Petrovich, Eugenio. 2020. “Science mapping.” In *Encyclopedia of Knowledge Organization*. Available online at: https://www.isko.org/cyclo/science_mapping.
-- Picca, Davide, Antonin Schnyder, Eri Kostina, Alessandro Adamou, Dario Rodighiero, and Jeffrey Schnapp. 2023. “Orchestrating Cultural Heritage: Exploring the Automated Analysis and Organization of Charles S. Peirce’s PAP Manuscript.” In *Proceedings of the 34th ACM Conference on Hypertext and Social Media*, 1–4. Rome: ACM. [doi:10.1145/3603163.3609066](https://doi.org/10.1145/3603163.3609066).
-- Pietsch, Christopher. 2020. *cpietsch/smb-vis*. Available online at: https://github.com/cpietsch/smb-vis.
-- RNDR. 2022. *Oracle*. Available online at: https://rndr.studio/projects/oracle.
-- Rodighiero, Dario. 2021. *Mapping Affinities: Democratizing Data Visualization*. Geneva: Métis Presses.
-- Rodighiero, Dario, and Loup Cellard. 2019. “Self-recognition in data visualization: how individuals see themselves in visual representations.” *EspacesTemps.net*. [doi:10.26151/espacestemps.net-wztp-cc46](https://doi.org/10.26151/espacestemps.net-wztp-cc46).
-- Schmidt, Benjamin M. 2018. “Stable random projection: lightweight, general-purpose dimensionality reduction for digitized libraries.” *Journal of Cultural Analytics* 3 (1). [doi:10.22148/16.025](https://doi.org/10.22148/16.025).
-- Schnapp, Jeffrey T., and Matthew Battles. 2014. *The Library Beyond the Book*. metaLABprojects. Cambridge, MA: Harvard University Press.
-- Stafford, Barbara Maria. 2012. “Reconceiving the Warburg library as a working museum of the mind.” *Common Knowledge* 18 (1): 180–187. [doi:10/fx8pk4](https://doi.org/10/fx8pk4).
-- Stanislav, Golovanov. 2021. *pdfkit: Wkhtmltopdf Python Wrapper to Convert HTML to PDF Using the Webkit Rendering Engine and Qt*.
-- Svenonius, Elaine. 2000. *The Intellectual Foundation of Information Organization*. Digital Libraries and Electronic Publishing. Cambridge, MA: MIT Press.
-- The Matplotlib Development Team. 2024. *Matplotlib: Visualization with Python*. [doi:10.5281/zenodo.592536](https://doi.org/10.5281/zenodo.592536).
-- Wilders, Coen. 2017. “Predicting the role of library bookshelves in 2025.” *The Journal of Academic Librarianship* 43 (5): 384–391. [doi:10.1016/j.acalib.2017.06.019](https://doi.org/10.1016/j.acalib.2017.06.019).

@@ -1,19 +1,5 @@
----
-title: "Visual Abstraction"
-year: 2026
-venue: "Imagining the Internet(s): A Collaborative Glossary"
-type: "chapter"
-author: "Dario Rodighiero"
-editor: "Nathalie Fridzema and Anya Shchetvina"
-publisher: "Institute of Network Cultures"
-place: "Amsterdam"
-pages: "24–25"
-isbn: "9789083672168"
-doi: "https://networkcultures.org/blog/publication/network-notion-7-imagining-the-internets-a-collaborative-glossary/"
-img: "@publications/Visual-Abstraction.webp"
-img_width: 900
-img_height: 1277
----
+# Visual Abstraction
+
 Abstraction is an operation that makes sense of complex phenomena by making things graspable and open to understanding. In design, abstraction often takes the form of a mental model that guides the process, helping us navigate ideas and possibilities. When abstraction becomes visual, it changes function: it becomes a way to create and share meaning. Visual abstraction is, above all, a form of communication that offers a common ground to discuss complex ideas. This can be seen with the internet, abstracted in the 1970s through the ARPANET diagrams that sketched a network before it existed, and again in 2010 through Paul Butler’s visualization of Facebook friendships, which redrew the world through patterns of connection and absence.
 
 <!--more-->
@@ -27,11 +13,3 @@ My own work in *Mapping Affinities* follows this movement (Rodighiero 2021). The
 Johanna Drucker adds an essential dimension to this conversation (Drucker 2020). She reminds us that every visualization carries choices, intentions, and expectations. Visual abstraction arranges an encounter with data through decisions about scale, emphasis, and form. The Facebook map shows this clearly: its luminous arcs suggest a connected world, while regions such as China or Russia fade into the background due to the platform’s limited presence there. The internet, when shown through images, emerges through selection and framing. Drucker calls this the “capta” perspective: information is gathered, shaped, and situated.
 
 Seen this way, visual abstraction becomes a way of imagining the internet. Each diagram, map, or model expresses a particular vision of how the network holds together. Some abstractions support engineers as they build infrastructures; others help users and researchers grasp the shape of digital life. All of them filter the internet through specific lenses, offering moments of clarity while leaving other layers in shadow. This interplay between revelation and omission gives visual abstraction its force. It lets us think with the internet and invites us to see that every image of the network also carries a quiet argument about what the network means.
-
-## References
-
-- Drucker, Johanna. 2020. *Visualization and Interpretation: Humanistic Approaches to Display*. Cambridge, MA: MIT Press.
-- Latour, Bruno, and Émilie Hermant. 2021. *Paris ville invisible*. Paris: Éditions B42.
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- Manovich, Lev. 2008. “Data Visualization as New Abstraction and Anti-Sublime.” In *Small Tech: The Culture of Digital Tools*, edited by Byron Hawk, David M. Rieder, and Ollie O. Oviedo, 3–9. Minneapolis: University of Minnesota Press.
-- Rodighiero, Dario. 2021. *Mapping Affinities: Democratizing Data Visualization*. Geneva: MétisPresses.

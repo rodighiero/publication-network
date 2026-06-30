@@ -22,13 +22,12 @@ layout: default
       <p>Each node is one publication, placed near the others it most resembles. Similarity is computed offline from the title and abstract of every paper.</p>
       <h3>How the network is built</h3>
       <ol>
-        <li>The Markdown files in <code>_publications/</code> are parsed and stripped of footnotes, headings, links, code, and bibliographies.</li>
-        <li>Italian and French abstracts are machine-translated to English with <code>Helsinki-NLP/opus-mt-{it,fr}-en</code> and cached on disk.</li>
-        <li>Each cleaned title + abstract is embedded as a 768-dimensional vector by the <code>BAAI/bge-base-en-v1.5</code> model.</li>
+        <li>Each file in <code>_publications/</code> is plain Markdown — its first <code>#</code> heading is the title — and the whole document is used as-is.</li>
+        <li>Each abstract's language is detected automatically; non-English ones — here Italian and French — are machine-translated to English with <code>Helsinki-NLP/opus-mt-{lang}-en</code> and cached on disk.</li>
+        <li>Each document is embedded as a 768-dimensional vector by the <code>BAAI/bge-base-en-v1.5</code> model.</li>
         <li>Pairwise cosine similarity yields a dense matrix over every pair of papers.</li>
         <li>An edge is drawn from each paper to its single strongest neighbour, unless even that best score falls below 0.70, in which case the paper stays unconnected.</li>
         <li>A D3 force simulation lays out the graph; the arrangement is pre-computed offline so it loads already settled.</li>
-        <li>A paper that is a translation of another is joined only to its original, by a forced edge drawn dashed, rather than linked by similarity.</li>
       </ol>
       <p>Hover a node to read its title; click to select it and reveal its closest matches.</p>
     </div>

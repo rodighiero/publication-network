@@ -1,16 +1,4 @@
----
-title: "The Analogous City, the Map"
-year: 2015
-venue: "EPFL Archizoom"
-type: "map"
-author: "Aldo Rossi and Eraldo Consolascio and Bruno Reichlin and Fabio Reinhart"
-editor: "Dario Rodighiero"
-doi: "https://infoscience.epfl.ch/record/209326"
-img: "the-analogous-city-the-map/fig_001.webp"
-img_width: 1500
-img_height: 1497
-figures: true
----
+# The Analogous City, the Map
 
 This new publication of The Analogous City, an artwork produced by Aldo Rossi, Eraldo Consolascio, Bruno Reichlin and Fabio Reinhart for the Venice Biennale of Architecture in 1976, is part of a museographic installation for the exhibition _Aldo Rossi – The Window of the Poet_ (Celant and Huijts 2015) at the Bonnefanten Museum in Maastricht. To gauge and explore this seminal work, Archizoom relied on Dario Rodighiero, candidate in the Doctoral Programme for Architecture and Sciences of the Cities, and designer at the Digital Humanities Lab (DHLAB) at EPFL. Conceived as a genuine urban project, The Analogous City displays an aggregation of architectures drawn from collective and personal memories. What happens if we isolate the forms that Aldo Rossi and his friends so consciously placed in relation to each other? Rodighiero simply decomposed it into the original references and then returned the pieces to the artwork, thus allowing us to simultaneously see the work and its visual vocabulary. An application based on augmented reality has been created to work in tandem with this publication by displaying the complete references belonging to the collage on different layers suspended over the artwork. By downloading the free application and installing it on your tablet or mobile phone, you can recreate the museum experience whenever and wherever you are.
 
@@ -57,12 +45,3 @@ As a publication, the map offers a similar experience as the installation exhibi
 As Italo Calvino (1988) would say, my work has involved the subtraction of weight: the references of The Analogous City were freed, disconnected from the work and made to fluctuate. This operation has revealed new relations between references, thereby creating new meanings: new conversations that have their foundations in the tracks of the city, which reminds us that The Analogous City is not a static work, but rather a lively, dynamic city.
 
 Finally the work loses the typical vertical orientation of a painting, to become a city map and meeting place for the museum installation. The intention has been to generate a new space that is also a meeting point, like a square, and then to enrich that place with personal discussions, stories, and people, because we should not forget that, as Rossi (1981) reminded in his _A Scientific Autobiography_, “the project was only a pretext for a general involvement”.
-
-## References
-
-- Calvino, Italo. 1988. _Six Memos for the Next Millennium_. Cambridge, MA: Harvard University Press.
-- Celant, Germano, and Stijn Huijts, eds. 2015. _Aldo Rossi: Opera Grafica: Etchings Lithographs Silkscreen Prints_. Cinisello Balsamo: Silvana Editoriale.
-- Rossi, Aldo. 1981. _A Scientific Autobiography_. Translated by Lawrence Venuti. Cambridge, MA: MIT Press.
-- Secchi, Bernardo. 2000. _Prima lezione di urbanistica_. Roma-Bari: Laterza.
-
-[^1]: The exhibition opened on 25 June 2015 at the Bonnefantenmuseum in Maastricht and ran through 15 November 2015, before traveling to the École polytechnique fédérale de Lausanne (Archizoom) and the Galleria d’Arte Moderna e Contemporanea di Bergamo (GAMeC). It brought together one hundred prints from the museum’s own collection alongside forty drawings and paintings from private collections, complemented by printing plates and proofs.

@@ -1,24 +1,5 @@
----
-title: "Vers une littératie des données dans l’espace public : la cartographie du coronavirus dans Ars Electronica 2021"
-year: 2026
-venue: "Études digitales"
-type: "journal"
-author: "Dario Rodighiero"
-editor: "Tyler Reigeluth"
-place: "Paris"
-issue: "17"
-pages: "25–41"
-isbn: "978-2-406-19980-9"
-doi: "https://doi.org/10.48611/isbn.978-2-406-19980-9.p.0025"
-img: "@publications/Immersive-Architectures-for-Visual-Data-Literacy.webp"
-img_width: 700
-img_height: 525
-thumb: "immersive-architectures-for-visual-data-literacy/fig_000.webp"
-figures: true
-lang: fr
-translation_of: immersive-architectures-for-visual-data-literacy
-excerpt_separator: "<!--more-->"
----
+# Vers une littératie des données dans l’espace public : la cartographie du coronavirus dans Ars Electronica 2021
+
 Le processus de datafication qui est en train de transformer la société nous permet d’observer la pandémie d’un point de vue global. Cet article fournit un exemple d’architecture immersive dans laquelle la littérature scientifique sur le coronavirus a été révélée pendant le festival Ars Electronica 2021. Tel un ciel étoilé, une visualisation en réseau représentant plus de 600 000 articles a été présentée dans le théâtre Deep Space 8K, où les spectateurs ont été accompagnés dans le sujet. L’étude de cas de la Cartographie 3D du COVID-19 illustre une nouvelle façon de présenter les données dans l’espace public pour encourager les conversations et les réflexions, invitant ainsi le lecteur à s’interroger quant aux nouvelles formes de muséologie expérimentale liées à la data.
 
 <!--more-->
@@ -102,44 +83,3 @@ La « Cartographie de la recherche sur le COVID-19 » a été présentée lors d
 ## Conclusions
 
 Cet article résume l’effort visant à rendre visible le travail invisible des scientifiques en montrant les publications scientifiques du COVID-19 au grand public lors d’un festival d’art qui a rouvert ses portes pour la première fois après la pandémie. Comme Katy Börner et ses pairs l’ont déclaré, les visiteurs des musées rencontrent encore des difficultés à lire les visualisations de données lorsqu’ils ne sont pas engagés dans une pratique dialogique (Börner et al. 2016). À cet égard, le résultat le plus pertinent de la Cartographie 3D de la recherche sur le COVID-19 se situe à l’intersection des architectures immersives et de la littératie visuelle des données. Compte tenu de la complexité de nombreuses visualisations de données, l’idée de guider les visiteurs dans des espaces immersifs axés sur les données a été bien accueillie. À l’instar des guides conférenciers de musée qui indiquent les clés les plus pertinentes pour comprendre l’art, il serait peut-être opportun, à l’avenir, d’explorer davantage la possibilité de disposer de guides fiables pour parcourir les données. En outre, la conception de lieux permettant de rassembler les individus autour de sujets axés sur les données mérite qu’on s’y attarde, non seulement pour le sujet en soi, mais aussi, plus largement, pour promouvoir la littératie visuelle des données auprès des citoyens dans l’espace public.
-
-## Bibliographie
-
-- Arnheim, Rudolf. 1969. *Visual Thinking*. Berkeley: University of California Press.
-- Ars Electronica. 2021. “3D Cartography of COVID-19 Research.” Ars Electronica, a New Digital Deal, 9 septembre. [ars.electronica.art/newdigitaldeal/en/cartography-covid-19-research](https://ars.electronica.art/newdigitaldeal/en/cartography-covid-19-research/).
-- Balazka, Dominik, et Dario Rodighiero. 2020. “Big Data and the Little Big Bang: An Epistemological (R)evolution.” *Frontiers in Big Data* 3: 31. [doi:10.3389/fdata.2020.00031](https://doi.org/10.3389/fdata.2020.00031).
-- Börner, Katy, Adam Maltese, Russell Nelson Balliet, et Joe Heimlich. 2016. “Investigating Aspects of Data Visualization Literacy Using 20 Information Visualizations and 273 Science Museum Visitors.” *Information Visualization* 15 (3): 198–213. [doi:10.1177/1473871615594652](https://doi.org/10.1177/1473871615594652).
-- Bostock, Michael, Vadim Ogievetsky, et Jeffrey Heer. 2011. “D3: Data-Driven Documents.” *IEEE Transactions on Visualization and Computer Graphics* 17 (12): 2301–9. [doi:10.1109/TVCG.2011.185](https://doi.org/10.1109/TVCG.2011.185).
-- Coleman, Nancy. 2021. “On the Front Page, a Wall of Grief.” *The New York Times*, 21 février. [nytimes.com/2021/02/21/insider/covid-500k-front-page.html](https://www.nytimes.com/2021/02/21/insider/covid-500k-front-page.html).
-- Cooper, Muriel. 1989. “Computers and Design.” *Design Quarterly*, no. 142: 4–31. [doi:10.2307/4091189](https://doi.org/10.2307/4091189).
-- D’Ignazio, Catherine. 2017. “Creative Data Literacy: Bridging the Gap between the Data-Haves and Data-Have Nots.” *Information Design Journal* 23 (1): 6–18. [doi:10.1075/idj.23.1.03dig](https://doi.org/10.1075/idj.23.1.03dig).
-- D’Ignazio, Catherine, et Rahul Bhargava. 2015. “Approaches to Building Big Data Literacy.” In *Bloomberg Data for Good Exchange 2015*. New York.
-- Dondis, Donis A. (1973) 1975. *A Primer of Visual Literacy*. Cambridge (Mass.): MIT Press.
-- Drucker, Johanna. 2014. *Graphesis: Visual Forms of Knowledge Production*. Cambridge (Mass.): Harvard University Press.
-- Feng, Dan, Sake J. de Vlas, Li-Qun Fang, et al. 2009. “The SARS Epidemic in Mainland China: Bringing Together All Epidemiological Data.” *Tropical Medicine & International Health* 14 (novembre): 4–13. [doi:10.1111/j.1365-3156.2008.02145.x](https://doi.org/10.1111/j.1365-3156.2008.02145.x).
-- Freire, Paulo. (1970) 2000. *Pedagogy of the Oppressed*. Traduit par Myra Bergman Ramos. 30e éd. anniversaire. New York: Continuum.
-- Galison, Peter, réal. 2020. *Black Holes: The Edge of All We Know*. Documentaire. Netflix. [imdb.com/title/tt11863046](https://www.imdb.com/title/tt11863046).
-- Gray, Jonathan, Carolin Gerlitz, et Liliana Bounegru. 2018. “Data Infrastructure Literacy.” *Big Data & Society* 5 (2): 1–13. [doi:10.1177/2053951718786316](https://doi.org/10.1177/2053951718786316).
-- Huber, Valeska. 2020. “Pandemics and the Politics of Difference: Rewriting the History of Internationalism through Nineteenth-Century Cholera.” *Journal of Global History* 15 (3): 394–407. [doi:10.1017/S1740022820000236](https://doi.org/10.1017/S1740022820000236).
-- Kanas, Nick. 2012. *Star Maps: History, Artistry, and Cartography*. 2e éd. New York: Springer. [doi:10.1007/978-1-4614-0917-5](https://doi.org/10.1007/978-1-4614-0917-5).
-- Kenderdine, Sarah. 2010. “Immersive Visualization Architectures and Situated Embodiments of Culture and Heritage.” In *14th International Conference Information Visualisation*, 408–14. Londres: IEEE. [doi:10.1109/IV.2010.63](https://doi.org/10.1109/IV.2010.63).
-- Latour, Bruno. 2005. “From Realpolitik to Dingpolitik: Or How to Make the Things Public.” In *Making Things Public: Atmospheres of Democracy*, sous la direction de Bruno Latour et Peter Weibel, 4–31. Cambridge (Mass.): MIT Press.
-- Latour, Bruno, et Peter Weibel, dir. 2005. *Making Things Public: Atmospheres of Democracy*. Cambridge (Mass.): MIT Press.
-- Loukissas, Yanni Alexander. 2019. *All Data Are Local: Thinking Critically in a Data-Driven Society*. Cambridge (Mass.): MIT Press. [doi:10.7551/mitpress/11543.001.0001](https://doi.org/10.7551/mitpress/11543.001.0001).
-- Manning, Christopher D., et Hinrich Schütze. 1999. *Foundations of Statistical Natural Language Processing*. Cambridge (Mass.): MIT Press.
-- Manovich, Lev. 2008. “Data Visualization as New Abstraction and Anti-Sublime.” In *Small Tech: The Culture of Digital Tools*, sous la direction de Byron Hawk, David M. Rieder et Ollie O. Oviedo. Minneapolis: University of Minnesota Press.
-- Meirelles, Isabel. 2013. *Design for Information: An Introduction to the Histories, Theories, and Best Practices behind Effective Information Visualizations*. Beverly (Mass.): Rockport.
-- Moon, Chloe Ye Eun, et Dario Rodighiero. 2020. “Mapping as a Contemporary Instrument for Orientation in Conferences.” In *Proceedings of the IX Annual Conference of the Association for Humanities and Digital Culture (AIUCD)*, 156–62. [doi:10.5281/zenodo.3611340](https://doi.org/10.5281/zenodo.3611340).
-- Papaki, Eliza. 2020. “DARIAH Theme Call 2020/2021: Meet the Winning Projects.” DARIAH, 10 décembre. [dariah.eu/2020/12/10/dariah-theme-call-2020-2021-meet-the-winning-projects](https://www.dariah.eu/2020/12/10/dariah-theme-call-2020-2021-meet-the-winning-projects/).
-- Petrovich, Eugenio. 2020. “Science Mapping.” *Encyclopedia of Knowledge Organization*. [isko.org/cyclo/science_mapping](https://www.isko.org/cyclo/science_mapping).
-- Rigal, Alexandre, et Daniel Joseph-Goteiner. 2021. “The Globalization of an Interaction Ritual Chain: ‘Clapping for Carers’ during the Conflict against COVID-19.” *Sociology of Religion* 82 (4): 471–93. [doi:10.1093/socrel/srab044](https://doi.org/10.1093/socrel/srab044).
-- Rodighiero, Dario, et Alberto Romele. 2022. “Reading Network Diagrams by Using Contour Lines and Word Clouds.” In *Proceedings of Graphs and Networks in the Humanities*, 4 février. [doi:10.31235/osf.io/3g7bt](https://doi.org/10.31235/osf.io/3g7bt).
-- Rodighiero, Dario, Eveline Wandl-Vogt, et Elian Carsenat. 2021. “Making Visible the Invisible Work of Scientists during the COVID-19 Pandemic.” *Visual Culture Studies* 2: 143–65. [doi:10.5281/zenodo.5115621](https://doi.org/10.5281/zenodo.5115621).
-- ———. 2022. “A Visual Translation of the Pandemic.” *Leonardo* 55 (3): 297–303. [doi:10.1162/leon_a_02203](https://doi.org/10.1162/leon_a_02203).
-- Sick-Leitner, Magdalena. 2015. “Deep Space 8K: The Next Generation.” Ars Electronica Blog, 11 août. [ars.electronica.art/aeblog/en/2015/08/11/deep-space-8k](https://ars.electronica.art/aeblog/en/2015/08/11/deep-space-8k/).
-- Sismondo, Sergio. (2004) 2010. *An Introduction to Science and Technology Studies*. 2e éd. Chichester: Wiley-Blackwell.
-- Van der Maaten, Laurens, et Geoffrey Hinton. 2008. “Visualizing Data Using t-SNE.” *Journal of Machine Learning Research* 9 (86): 2579–2605. [jmlr.org/papers/v9/vandermaaten08a.html](https://jmlr.org/papers/v9/vandermaaten08a.html).
-- Vanderplas, Jake. 2016. *Python Data Science Handbook: Essential Tools for Working with Data*. Sebastopol (Calif.): O’Reilly Media.
-- Van der Spuy, Rex. 2015. *Learn Pixi.js*. Berkeley (Calif.): Apress. [doi:10.1007/978-1-4842-1094-9](https://doi.org/10.1007/978-1-4842-1094-9).
-- Wang, Lucy Lu, Kyle Lo, Yoganand Chandrasekhar, et al. 2020. “CORD-19: The COVID-19 Open Research Dataset.” In *Proceedings of the Workshop on NLP for COVID-19 at ACL 2020*. [arxiv.org/abs/2004.10706](https://arxiv.org/abs/2004.10706).
-- Wilkinson, Mark D., Michel Dumontier, IJsbrand Jan Aalbersberg, et al. 2016. “The FAIR Guiding Principles for Scientific Data Management and Stewardship.” *Scientific Data* 3: 160018. [doi:10.1038/sdata.2016.18](https://doi.org/10.1038/sdata.2016.18).

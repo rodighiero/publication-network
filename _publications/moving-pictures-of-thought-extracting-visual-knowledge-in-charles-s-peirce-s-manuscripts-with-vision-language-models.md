@@ -1,15 +1,5 @@
----
-title: "Moving Pictures of Thought: Extracting Visual Knowledge in Charles S. Peirce’s Manuscripts with Vision-Language Models"
-year: 2025
-venue: "Anthology of Computers and the Humanities"
-type: "conference"
-author: "Carlo Teo Pedretti and Davide Picca and Dario Rodighiero"
-doi: "https://doi.org/10.63744/fkFGJ6wSzDPV"
-img: "@publications/Moving-Pictures-of-Thought.webp"
-figures: true
-img_width: 564
-img_height: 564
----
+# Moving Pictures of Thought: Extracting Visual Knowledge in Charles S. Peirce’s Manuscripts with Vision-Language Models
+
 Diagrams are crucial yet underexplored tools in many disciplines, demonstrating the close connection between visual representation and scholarly reasoning. However, their iconic form poses obstacles to visual studies, intermedial analysis, and text-based digital workflows. In particular, Charles S. Peirce consistently advocated the use of diagrams as essential for reasoning and explanation. His manuscripts, often combining textual content with complex visual artifacts, provide a challenging case for studying documents involving heterogeneous materials. In this preliminary study, we investigate whether Vision-Language Models (VLMs) can effectively help us identify and interpret such hybrid pages in context. First, we propose a workflow that (i) segments manuscript page layouts, (ii) reconnects each segment to IIIF-compliant annotations, and (iii) submits fragments containing diagrams to a VLM. In addition, by adopting Peirce’s semiotic framework, we designed prompts to extract key knowledge about diagrams and produce concise captions. Finally, we integrated these captions into knowledge graphs, enabling structured representations of diagrammatic content within composite sources.
 
 <!--more-->
@@ -223,41 +213,3 @@ The methodological pattern extends beyond Peirce studies. Any manuscript collect
 [^1]: The models and the scripts used for the preprocessing and evaluation are available at <https://anonymous.4open.science/r/PIP-Manuscripts-Processor-0147/>.
 
 [^2]: The dataset and RDF serializations are available at <https://doi.org/10.5281/zenodo.16113285>.
-
-## References
-
-- Aouinti, Mehdi, Clément Plancq, Nicolas Froeliger, François Leclère, and Christophe Rico. 2022. “Detecting Illuminations in Digitized Medieval Manuscripts: A Benchmark Dataset and Evaluation Protocol.” _Digital Medievalist_ 15 (1): 1–18. https://doi.org/10.16995/dm.7844
-- Bocchi, Maria Francesca, Carlo Teo Pedretti, and Fabio Vitali. 2025. “Between Text and Icon: Towards a Representational Model for Ekphrastic Relations.” In _Proceedings del XIV Convegno Annuale AIUCD2025_, edited by Simone Rebora, Marco Rospocher, and Stefano Bazzaco, 566–572. Verona: AIUCD. https://doi.org/10.6092/UNIBO/AMSACTA/8380
-- Büttner, Stefan, Tilo Wettig, Dominik König, Matthias Springer, and Roland Wittler. 2022. “CorDeep: A Deep Learning-Based Approach to the Detection and Classification of Visual Elements in Historical Documents.” _Journal of Imaging_ 8 (10): 285–303. https://doi.org/10.3390/jimaging8100285
-- Cetinic, Eva. 2021. “Towards Generating and Evaluating Iconographic Image Captions of Artworks.” _Journal of Imaging_ 7 (8): 123. https://doi.org/10.3390/jimaging7080123
-- Cetinic, Eva, Tomislav Lipic, and Sonja Grgic. 2018. “Fine-Tuning Convolutional Neural Networks for Fine Art Classification.” _Expert Systems with Applications_ 114: 107–118.
-- Chen, Jiuhai, Zhiyang Xu, Xichen Pan, Yushi Hu, Can Qin, Tom Goldstein, Lifu Huang, et al. 2025. “BLIP3-o: A Family of Fully Open Unified Multimodal Models—Architecture, Training and Dataset.” arXiv:2505.09568. https://doi.org/10.48550/ARXIV.2505.09568
-- D’Armenio, Enzo, Adrien Deliège, and Maria Giulia Dondero. 2025. “A Semiotic Methodology for Assessing the Compositional Effectiveness of Generative Text-to-Image Models (Midjourney and DALL·E).” In _Lecture Notes in Computer Science_, 112–127. Cham: Springer Nature Switzerland. https://doi.org/10.1007/978-3-031-92089-9_8
-- Daquino, Marilena, and Francesca Tomasi. 2015. “Historical Context Ontology (HiCO): A Conceptual Model for Describing Context Information of Cultural Heritage Objects.” In _Metadata and Semantics Research_, edited by Emmanouel Garoufallou, Richard J. Hartley, and Panorea Gaitanou, 424–436. Cham: Springer International Publishing. https://doi.org/10.1007/978-3-319-24129-6_37
-- de Waal, Cornelis. 2013. _Peirce: A Guide for the Perplexed_. Guides for the Perplexed. London: Bloomsbury Publishing.
-- Fleischhacker, David, Wolfgang Thomas Göderle, and Roman Kern. 2025. “Text Extraction for Complex Historical Documents: A Modular Approach to Layout Detection and OCR.” In _Proceedings of the 24th ACM/IEEE Joint Conference on Digital Libraries_, 1–3. New York: Association for Computing Machinery. https://doi.org/10.1145/3677389.3702524
-- Garcia, Noa, and George Vogiatzis. 2019. “How to Read Paintings: Semantic Art Understanding with Multi-Modal Retrieval.” In _Computer Vision – ECCV 2018 Workshops_, edited by Stefan Roth and Laura Leal-Taixé, vol. 11130, 676–691. Lecture Notes in Computer Science. Springer. https://doi.org/10.1007/978-3-030-11012-3_52
-- Haider, Emman, Daniel Perez-Becker, Thomas Portet, Piyush Madan, Amit Garg, Atabak Ashfaq, David Majercak, et al. 2024. “Phi-3 Safety Post-Training: Aligning Language Models with a ‘Break-Fix’ Cycle.” arXiv:2407.13833. https://doi.org/10.48550/arXiv.2407.13833
-- Hamburger, Jeffrey F. 2019. _Diagramming Devotion: Berthold of Nuremberg’s Transformation of Hrabanus Maurus’s Poems in Praise of the Cross_. Chicago: University of Chicago Press. https://doi.org/10.7208/chicago/9780226642956.001.0001
-- Harvard University. 2023. “Charles S. Peirce Papers.” Accessed April 4, 2025. https://hollisarchives.lib.harvard.edu/repositories/24/resources/6437
-- Hessel, Jack, Ari Holtzman, Maxwell Forbes, Ronan Le Bras, and Yejin Choi. 2021. “CLIPScore: A Reference-Free Evaluation Metric for Image Captioning.” arXiv:2104.08718. https://doi.org/10.48550/ARXIV.2104.08718
-- Hou, Yifan, Buse Giledereli, Yilei Tu, and Mrinmaya Sachan. 2024. “Do Vision-Language Models Really Understand Visual Language?” arXiv:2410.00193. https://doi.org/10.48550/ARXIV.2410.00193
-- Keeler, Mary. 1998. “Iconic Indeterminacy and Human Creativity in C. S. Peirce’s Manuscripts.” In _The Iconic Page in Manuscript and Digital Culture_, edited by George Bornstein and Theresa L. Tinkle, 157–194. Ann Arbor: University of Michigan Press.
-- Keeler, Mary. 2020a. “Pragmatically Improving Access to Peirce’s Archive.” _Chinese Semiotic Studies_ 16 (1): 167–187. https://doi.org/10.1515/css-2020-0009
-- Keeler, Mary. 2020b. “The Hidden Treasure of C. S. Peirce’s Manuscripts.” _Chinese Semiotic Studies_ 16 (1): 155–166. https://doi.org/10.1515/css-2020-0008
-- Kiryushchenko, Vitaly. 2023. _Diagrams, Visual Imagination, and Continuity in Peirce’s Philosophy of Mathematics_. Mathematics in Mind. Cham: Springer International Publishing.
-- Latour, Bruno. 1990. “Visualisation and Cognition: Drawing Things Together.” In _Knowledge and Society: Studies in the Sociology of Culture Past and Present_, edited by Henrika Kuklick, vol. 6, 1–40. JAI Press.
-- Liang, Yichi, et al. 2024. “FlowLearn: A Modular Framework for Diagram Understanding.” arXiv:2412.16420v1.
-- Liu, Haotian, Chunyuan Li, Qingyang Wu, and Yong Jae Lee. 2023. “Visual Instruction Tuning.” arXiv:2304.08485. https://doi.org/10.48550/arXiv.2304.08485
-- Pedretti, Carlo Teo, Maria Francesca Bocchi, Francesca Tomasi, and Fabio Vitali. 2024. “What Do We Annotate When We Annotate? Towards a Multi-Level Approach to Semantic Annotations.” In _Knowledge Graphs in the Age of Language Models and Neuro-Symbolic AI_, edited by Angelo A. Salatino, Mehwish Alam, Femke Ongenae, Sahar Vahdati, Anna Lisa Gentile, Tassilo Pellegrini, and S. Jiang, vol. 60, 370–385. Studies on the Semantic Web. Amsterdam: IOS Press. https://doi.org/10.3233/SSW240030
-- Peirce, Charles S. 1931. _Collected Papers of Charles Sanders Peirce, Vols. 1–6_. Edited by Charles Hartshorne and Paul Weiss. Cambridge, MA: Harvard University Press.
-- Picca, Davide, Aurélie Schnyder, Ekaterina Kostina, Anastasia Adamou, Dario Rodighiero, and Jeffrey Schnapp. 2023. “Orchestrating Cultural Heritage: Exploring the Automated Analysis and Organization of Charles S. Peirce’s PAP Manuscript.” In _Proceedings of the 34th ACM Conference on Hypertext and Social Media (HT ’23)_, 1–4. Rome: Association for Computing Machinery. https://doi.org/10.1145/3603163.3609066
-- Ravichandra, S., S. Siva Sathya, and L. Sophie. 2022. “Deep Learning Based Document Layout Analysis on Historical Documents.” In _Advances in Distributed Computing and Machine Learning_, 73–85. Singapore: Springer. https://doi.org/10.1007/978-981-16-9465-1_8
-- Riva, Pat, Maja Žumer, and Trond Aalberg. 2022. “LRMoo, a High-Level Model in an Object-Oriented Framework.” IFLA. https://repository.ifla.org/handle/20.500.14598/2217
-- Robin, Richard S. 1971. “The Peirce Papers: A Supplementary Catalogue.” _Transactions of the Charles S. Peirce Society_ 7 (1): 37–57.
-- Rodighiero, Dario, Alberto Romele, José Higuera Rubio, Celeste Pedro, Matteo Azzi, and Giorgio Uboldi. 2023. “Advanced Interface Design for IIIF: A Digital Tool to Explore Image Collections at Different Scales.” _Umanistica Digitale_ 15: 167–192. https://doi.org/10.6092/ISSN.2532-8816/17230
-- Sanderson, Robert, Paolo Ciccarese, and Benjamin Young. 2017. “Web Annotation Data Model.” W3C Recommendation. https://www.w3.org/TR/annotation-model/
-- Stjernfelt, Frederik. 2007. _Diagrammatology: An Investigation on the Borderlines of Phenomenology, Ontology, and Semiotics_. Vol. 336. Synthese Library. Dordrecht: Springer Netherlands. https://doi.org/10.1007/978-1-4020-5652-9
-- Yaseen, Muhammad. 2024. “What Is YOLOv8: An In-Depth Exploration of the Internal Features of the Next-Generation Object Detector.” arXiv:2408.15857. https://doi.org/10.48550/arXiv.2408.15857
-- Zhang, Ruohong, Bowen Zhang, Yanghao Li, Haotian Zhang, Zhiqing Sun, Zhe Gan, Yinfei Yang, Ruoming Pang, and Yiming Yang. 2024. “Improve Vision Language Model Chain-of-Thought Reasoning.” arXiv:2410.16198.
-- Zhu, Deyao, Jun Chen, Xiaoqian Shen, Xiang Li, and Mohamed Elhoseiny. 2023. “MiniGPT-4: Enhancing Vision-Language Understanding with Advanced Large Language Models.” arXiv:2304.10592. https://doi.org/10.48550/arXiv.2304.10592

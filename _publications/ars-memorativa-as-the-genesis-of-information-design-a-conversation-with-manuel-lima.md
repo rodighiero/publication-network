@@ -1,15 +1,5 @@
----
-title: "Ars Memorativa as the Genesis of Information Design: A Conversation with Manuel Lima"
-year: 2021
-venue: "Nightingale"
-type: "magazine"
-author: "Manuel Lima and Dario Rodighiero"
-doi: "https://nightingaledvs.com/ars-memorativa-as-the-genesis-of-information-design-a-conversation-with-manuel-lima/"
-img: "ars-memorativa-as-the-genesis-of-information-design-a-conversation-with-manuel-lima/fig_002.webp"
-figures: true
-img_width: 1024
-img_height: 1344
----
+# Ars Memorativa as the Genesis of Information Design: A Conversation with Manuel Lima
+
 Manuel Lima is one of the most prominent figures of data visualization since the publication of _Visual Complexity_ (Lima 2011). In this conversation, Manuel Lima traces back the origin of data visualization to Ars Memorativa, an ancient mnemonic technique to organize information and facilitate its recall. Going back to the origins is an obsession that brought him to collect and arrange into books images of information design from both physical and digital archives. By doing this, Manuel Lima tackled issues related to digital objects and their creation, use, and preservation, with a point of view capable of combining the passion for visualizing information and the profession of UX designer.
 
 <!--more-->
@@ -81,17 +71,3 @@ I have mixed feelings. New York City will always be a city that we love. And now
 **Dario: Sure, with great pleasure. Yes, I totally understand your choice, and it was the same for me. Coming back is sort of beautiful, even if things have changed.**
 
 **Dario: I look forward to your book next year and hope there will be time to meet you in person. It has been a pleasure.**
-
-## References
-
-- Barabási, Albert-László. 2002. _Linked: The New Science of Networks_. Cambridge, MA: Perseus Publishing.
-- Blair, Ann. 2010. _Too Much to Know: Managing Scholarly Information before the Modern Age_. New Haven, CT: Yale University Press.
-- British Museum. n.d. “Tablet Recording the Allocation of Beer.” British Museum Images. Accessed August 12, 2021. <https://www.britishmuseum.org/collection/object/W_1989-0130-4>.
-- Higuera Rubio, José, Alberto Romele, Dario Rodighiero, and Celeste Pedro, eds. 2022. _From Wisdom to Data: Philosophical Atlas on the Visual Representations of Knowledge_. Transversal. Porto: University Porto Press.
-- Hubertus, Adrianus Graveur. 1585. “Ordo Universi et Humanarum Scientiarum Prima Monumenta.” Gallica. Accessed August 12, 2021. <https://gallica.bnf.fr/ark:/12148/btv1b55002353x>.
-- Johnson, Steven. 2001. _Emergence: The Connected Lives of Ants, Brains, Cities, and Software_. New York: Scribner.
-- Lima, Manuel. 2011. _Visual Complexity: Mapping Patterns of Information_. New York: Princeton Architectural Press.
-- Lima, Manuel. 2014. _The Book of Trees: Visualizing Branches of Knowledge_. New York: Princeton Architectural Press.
-- Lima, Manuel. 2017. _The Book of Circles: Visualizing Spheres of Knowledge_. New York: Princeton Architectural Press.
-- Rodighiero, Dario. 2021. _Mapping Affinities: Democratizing Data Visualization_. Open-Access English edition. Geneva: Métis Presses. <https://nrs.harvard.edu/URN-3:HUL.INSTREPOS:37368046>.
-- Shedroff, Nathan. (1994) 1999. “Information Interaction Design: A Unified Field Theory of Design.” In _Information Design_, edited by Robert Jacobson, 267–292. Cambridge, MA: MIT Press.

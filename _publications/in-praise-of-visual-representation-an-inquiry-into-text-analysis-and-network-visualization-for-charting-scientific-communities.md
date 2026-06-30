@@ -1,19 +1,5 @@
----
-title: "In Praise of Visual Representation: An Inquiry into Text Analysis and Network Visualization for Charting Scientific Communities"
-year: 2024
-venue: "Visual Communication"
-type: "journal"
-author: "Dario Rodighiero"
-volume: "23"
-issue: "3"
-doi: "https://doi.org/10.1177/14703572241248408"
-img: "@publications/In-Praise-of-Visual-Representation.webp"
-thumb: "in-praise-of-visual-representation-an-inquiry-into-text-analysis-and-network-visualization-for-charting-scientific-communities/fig_003.webp"
-img_width: 700
-img_height: 525
-figures: true
-excerpt_separator: "<!--more-->"
----
+# In Praise of Visual Representation: An Inquiry into Text Analysis and Network Visualization for Charting Scientific Communities
+
 This article provides a visual investigation into scientific communities through the lens of language. Inspired by actor-network theory, the study examines how individuals establish connections through shared vocabularies and, consequently, how communities organize themselves into linguistic groups. Using scientific texts to map the lexical dimension, the premise posits that research communities can be visually represented by their members and the words they employ, favouring the comprehension of social structures. The research draws from a decade-long personal experimentation with language-based visual models, to explore how research communities appear according to their lexicon, in which each individual is intricately intertwined. Employing cutting-edge techniques of text analysis and network visualization, the study analyses, organizes and maps scientific communities, clustering individuals into thematic groups based on their language use. The findings are presented through a series of projects that delve into the analytical power of images and unveil novel visual methods to better understand the spatial dynamics of language and communities.
 
 <!--more-->
@@ -59,45 +45,3 @@ The visual method underwent refinement in terms of programming and graphic desig
 In conclusion, this text presents a series of experiments that explore the potential of information design in analysing scientific communities. The intersection of network visualization and text analysis creates novel images for representing scientific communities. This visual method has larger fields of application, though. Library collections and text archives offer interesting material for testing the model on questions related to classification. An interesting prototype was recently developed for the PAP paper manuscripts by the philosopher Charles S. Peirce (Picca et al. 2023). Emphasizing the capacity to organize knowledge into thematic clusters, the lexical mapping can potentially overcome the static classification systems used in libraries, opting for a knowledge self-organization (see Figure 6). These visual methods present real opportunities for exploring and understanding the intricate structures of language in corpora. By harnessing the power of visualization and text analysis, researchers can unlock more in-depth insights into linguistic complexity and foster visual exploration.
 
 {% include figure.html src="/images/in-praise-of-visual-representation-an-inquiry-into-text-analysis-and-network-visualization-for-charting-scientific-communities/fig_006.webp" caption="Figure 6. This figure introduces a web-based application showcasing a UMAP visualization that organizes the PAP manuscript pages into a coherent visual classification. By incorporating advanced graphical elements, the application transforms textual analysis into an intuitive visual map, revealing underlying thematic clusters through word clouds. This innovative representation allows users to navigate Peirce’s manuscript in a novel way, offering insights into the manuscript’s thematic structure and enhancing the exploration of its complex ideas. The code and the visualization are accessible on GitHub at https://github.com/rodighiero/Charles-S-Peirce-PAP" %}
-
-## References
-
-- Amaratunga, Thimira. 2023. *Understanding Large Language Models: Learning Their Underlying Concepts and Technologies*. Berkeley, CA: Apress.
-- Bostock, Michael, Vadim Ogievetsky, and Jeffrey Heer. 2011. “D3: Data-Driven Documents.” *IEEE Transactions on Visualization and Computer Graphics* 17 (12): 2301–9. [doi:10.1109/TVCG.2011.185](https://doi.org/10.1109/TVCG.2011.185).
-- Bowker, Geoffrey C., and Susan Leigh Star. 1999. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.
-- Brinton, Willard Cope. (1914) 1919. *Graphic Methods for Presenting Facts*. New York: The Engineering Magazine Company.
-- Callon, Michel, and Bruno Latour. 2017. “Unscrewing the Big Leviathan: How Actors Macro-Structure Reality and How Sociologists Help Them to Do So.” In *Advances in Social Theory and Methodology: Toward an Integration of Micro- and Macro-Sociologies*, edited by Karin Knorr-Cetina and Aaron Victor Cicourel, 277–303. Abingdon: Routledge.
-- Caputo, John D. 2018. *Hermeneutics: Facts and Interpretation in the Age of Information*. London: Pelican Books.
-- Deleuze, Gilles, and Claire Parnet. 2007. *Dialogues II*. Rev. ed. European Perspectives. New York: Columbia University Press.
-- DH2020@Ottawa [@DH2020_Ottawa]. 2020. “How Are the People, Ideas, and Methods of #DH2020 Connected? Have a Look at @dariorodighiero’s Remarkable ‘Cartography of DH2020’ Visualization.” Twitter, July 20. [twitter.com/DH2020_Ottawa/status/1285255169689739269](https://twitter.com/DH2020_Ottawa/status/1285255169689739269).
-- Ferigato, Carlo, Giuseppe Merlo, Daniela Panfili, et al. 2009. “Role of Thesauri in a Scientific Organisation.” In *Networks of Design: Proceedings of the 2008 Annual International Conference of the Design History Society (UK)*, edited by Jonathan Glynne et al., 301–9. Boca Raton, FL: Universal-Publishers.
-- Finch, Geoffrey. 2000. *Linguistic Terms and Concepts*. London: Macmillan Education.
-- Francis, W. Nelson. 1967. *The English Language: An Introduction*. 2nd ed. London: English Universities Press.
-- Greimas, Algirdas Julien. 1987. *On Meaning: Selected Writings in Semiotic Theory*. Theory and History of Literature 38. Minneapolis: University of Minnesota Press.
-- Hatch, Mary Jo. 2011. *Organizations: A Very Short Introduction*. Very Short Introductions 264. New York: Oxford University Press.
-- Hatch, Mary Jo, and Ann L. Cunliffe. 2013. *Organization Theory: Modern, Symbolic, and Postmodern Perspectives*. 3rd ed. Oxford: Oxford University Press.
-- Honnibal, Matthew, Ines Montani, Sofie Van Landeghem, et al. (2014) 2024. “spaCy: Industrial-Strength Natural Language Processing in Python.” Python.
-- Ingold, Tim. 2007. *Lines: A Brief History*. Abingdon: Routledge.
-- Latour, Bruno. 2014. “Rematerializing Humanities: Thanks to Digital Traces.” Presented at the Digital Humanities Conference, Lausanne.
-- Lima, Manuel. 2011. *Visual Complexity: Mapping Patterns of Information*. New York: Princeton Architectural Press.
-- Manning, Christopher D., and Hinrich Schütze. 1999. *Foundations of Statistical Natural Language Processing*. Cambridge, MA: MIT Press.
-- Matthews, Peter H. 2003. *Linguistics: A Very Short Introduction*. Very Short Introductions. Oxford: Oxford University Press.
-- McInnes, Leland, John Healy, and James Melville. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” arXiv. [doi:10.48550/arXiv.1802.03426](https://doi.org/10.48550/arXiv.1802.03426).
-- Meeks, Elijah. 2015. *D3.js in Action*. Shelter Island, NY: Manning.
-- Mikolov, Tomas, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. “Efficient Estimation of Word Representations in Vector Space.” arXiv. [doi:10.48550/arXiv.1301.3781](https://doi.org/10.48550/arXiv.1301.3781).
-- Moon, Chloe Ye Eun, and Dario Rodighiero. 2020. “Mapping as a Contemporary Instrument for Orientation in Conferences.” In *Proceedings of the IX Annual Conference of the Association for Humanities and Digital Culture (AIUCD)*. Associazione per l’Informatica Umanistica e la Cultura Digitale.
-- Piaget, Jean. 1975. *L’équilibration des structures cognitives: problème central du développement*. Études d’épistémologie génétique 33. Paris: Presses universitaires de France.
-- Picca, Davide, Antonin Schnyder, Eri Kostina, et al. 2023. “Orchestrating Cultural Heritage: Exploring the Automated Analysis and Organization of Charles S. Peirce’s PAP Manuscript.” In *Proceedings of the 34th ACM Conference on Hypertext and Social Media (HT ’23)*. New York: Association for Computing Machinery.
-- Ricœur, Paul. 2005. *The Course of Recognition*. Translated by David Pellauer. Cambridge, MA: Harvard University Press.
-- Rodighiero, Dario. 2018. “Mapping Affinities: Visualizing Academic Practice through Collaboration.” PhD diss., École polytechnique fédérale de Lausanne (EPFL).
-- ———. 2021. *Mapping Affinities: Democratizing Data Visualization*. Open-Access English ed. Geneva: Métis Presses.
-- Rodighiero, Dario, and Loup Cellard. 2019. “Self-Recognition in Data Visualization: How Individuals See Themselves in Visual Representations.” *EspacesTemps.net: Electronic Journal of Humanities and Social Sciences*, August.
-- Rodighiero, Dario, Constance Crompton, and May Ning. 2020. “Lexical Cartography of DH2020.” metaLAB (at) Harvard & FU Berlin, August 31. [mlml.io/p/lexical-cartography-of-dh-2020](https://mlml.io/p/lexical-cartography-of-dh-2020/).
-- Rodighiero, Dario, Frédéric Kaplan, and Boris Beaude. 2018. “Mapping Affinities in Academic Organizations.” *Frontiers in Research Metrics and Analytics* 3 (4).
-- Rodighiero, Dario, and Alberto Romele. 2022. “Reading Network Diagrams by Using Contour Lines and Word Clouds.” In *Proceedings of Graphs and Networks in the Humanities*. Amsterdam: Royal Netherlands Academy of Arts and Sciences.
-- Rodighiero, Dario, Eveline Wandl-Vogt, and Elian Carsenat. 2021. “Making Visible the Invisible Work of Scientists during the COVID-19 Pandemic.” *Visual Culture Studies* (Milano; Udine) 2: 143–65. [doi:10.5281/zenodo.5115621](https://doi.org/10.5281/zenodo.5115621).
-- Rodighiero, Dario, Eveline Wandl-Vogt, and Elian Carsenat. 2022. “A Visual Translation of the Pandemic.” *Leonardo* 55 (3): 297–303.
-- Schrage, Michael. 2020. *Recommendation Engines*. Essential Knowledge Series. Cambridge, MA: MIT Press.
-- Van der Maaten, Laurens, and Geoffrey Hinton. 2008. “Visualizing Data Using t-SNE.” *Journal of Machine Learning Research* 9 (86): 2579–2605. [jmlr.org/papers/v9/vandermaaten08a.html](http://jmlr.org/papers/v9/vandermaaten08a.html).
-- Von Glasersfeld, Ernst. 1992. “Why I Consider Myself a Cybernetician.” *Cybernetics and Human Knowing* 1 (1): 21–25.
-- Wittgenstein, Ludwig. (1952) 2009. *Philosophical Investigations*. Translated by G. E. M. Anscombe et al. 4th ed. Oxford: Blackwell Publishing.

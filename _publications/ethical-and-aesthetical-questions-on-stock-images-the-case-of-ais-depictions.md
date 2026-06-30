@@ -1,16 +1,5 @@
----
-title: "Ethical and Aesthetical Questions on Stock Images: The Case of AI's Depictions"
-year: 2024
-venue: "Lessico Di Etica Pubblica"
-type: "journal"
-author: "Alberto Romele and Sabina Rosenbergova and Dario Rodighiero"
-doi: "https://www.eticapubblica.it/alberto-romele-dario-rodighiero-sabina-rosenbergova-ethical-and-aesthetical-questions-on-stock-images-the-case-of-ais-depictions/"
-img: "@publications/Ethical-and-Aesthetical-Questions-on-Stock-Images.webp"
-img_width: 700
-img_height: 700
-thumb: "ethical-and-aesthetical-questions-on-stock-images-the-case-of-ais-depictions/fig_005.webp"
-figures: true
----
+# Ethical and Aesthetical Questions on Stock Images: The Case of AI's Depictions
+
 In this article, the authors deal with stock images depicting AI as a face or a body that undergoes a process of fragmentation into particles, pixels, or voxels. These images, they contend, are the symptoms of a datafied worldview. In the first section, the authors discuss stock images of AI and account for their qualitative-quantitative analyses of about 7,500 images from the online catalog of Shutterstock. These analyses have brought out datafied faces and bodies as one of the main themes among stock images of AI. In the second part, the authors elaborate on the notion of datafication of the worldview and offer some examples from architecture and design. This second section includes a methodological detour, in which the authors propose articulating Panofsky’s iconology and Didi-Huberman’s “symptomatic” perspective. In conclusion, the authors reflect on an apparently marginal aspect of stock images of AI: the abundant use of blue.
 
 <!--more-->
@@ -113,32 +102,3 @@ As far as we are concerned, however, we do not want to absolutize the background
 [^4]: Visual social semiotics offers a set of tools for analyzing the internal dynamics of images and their effects. The relationship between gazes is only one among them. The use of colors is another. Added to this are vectors and directions, framing, exploitation of depth, etc. See Kress and van Leeuwen 2020.
 [^5]: The 1939 version, which underwent subsequent transformations in 1955 and 1962, is featured in the introduction to *Studies in Iconology* (see Panofsky 1972). The 1932 version was initially published in the journal *Logos* 21 with the title “Zum Problem der Beschreibung und Inhaltsdeutung von Werken der bildenden Kunst,” and was later incorporated into Panofsky 1997.
 [^6]: While Carpo often interprets changes in architecture and design as direct outcomes of specific technical advancements — particularly digital ones — in the practices of architects and designers, his argument can sometimes come across as deterministic. We lean more towards a Panofskian approach, which focuses on identifying “family resemblances” among various elements without necessarily attributing them to a cause-and-effect relationship.
-
-## References
-
-- Aiello, Giorgia, and Alison Woodhouse. 2016. “When Corporations Come to Define the Visual Politics of Gender: The Case of Getty Images.” *Journal of Language and Politics* 15, no. 3: 352–368.
-- Carpo, Mario. 2017. *The Second Digital Turn*. Cambridge, MA: MIT Press.
-- Cave, Stephen, and Kanta Dihal. 2020. “The Whiteness of AI.” *Philosophy & Technology* 33, no. 4: 685–703.
-- Coopmans, Catelijne, et al., eds. 2014. *Representation in Scientific Practice Revisited*. Cambridge, MA: MIT Press.
-- Didi-Huberman, Georges. 2005. *Confronting Images: Questioning the Ends of a Certain History of Art*. University Park: Pennsylvania State University Press.
-- Didi-Huberman, Georges. 2009. *Fra Angelico: Dissemblance and Figuration*. Chicago: University of Chicago Press.
-- Duhaime, Douglas. 2017. *PixPlot*. Yale Digital Humanities Lab. https://github.com/YaleDHLab/pix-plot.
-- Fourcade, Marion, and Kieran Healy. 2017. “Seeing Like a Market.” *Socio-Economic Review* 15, no. 1: 9–29.
-- Frosh, Paul. 2003. *The Image Factory: Consumer Culture, Photography, and the Visual Content Industry*. Oxford: Berg.
-- Frosh, Paul. 2013. “Beyond the Image Bank: Digital Commercial Photography.” In *The Photographic Image in Digital Culture*, edited by Martin Lister, 131–148. London-New York: Routledge.
-- Galison, Peter, and Caroline A. Jones, eds. 1998. *Picturing Science, Producing Art*. London-New York: Routledge.
-- Ginzburg, Carlo. 1989. “Clues: Roots of an Evidential Paradigm.” In *Clues, Myths, and the Historical Method*, 96–125. Baltimore: Johns Hopkins University Press.
-- Kress, Gunther, and Theo van Leeuwen. 2020. *Reading Images: The Grammar of Visual Design*. 3rd ed. London-New York: Routledge.
-- Leone, Massimo. 2014. *Annunciazioni: Percorsi di semiotica della religione*. Roma: Aracne.
-- Leonelli, Sabina. 2020. “Scientific Research and Big Data.” *Stanford Encyclopedia of Philosophy*. Stanford: Stanford University.
-- Lin, Chuan-En. 2018. *ShutterScrape*. GitHub. https://github.com/chuanenlin/shutterscrape.
-- Lynch, Michael E., and Steve Woolgar, eds. 1990. *Representation in Scientific Practice*. Cambridge, MA: MIT Press.
-- May, John. 2019. *Signal. Image. Architecture.* New York: Columbia Books on Architecture and the City.
-- McInnes, Leland, et al. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” arXiv:1802.03426.
-- Panofsky, Erwin. 1972. *Studies in Iconology: Humanistic Themes in the Art of Renaissance*. Boulder: Westview Press.
-- Panofsky, Erwin. 1997. *Perspective as Symbolic Form*. New York: Zone Books.
-- Panofsky, Erwin. 2005. *Gothic Architecture and Scholasticism*. Latrobe: Archabbey Publications.
-- Rancière, Jacques. 1999. *Disagreement: Politics and Philosophy*. Translated by Julie Rose. Minneapolis: University of Minnesota Press.
-- Rancière, Jacques. 2008. *The Emancipated Spectator*. London-New York: Verso.
-- Romele, Alberto. 2020. *Digital Hermeneutics: Philosophical Investigations in New Media and Technologies*. London-New York: Routledge.
-- Thurlow, Crispin, et al. 2020. “Visualizing Teens and Technology: A Social Semiotic Analysis of Stock Photography and News Media Imagery.” *New Media & Society* 22, no. 3: 528–549.

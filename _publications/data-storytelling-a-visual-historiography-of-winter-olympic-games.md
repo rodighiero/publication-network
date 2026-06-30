@@ -1,15 +1,5 @@
----
-title: "Data Storytelling: A Visual Historiography of Winter Olympic Games"
-year: Forthcoming
-venue: "Pictologic"
-type: "chapter"
-author: "Dario Rodighiero and Kim Albrecht and Giacomo Nanni and Jeffrey T. Schnapp and Sabina Rosenbergova"
-img: "data-storytelling-a-visual-historiography-of-winter-olympic-games/fig_001.webp"
-img_width: 2000
-img_height: 1500
-figures: true
-excerpt_separator: "<!--more-->"
----
+# Data Storytelling: A Visual Historiography of Winter Olympic Games
+
 The Data Storytelling project presents a novel approach to visual historiography, using interactive data visualization to reinterpret the history of the Winter Olympic Games. Developed as part of the Performance exhibition at the Gallerie di Piedicastello in Trento, this project transforms historical records into immersive narratives, allowing audiences to explore macro-level patterns alongside micro-level athlete trajectories. By bridging digital curation with historical analysis, Data Storytelling challenges conventional representations of Olympic history, shifting focus from national achievements to personal stories and institutional change. Through two interactive applications, All Together Now and One by One, the project extends the historical exploration into an immersive, spatial experience. The design foregrounds the role of data in structuring historical narratives, making visible the geopolitical, social, and cultural dynamics that shape the winter sports. By embedding curation within visualization, the project also raises critical questions about the inclusivity and selectivity of data-driven storytelling. In doing so, Data Storytelling not only redefines how Olympic records are accessed and understood but also demonstrates the broader potential of digital tools in rethinking historical knowledge and visual historiography.
 
 <!--more-->
@@ -81,20 +71,3 @@ The design of Data Storytelling places the individual at the center of the visua
 This project highlights the interplay between technology, cultural memory, and narrative, showing how data visualization can function not just as a means of representation but as a tool for rethinking historical knowledge. By making patterns visible and surfacing overlooked stories, Data Storytelling challenges dominant Olympic narratives, offering a more inclusive and participatory engagement with history.
 
 The possibilities of this approach extend far beyond the Olympics. The same principles of curated data storytelling can be applied to other historical datasets, from migration records to cultural heritage collections, transforming archives into interactive spaces of discovery. As institutions increasingly explore digital historiography, projects like Data Storytelling pave the way for new methods of engaging with the past, bridging data, design, and historical interpretation in ways that make history both accessible and meaningful.
-
-## References
-
-- “2026 Winter Olympics.” 2025. In _Wikipedia_. https://en.wikipedia.org/w/index.php?title=2026_Winter_Olympics&oldid=1280112759
-- Dörk, Marian, Sheelagh Carpendale, and Carey Williamson. 2011. “The Information Flaneur: A Fresh Look at Information Seeking.” In _Proceedings of the SIGCHI Conference on Human Factors in Computing Systems_, 1215–24. Vancouver, BC, Canada: ACM. https://doi.org/10.1145/1978942.1979124
-- Huron, Samuel, Till Nagel, Lora Oehlberg, and Wesley Willett, eds. 2023. _Making with Data: Physical Design and Craft in a Data-Driven World_. First edition. AK Peters Visualization Series. Boca Raton, FL: CRC Press.
-- Kalir, Remi, and Antero Garcia. 2021. _Annotation_. The MIT Press Essential Knowledge Series. Cambridge, MA: MIT Press.
-- Kenderdine, Sarah. 2021. “Experimental Museology: Immersive Visualisation and Cultural (Big) Data.” In _Experimental Museology: Institutions, Representations, Users_, edited by Marianne Achiam, Michael Haldrup, and Kirsten Drotner. London and New York: Routledge. https://doi.org/10.4324/9780367808433
-- Lima, Manuel. 2017. _The Book of Circles: Visualizing Spheres of Knowledge_. New York: Princeton Architectural Press.
-- metaLAB. 2022. “metaLAB (at) Harvard, Berlin, and Basel.” https://mlml.io/
-- Nanni, Giacomo. 2024. “One by One.” GitHub. https://github.com/sinanatra/olympics
-- OlyMADMen. 2006. “Olympedia.” https://www.olympedia.org/
-- Rodighiero, Dario. 2020. “Drawing Network Visualizations on a Continuous, Spherical Surface.” In _Proceedings of the 24th International Conference Information Visualisation (IV)_, 573–80. Melbourne and Vienna: IEEE. https://doi.org/10.1109/IV51561.2020.00097
-- ———. 2021. _Mapping Affinities: Democratizing Data Visualization_. Open-Access English edition. Geneva: Métis Presses. https://doi.org/10.37866/0563-99-9
-- Schnapp, Jeffrey T. 2010. _Tunnel REvision: Le Gallerie di Piedicastello = The Trento Tunnels_. Trento: Fondazione Museo storico del Trentino.
-- ———. 2025. “Intro to Data Storytelling.” Vimeo. February 11, 2025. https://vimeo.com/1055542440
-- Shneiderman, Ben. 1996. “The Eyes Have It: A Task by Data Type Taxonomy for Information Visualizations.” In _Proceedings 1996 IEEE Symposium on Visual Languages_, 336–43. Boulder, CO, USA: IEEE Comput. Soc. Press. https://doi.org/10/fwdq26

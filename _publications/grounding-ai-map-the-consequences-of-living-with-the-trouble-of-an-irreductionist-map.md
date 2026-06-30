@@ -1,15 +1,5 @@
----
-title: "Grounding AI Map: The Consequences of Living with the Trouble of an Irreductionist Map"
-year: 2025
-venue: "Revue Design Arts Medias"
-type: "journal"
-author: "Matilde Ficozzi and Mathieu Jacomy and Dario Rodighiero and Anne Beaulieu and Anders Kristian Munk"
-doi: "https://journal.dampress.org/issues/design-et-abstractions/grounding-ai-map-the-consequences-of-living-with-the-trouble-of-an-irreductionist-map"
-img: "@publications/Grounding-AI-Map.webp"
-img_width: 700
-img_height: 700
-figures: true
----
+# Grounding AI Map: The Consequences of Living with the Trouble of an Irreductionist Map
+
 Data visualizations are often seen as tools to make expert knowledge more accessible. Yet, without careful design, they risk simplifying or misrepresenting complex ideas. This case study examines the Grounding AI Map, a 100 m² floor installation at the Danish Technical Museum that visualizes millions of scientific articles on artificial intelligence. Visitors navigate this mapped knowledge physically, aided by automated bots that summarize and interpret content using large language models. These bots serve not just as guides but as mediators, prompting users to question and reinterpret the mapped knowledge through their own perspectives. By inviting interaction and critique, the map becomes a participatory space where knowledge is co-constructed. A quali-quantitative framework assesses this mediation by analyzing app data, observing visitor behavior, and conducting interviews. The study highlights how visualization, when combined with reflexive AI tools, can create more inclusive and situated ways of engaging with scientific knowledge.
 
 <!--more-->
@@ -109,31 +99,3 @@ This translation is not unidirectional. It emerges from an ongoing process of ne
 What emerges from the Grounding AI project is not just an exhibition, but an assemblage. The map, the artifacts, the app, the posters, and the viewers form a network of actors, each shaping how knowledge is encountered. The museum, in this configuration, is not a neutral host, it is an active ally. It provides the conditions for public learning to occur: a space of slowed-down attention, guided discovery, and embodied dialogue. This is not a dissemination of knowledge from expert to layperson, but a situated encounter with the complexity of algorithmic culture, made possible through a carefully designed infrastructure of alliance.
 
 Crucially, this infrastructure does not aim to resolve the complexity it presents. The dialogue it enables is not a problem to be solved or a message to be decoded. It is something to be nurtured, kept alive and in motion. The inclusion of museum artifacts plays a key role here: rather than closing the gap between abstraction and experience, they hold it open. Each object adds texture and context, not to simplify the discourse, but to keep it porous, multiple, and accessible from many vantage points. This refusal to land on a single takeaway is not a lack, but rather a deliberate commitment to epistemic generosity. The exhibition invites visitors not to conclude, but to continue.
-
-## References
-
-- Börner, Katy, Luca Dall’Asta, Weimao Ke, and Alessandro Vespignani. 2005. “Studying the Emerging Global Brain: Analyzing and Visualizing the Impact of Co-Authorship Teams.” *Complexity* 10 (4): 57–67. <https://doi.org/10.1002/cplx.20078>
-- Chateauraynaud, Francis. 2019. “Petit traité de contre-intelligence artificielle. Retour sociologique sur des expérimentations numériques.” *Zilsel* 5 (1): 174–195. <https://doi.org/10.3917/zil.005.0174>
-- ———. 2024. “La sociologie, le pragmatisme et la contre-intelligence artificielle. Un regard critique sur les enjeux numériques après le tournant des IA génératives.” *Horizon*.
-- Chen, Chaomei. 2017. “Science Mapping: A Systematic Review of the Literature.” *Journal of Data and Information Science* 2 (2): 1–40. <https://doi.org/10.1515/jdis-2017-0006>
-- Cohan, Arman, Sergey Feldman, Iz Beltagy, Doug Downey, and Daniel S. Weld. 2020. “SPECTER: Document-Level Representation Learning Using Citation-Informed Transformers.” arXiv:2004.07180 [cs]. <https://arxiv.org/abs/2004.07180>
-- Cover, Thomas, and Peter Hart. 1967. “Nearest Neighbor Pattern Classification.” *IEEE Transactions on Information Theory* 13 (1): 21–27. <https://doi.org/10.1109/tit.1967.1053964>
-- Dewey, John. 1938. *Logic: The Theory of Inquiry*. New York: Holt.
-- Drucker, Johanna. 2021. “Visualization.” In *Uncertain Archives*, edited by Nanna Bonde Thylstrup, Daniela Agostinho, Annie Ring, Catherine D’Ignazio, and Kristin Veel, 561–568. Cambridge, MA: MIT Press. <https://doi.org/10.7551/mitpress/12236.003.0061>
-- Freire, Paulo. (1970) 2000. *Pedagogy of the Oppressed*. Translated by Myra Bergman Ramos. 30th anniversary ed. New York: Continuum.
-- González-Márquez, Rita, Luca Schmidt, Benjamin M. Schmidt, Philipp Berens, and Dmitry Kobak. 2024. “The Landscape of Biomedical Research.” *Patterns* 5 (6): 100968. <https://doi.org/10.1016/j.patter.2024.100968>
-- Jacomy, Mathieu, Tommaso Venturini, Sébastien Heymann, and Mathieu Bastian. 2014. “ForceAtlas2, a Continuous Graph Layout Algorithm for Handy Network Visualization Designed for the Gephi Software.” *PLoS ONE* 9 (6): e98679. <https://doi.org/10.1371/journal.pone.0098679>
-- Jensen, Torben Elgaard, Andreas Birkbak, Anders Koed Madsen, and Anders Kristian Munk. 2021. “Participatory Data Design: Acting in a Digital World.” In *Making & Doing: Activating STS through Knowledge Expression and Travel*, edited by Gary Downey and Teun Zuiderent-Jerak, 117–136. Cambridge, MA: MIT Press.
-- Kalir, Remi, and Antero Garcia. 2021. *Annotation*. Cambridge, MA: MIT Press.
-- Latour, Bruno. 1984. *Les Microbes: Guerre et paix, suivi de Irréductions*. Paris: Métailié.
-- Latour, Bruno, and Steve Woolgar. 1986. *Laboratory Life: The Construction of Scientific Facts*. Princeton: Princeton University Press.
-- Munk, Anders Kristian, Anders Koed Madsen, and Mathieu Jacomy. 2019. “Thinking Through the Databody: Sprints as Experimental Situations.” In *Designs for Experimentation and Inquiry: Approaching Learning and Knowing in Digital Transformation*, edited by Åsa Mäkitalo, Timothy Nicewonger, and Mark Elam, 110–128. London: Routledge. <https://doi.org/10.4324/9780429489839>
-- Munk, Anders Kristian, Mathieu Jacomy, Matilde Ficozzi, and Torben Elgaard Jensen. 2024. “Beyond Artificial Intelligence Controversies: What Are Algorithms Doing in the Scientific Literature?” *Big Data & Society* 11 (3): 20539517241255107. <https://doi.org/10.1177/20539517241255107>
-- Noichl, Mario. 2023. “How Localized Are Computational Templates? A Machine Learning Approach.” *Synthese* 201 (3): 107. <https://doi.org/10.1007/s11229-023-04057-x>
-- Rigal, Alexandre, and Dario Rodighiero. 2015. “Trajectoire d’une représentation cartographique en réseau.” *Cartes & Géomatique* 225: 33–41.
-- Rodighiero, Dario. 2018. “Printing Walkable Visualizations.” In *Proceedings of the 5th Biennial Research Transdisciplinary Imaging Conference*, 58–73. <https://doi.org/10.6084/m9.figshare.6104693.v2>
-- ———. 2021. *Mapping Affinities: Democratizing Data Visualization*. With Jeffrey T. Schnapp. Geneva: Métis Presses. <https://doi.org/10.37866/0563-99-9>
-- Rodighiero, Dario, and Alberto Romele. 2022. “Reading Network Diagrams by Using Contour Lines and Word Clouds.” In *Graphs and Networks in the Humanities*. <https://doi.org/10.31235/osf.io/3g7bt>
-- Rodighiero, Dario, Eveline Wandl-Vogt, Elian Carsenat, Jules Döring, Oliver Elias, Michaela Fragner, and Stepha Farkashazy. 2022. “Immersive Architectures for Visual Data Literacy.” *Information Design Journal* 27 (3): 295–308. <https://doi.org/10.1075/idj.22016.rod>
-- Schnapp, Jeffrey T. 2013. “Knowledge Design: Incubating New Knowledge Forms/Genres/Spaces in the Laboratory of the Digital Humanities.” Herrenhausen Conference, December 5. <https://d-nb.info/1104703475/34>
-- Tukey, John W. 1977. *Exploratory Data Analysis*. Reading, MA: Addison-Wesley.

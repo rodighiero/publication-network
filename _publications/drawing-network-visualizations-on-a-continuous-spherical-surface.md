@@ -1,15 +1,5 @@
----
-title: "Drawing Network Visualizations on a Continuous, Spherical Surface"
-year: 2020
-venue: "Information Visualisation"
-type: "conference"
-author: "Dario Rodighiero"
-doi: "https://hdl.handle.net/11370/33d1eac9-ce4d-4417-98d8-bea7abdfbbf2"
-img: "drawing-network-visualizations-on-a-continuous-spherical-surface/fig_008.webp"
-img_width: 2000
-img_height: 1123
-figures: true
----
+# Drawing Network Visualizations on a Continuous, Spherical Surface
+
 Despite the great literature regarding network visualizations, their graphic representation is hardly an object of investigation. Sometimes it deserves more attention, especially when individuals are represented. Visually translating communities in networks, for example, implies that some individuals are always situated at the borders of the representation. This assumption is clearly unfair, especially if each individual in the community is connected with everybody else. To address this lack of design justice, the community is represented on a spherical network where the surface is continuous. In that space, individuals can be situated in a sparse area, but never on the edges. The spherical network is then projected onto a flat surface to improve readability by making use of cartographic projections.
 
 <!--more-->
@@ -147,46 +137,3 @@ Our fictional critique of the Flat-Network Conspiracy is a way to point out how 
 Even though today the scientific discussion is mainly aimed at data in terms of ethics and privacy, the group of scholars concerned by the way in which data are presented is still too small. Mark Monmonier (1991) and Alberto Cairo (2012), for example, published two works about the way in which graphics can convey false meanings. In a historical moment in which the personal quantification is growing exponentially, it is necessary to take care not only of the data treatment but also of the way in which information is presented.
 
 The case study of the Digital Humanities Conference is an example of how data visualizations created from personal data can create biases and lead to discrimination. Today more than before, designers have the responsibility to present personal data in the most appropriate way. The aim of this article is finally to foster the discussion among designers and scholars, making them aware of the responsibility to develop guidelines to display individuals and communities fairly, working on simple experiences and observations like this one.
-
-## References
-
-- Abbott, E. A. 2006. _Flatland: A Romance of Many Dimensions_. Oxford: Oxford University Press.
-- Barabási, A.-L., and M. Pósfai. 2016. _Network Science_. Cambridge: Cambridge University Press.
-- Bostock, M., V. Ogievetsky, and J. Heer. 2011. “D3: Data-Driven Documents.” _IEEE Transactions on Visualization and Computer Graphics_ 17 (12): 2301–2309. <https://doi.org/10.1109/TVCG.2011.185>
-- Cairo, A. 2012. _The Functional Art: An Introduction to Information Graphics and Visualization_. Berkeley: New Riders.
-- Clark, D. J. 2018. _Behind the Curve_. Documentary film. Delta-v Productions.
-- Clubbe, J. 2005. _Byron, Sully, and the Power of Portraiture_. Aldershot: Ashgate.
-- Dilke, O. A. W. 1987. “The Culmination of Greek Cartography in Ptolemy.” In _The History of Cartography, Volume 1_, edited by J. B. Harley and D. Woodward, 177–200. Chicago: University of Chicago Press.
-- Eratosthenes. 2010. _Eratosthenes’ Geography_. Princeton: Princeton University Press.
-- Fahie, J. J. 2005. _Galileo: His Life and Works_. Replica Edition. Adamant Media: Elibron Classics.
-- Floridi, L. 2019. _The Logic of Information: A Theory of Philosophy as Conceptual Design_. Oxford: Oxford University Press.
-- Fu, X., S.-H. Hong, N. Nikolov, X. Shen, Y. Wu, and K. Xuk. 2007. “Visualization and Analysis of Email Networks.” In _2007 6th International Asia-Pacific Symposium on Visualization_, 1–8. <https://doi.org/10.1109/APVIS.2007.329302>
-- Krämer, S., and C. Ljungberg, eds. 2016. _Thinking with Diagrams_. Berlin: De Gruyter.
-- Kuhn, T. S. 1962. _The Structure of Scientific Revolutions_. Chicago: University of Chicago Press.
-- Kwon, O.-H., C. Muelder, K. Lee, and K.-L. Ma. 2015. “Spherical Layout and Rendering Methods for Immersive Graph Visualization.” In _2015 IEEE Pacific Visualization Symposium_, 63–67. <https://doi.org/10.1109/PACIFICVIS.2015.7156357>
-- Latour, B. 1986. “Visualisation and Cognition: Thinking with Eyes and Hands.” _Knowledge and Society: Studies in the Sociology of Culture Past and Present_ 6: 1–40.
-- ———. 2014. “Anti-Zoom.” In _Eliasson: Contact_. Paris: Flammarion and Fondation Louis Vuitton.
-- Latour, B., P. Jensen, T. Venturini, S. Grauwin, and D. Boullier. 2012. “‘The Whole Is Always Smaller than Its Parts’—A Digital Test of Gabriel Tardes’ Monads.” _The British Journal of Sociology_ 63 (4): 590–615. <https://doi.org/10.1111/j.1468-4446.2012.01428.x>
-- Lévy, J., ed. 2016. _A Cartographic Turn_. Lausanne: EPFL Press.
-- Manovich, L. 2008. “Data Visualization as New Abstraction and Anti-Sublime.” In _Small Tech: The Culture of Digital Tools_. Minneapolis: University of Minnesota Press.
-- Monmonier, M. 1991. _How to Lie with Maps_. Chicago: University of Chicago Press.
-- ———. 2004. _Rhumb Lines and Map Wars: A Social History of the Mercator Projection_. Chicago: University of Chicago Press.
-- Moon, C. Y.-E., and D. Rodighiero. 2020. “Mapping as a Contemporary Instrument for Orientation in Conferences.” In _Atti del IX Convegno Annuale AIUCD. La svolta inevitabile: sfide e prospettive per l’Informatica Umanistica_. Milan: Università Cattolica del Sacro Cuore.
-- Moreno, J. L. 1934. _Who Shall Survive?_ Washington, DC: Nervous and Mental Disease Publishing Co.
-- Richardson, G. 2019. “It’s a Flat Earth.” _The New Yorker_, April 1.
-- Rodighiero, D. 2018a. “Printing Walkable Visualizations.” In _Proceedings of the 5th Biennial Research Transdisciplinary Imaging Conference_, 58–73. <https://doi.org/10.6084/m9.figshare.6104693>
-- ———. 2018b. _Mapping Affinities: Visualizing Academic Practice Through Collaboration_. PhD diss., École polytechnique fédérale de Lausanne.
-- Rodighiero, D., and L. Cellard. 2019. “Self-Recognition in Data Visualization.” _EspacesTemps.net_, August. <https://doi.org/10.26151/espacestemps.net-wztp-cc46>
-- Rodighiero, D., F. Kaplan, and B. Beaude. 2018. “Mapping Affinities in Academic Organizations.” _Frontiers in Research Metrics and Analytics_ 3 (4). <https://doi.org/10.3389/frma.2018.00004>
-- Rodighiero, D., and A. Rigal. 2019. “The Daily Design of the Quantified Self.” _Swiss Informatics Digital Magazine_, February 12.
-- Sangole, A., and G. K. Knopf. 2003. “Visualization of Randomly Ordered Numeric Data Sets Using Spherical Self-Organizing Feature Maps.” _Computers & Graphics_ 27 (6): 963–976. <https://doi.org/10.1016/j.cag.2003.08.012>
-- Scott, J. 2000. _Social Network Analysis_. London: SAGE Publications.
-- Shelley, D. S., and M. H. Gunes. 2012. “GerbilSphere: Inner Sphere Network Visualization.” _Computer Networks_ 56 (3): 1016–1028. <https://doi.org/10.1016/j.comnet.2011.10.023>
-- Strabo. 2014. _The Geography of Strabo_. Edited and translated by D. W. Roller. Cambridge: Cambridge University Press.
-
-[^1]: The accompanying software lays out a network on a sphere with `d3-force-3d` and unfolds it onto the plane through a dozen geographic projections — Mercator, Orthographic, Equal Earth, and others — rendered live with PIXI.js. Source code at <https://github.com/rodighiero/spherical-projection>; live demo at <https://rodighiero.github.io/spherical-projection/>.
-[^2]: The D3 force layout is available at <https://github.com/d3/d3-force>.
-[^3]: Asturiano’s three-dimensional model is downloadable at <https://github.com/vasturiano/d3-force-3d>.
-[^4]: Link strength is defined at <https://github.com/d3/d3-force#link_strength>.
-[^5]: Many-body force is illustrated at <https://github.com/d3/d3-force#many-body>.
-[^6]: More information about the D3 geographic projections at <https://github.com/d3/d3-geo-projection>.

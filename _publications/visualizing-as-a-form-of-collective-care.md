@@ -1,14 +1,5 @@
----
-title: "Visualizing as a Form of Collective Care"
-year: 2025
-venue: "Nightingale"
-type: "magazine"
-author: "Damla Çay and Dario Rodighiero and Weidi Zhang"
-doi: "https://nightingaledvs.com/visualizing-as-a-form-of-collective-care/"
-img: "@publications/Visualizing-as-a-Form-of-Collective-Care.webp"
-img_width: 700
-img_height: 338
----
+# Visualizing as a Form of Collective Care
+
 Care is easy to recognize on a personal level, especially when it takes the form of small, attentive gestures woven into daily life. We see it in how someone nurses a sick friend, tends a garden, or stitches a quilt by hand. Each act, marked by presence, patience, and the quiet commitment to care through touch, time, and attention. It takes shape through quiet, deliberate acts that often go unnoticed, yet carry lasting weight and meaning. But what does care look like when it scales up—across complex systems where the risks are higher, the people more dispersed, and the consequences harder to see?
 
 <!--more-->
@@ -26,8 +17,3 @@ Maria Puig de la Bellacasa calls this orientation “matters of care” (Puig de
 Building on this understanding of visualization as a relational and embodied practice, we envision a future in which data visualization becomes a process of restoration, connection, and long-term social resilience. This vision invites us to approach data as a space for healing, resistance, and belonging. It encourages the use of data visualization to support the well-being of both environments and the communities most affected by them. These same values must also guide how we collaborate with emerging technologies, especially as we begin to co-create meaning with algorithmic systems and AI—for example, by shaping how data is interpreted, narratives are generated, and decisions are guided by machine learning tools. This collaboration raises critical questions around authorship, agency, and ethics: Whose data is used? Whose voices are amplified or erased? A care-centered approach to AI foregrounds transparency, accountability, and relational design, prioritizing systems that are socially responsible and culturally aware.
 
 VISAP ’25 explores the theme Collective Care, inviting bold, critical, and creative works that reflect on the role of visualization in an interconnected world. In conjunction with IEEE VIS 2025, the program welcomes papers, pictorials, and artworks engaging with care, solidarity, and ethical collaboration. VISAP will take place in person at the University of Applied Arts Vienna from November 6–15, while IEEE VIS runs at the Austria Center Vienna from November 2–7.
-
-## References
-
-- Lupi, G. 2015. “The New Aesthetic of Data Narrative.” In *New Challenges for Data Design*, edited by D. Bihanic. London: Springer. https://doi.org/10.1007/978-1-4471-6596-5_3
-- Puig de la Bellacasa, M. 2011. “Matters of Care in Technoscience: Assembling Neglected Things.” *Social Studies of Science* 41 (1): 85–106. https://doi.org/10.1177/0306312710380301

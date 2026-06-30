@@ -39,9 +39,11 @@ KMP_DUPLICATE_LIB_OK=TRUE python3 scripts/build-network.py
 
 The pipeline (`scripts/build-network.py`):
 
-1. Parses the Markdown abstracts and strips footnotes, headings, links, code, and
-   bibliographies.
-2. Machine-translates non-English abstracts to English via
+1. Reads each Markdown file: the first `# ` heading is the title and the whole
+   document is used as-is (no frontmatter, no cleaning — headings, links,
+   footnotes, and HTML are left in place).
+2. Detects each abstract's language automatically with `langdetect` and
+   machine-translates non-English ones to English via
    `Helsinki-NLP/opus-mt-{lang}-en` (cached on disk in
    `_data/translations-cache.json`, keyed by content hash).
 3. Embeds each title + abstract with `BAAI/bge-base-en-v1.5` (768-dim).

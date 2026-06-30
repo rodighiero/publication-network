@@ -1,18 +1,4 @@
----
-title: "Archives, Museums, and Installations: Aldo Rossi’s Legacy in Digital Transition"
-year: 2026
-venue: "Preservation, Digital Technology & Culture"
-type: "journal"
-author: "Dario Rodighiero and Carla Zhara Buda and Angela Parente"
-doi: "https://doi.org/10.1515/pdtc-2025-0066"
-volume: 55
-issue: 1
-pages: "45–53"
-img: "archives-museums-and-installations-aldo-rossis-legacy-in-digital-transition/fig_002.webp"
-figures: true
-img_width: 1329
-img_height: 749
----
+# Archives, Museums, and Installations: Aldo Rossi’s Legacy in Digital Transition
 
 This article offers a theoretical reflection grounded in curatorial analysis and supported by a case study. It examines how Aldo Rossi’s legacy is redefined through archives, exhibitions, and installations, with a focus on the transformations of his Analogous City. Drawing on scholarly concepts from Paul Ricœur, Bruno Latour, and Umberto Eco, the article considers how memory, mediation, and interpretation work together as a process of meaning-making in cultural heritage. It shows how this process shapes the ways Rossi’s work is preserved and reimagined across different forms of display. Rather than treating cultural heritage as static, the article presents it as a process formed through editorial choices, curatorial practices, and participatory engagement. Rossi’s case study shows how architectural memory can remain open and responsive, especially when activated through digital and spatial forms of display.
 
@@ -105,31 +91,3 @@ What emerges from these practices is not a singular portrait of Rossi but a livi
 These reflections speak more broadly to the work of heritage institutions and digital curatorship. As collections move across physical and digital environments, the process of meaning-making becomes more visible and more distributed. Institutions are asked to design settings where memory can be assembled, mediated, and interpreted with care, while digital formats open new paths for participation and access. Rossi’s case suggests directions for future research, inviting further attention to how digital tools shape curatorial practice, how audiences engage with hybrid forms of display, and how mediation can support more open and adaptive understandings of the past.
 
 In this light, the past is not simply kept – it is made present, again and again, through thoughtful engagement and creative interpretation.
-
-## References
-
-- Burdick, Anne, Johanna Drucker, Peter Lunenfeld, Todd Presner, and Jeffrey Schnapp. 2012. _Digital_Humanities_. Cambridge, MA: MIT Press.
-- Cameron, Fiona, and Sarah Kenderdine, eds. 2007. _Theorizing Digital Cultural Heritage: A Critical Discourse_. Cambridge, MA: MIT Press.
-- Celant, Germano, and Stijn Huijts, eds. 2015. _Aldo Rossi: Opera Grafica: Etchings Lithographs Silkscreen Prints_. Cinisello Balsamo: Silvana Editoriale.
-- Dewey, John. (1934) 1980. _Art as Experience_. New York: Perigee Books.
-- Eco, Umberto. 1989. _The Open Work_. Translated by Anna Cancogni with David Robey. Cambridge, MA: Harvard University Press.
-- Eisenman, Peter. (1966) 1982. “The Houses of Memory: The Texts of Analogy.” In _The Architecture of the City_. Cambridge, MA: MIT Press.
-- Ghirardo, Diane. 2019. _Aldo Rossi and the Spirit of Architecture_. New Haven: Yale University Press.
-- Latour, Bruno. 2005. _Reassembling the Social: An Introduction to Actor-Network-Theory_. Oxford: Oxford University Press.
-- MAXXI. 2002. “Centro Archivi di Architettura.” MAXXI.
-- ———. 2004. “Aldo Rossi. L’Archivio Personale.” MAXXI.
-- ———. 2021. “Aldo Rossi: L’Architetto e la città.” MAXXI.
-- ———. 2022. “Aldo Rossi Digital.” MAXXI.
-- ———. 2023. “Collezione di architettura.” MAXXI.
-- Nora, Pierre. 1989. “Between Memory and History: Les Lieux de Mémoire.” _Representations_ 26: 7–24.
-- Paul, Christiane. 2015. _Digital Art_. 3rd ed. London: Thames & Hudson.
-- Reinhart, Fabio. 2015. “From Picture Panel to City-Map.” In _The Analogous City, the Map_. Lausanne: EPFL Archizoom.
-- Ricœur, Paul. 1977. _Memory, History, Forgetting_. Translated by Kathleen Blamey and David Pellauer. Chicago: University of Chicago Press.
-- Rodighiero, Dario. 2015. _The Analogous City, the Map_. Lausanne: EPFL Archizoom.
-- ———. 2022. “Extending Museum beyond Physical Space: A Data-Driven Study of Aldo Rossi’s Analogous City as a Mobile Museum Object.” _International Journal for Digital Art History_ 6: 3.34–3.47. <https://doi.org/10.11588/DAH.2021.6.77681>.
-- Rossi, Aldo. (1966) 1982. _The Architecture of the City_. Translated by Diane Ghirardo and Joan Ockman. Edited by Peter Eisenman. Cambridge, MA: MIT Press.
-- ———. 1999. _I Quaderni Azzurri_. Edited by Francesco Dal Co. Milano: Electa Editrice.
-- Smith, Laurajane. 2006. _Uses of Heritage_. 1st ed. London: Routledge.
-- UNESCO. 1972. _Convention Concerning the Protection of the World Cultural and Natural Heritage_.
-- ———. 2009. “Charter on the Preservation of the Digital Heritage.”
-- Zhara Buda, Carla, Veronica Vignoli, Angela Parente, and Caterina Torrini. 2020. _L’archivio Aldo Rossi nelle collezioni del MAXXI architettura: L’Inventario_. Roma: MAXXI.

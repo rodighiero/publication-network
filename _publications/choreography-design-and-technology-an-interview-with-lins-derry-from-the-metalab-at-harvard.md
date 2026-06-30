@@ -1,16 +1,5 @@
----
-title: "Choreography, Design, and Technology: An Interview with Lins Derry from the metaLAB (at) Harvard"
-year: 2025
-venue: "Per–Forming Spaces"
-type: "chapter"
-author: "Lins Derry and Dario Rodighiero"
-editor: "Letizia Bollini"
-doi: "https://hdl.handle.net/11370/d7e556b3-06df-4c6d-b8fa-5c21003734af"
-img: "@publications/Choreography-Design-and-Technology.webp"
-img_width: 700
-img_height: 969
-figures: true
----
+# Choreography, Design, and Technology: An Interview with Lins Derry from the metaLAB (at) Harvard
+
 In this enlightening interview with Lins Derry, a pioneering researcher at the intersection of dance, design, and technology, we explore the evolution of her groundbreaking work from its conception to its implementation in academia. Derry discusses her journey from a professional dancer to a leading figure at metaLAB (at) Harvard, emphasizing the integration of choreographic principles into interaction design. Through projects like the choreographic interface and data embodiment, Derry illustrates the potential of movement as a medium for interpreting and interacting with abstract data. Her work challenges traditional boundaries between disciplines, advocating for a more integrated approach to teaching and research that leverages the expressive power of the body in digital environments. This interview not only highlights Derry’s innovative contributions but also reflects on the broader implications of her work for enhancing sensory and expressive experiences with technology.
 
 <!--more-->
@@ -94,10 +83,3 @@ In this enlightening interview with Lins Derry, a pioneering researcher at the i
 **Dario: Thank you for sharing your journey and insights with us, Lins. Your work is a vivid example of how interdisciplinary approaches can enrich our understanding and interaction with choreography, design, and technology.**
 
 **Lins:** Thank you, Dario, for guiding the conversation. Having the opportunity to reflect on the choreographic interface in relation to Surprise Machines, one of the Curatorial A(i)gents projects that set out to visualize the entire Harvard Art Museums’ image collection, and Data Sensorium made me realize a few things. That my work generally involves shaping movement as information for computer systems to understand or moving information, whether through interfacing with data visualizations or dancing data. Excited to see how these approaches might converge in future collaborations together, while continuing to locate new experiments in physical spaces like museums!
-
-## References
-
-- Derry, Lins. 2023. “Data Embodiment: Approaching the Body as a Choreographic Medium for Performing Abstract Data.” *International Journal of Performance Arts and Digital Media* 19 (1): 60–82. [doi:10.1080/14794713.2023.2175105](https://doi.org/10.1080/14794713.2023.2175105).
-- Derry, Lins, Jordan Kruguer, Maximilian C. Mueller, and Jeffrey Schnapp. 2022. “Designing a Choreographic Interface during COVID-19.” In *Proceedings of the 8th International Conference on Movement and Computing (MOCO ’22)*. New York: Association for Computing Machinery. [doi:10.1145/3537972.3538020](https://doi.org/10.1145/3537972.3538020).
-- Latour, Bruno. 2013. *An Inquiry into Modes of Existence: An Anthropology of the Moderns*. Cambridge, MA: Harvard University Press.
-- Rodighiero, Dario, Lins Derry, Douglas Duhaime, Jordan Kruguer, Maximilian C. Mueller, Christopher Pietsch, Jeffrey Schnapp, and Jeff Steward. 2022. “Surprise Machines: Revealing Harvard Art Museums’ Image Collection.” *Information Design Journal* 27 (1): 21–34. [doi:10.1075/idj.22013.rod](https://doi.org/10.1075/idj.22013.rod).

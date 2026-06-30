@@ -1,16 +1,5 @@
----
-title: "Super-Vision: Tracing EPFL History through 8,000 Doctoral Theses"
-year: 2024
-venue: "Journal of Digital History"
-type: "journal"
-author: "Dario Rodighiero and Philippe Rivière and Sarah Kenderdine"
-doi: "https://doi.org/10.1515/JDH-2023-0004"
-img: "@publications/Super-Vision.webp"
-img_width: 700
-img_height: 525
-thumb: "super-vision-tracing-epfl-history-through-8000-doctoral-theses/fig_001.webp"
-figures: true
----
+# Super-Vision: Tracing EPFL History through 8,000 Doctoral Theses
+
 The fiftieth anniversary of EPFL (École Polytechnique Fédérale de Lausanne) offered the opportunity to retrace its history through the digital archives housed by the institute itself. Part of the exhibition Infinity Room 2, the Super-Vision project investigates the practice of academic advising by visualizing 8,000 doctoral theses in a work at the intersection of art, science, and technology. Inaugurated in September 2019 at EPFL Pavilions, Super-Vision presents a diachronic mapping that uses artificial intelligence to shed light on an institutional dataset that would be unobservable otherwise. To achieve such a goal, 8,000 doctoral theses are analysed with natural language processing and mapped with techniques of dimensionality reduction, combining language and time within in an interactive visualization accessible to the public. The project title has a twofold meaning: on the one hand, it refers to the educational practice that connects doctoral students to supervisors; on the other hand, it employs information design like a macroscope to grasp complex phenomena from a distant standpoint. The result offers EPFL employees and museum visitors an original perspective to look at the institute with different eyes.
 
 <!--more-->
@@ -106,69 +95,3 @@ Observing how data visualization runs across disciplines and professionals is en
 In particular, the most critical thought in the Super-Vision project raises concerns about the university’s fast-growing model. The data visualization clearly shows how there was roughly one doctoral defense per month during the 1960s, while EPFL today exceeds one thesis per day. To a keen eye, this stunning insight not only represents a statistical increase but also reveals more-hidden institutional regulations. Indeed, this university model prefers to invest money in doctoral students rather than intermediary research positions like researchers and senior researchers, which are disappearing from the organizational chart, obliging many scholars to move out of the institute or accept administrative employment. On the one hand, the increase in doctoral students represents a more significant opportunity to pursue doctoral studies, but on the other hand, it makes the academic career more difficult than before because of the higher number of potential candidates for professorships.
 
 The insights of Super-Vision let the museum visitor thoughtfully look at institutions from an innovative perspective while maintaining a critical eye on data and society. Digital archives already show the potential for future inquiries, and the field of contemporary history needs to be revised through digital means.
-
-## References
-
-- Antonelli, Paola, ed. 2008. _Design and the Elastic Mind_. New York: Museum of Modern Art.
-- Australian Society of Archivists, ed. 2003. _GLAM: Galleries, Libraries, Archives and Museums: Conference Proceedings_. Australian Society of Archivists.
-- Bannon, Liam, Jeffrey Bardzell, and Susanne Bødker. 2018. “Reimagining Participatory Design.” _Atlantic Monthly_ 26 (1): 26–32. <https://doi.org/10/ghm6c6>.
-- Beaulieu, Anne, and Sabina Leonelli. 2021. _Data and Society: A Critical Introduction_. Preprint Edition. London: Sage Publications.
-- Berger, Matthew, Katherine McDonough, and Lee M. Seversky. 2017. “cite2vec: Citation-Driven Document Exploration via Word Embeddings.” _IEEE Transactions on Visualization and Computer Graphics_ 23 (1): 691–700. <https://doi.org/10.1109/TVCG.2016.2598667>.
-- Bijker, Wiebe E., and John Law, eds. 1992. _Shaping Technology / Building Society: Studies in Sociotechnical Change_. Cambridge, MA: MIT Press.
-- Bingham, Ella, and Heikki Mannila. 2001. “Random Projection in Dimensionality Reduction: Applications to Image and Text Data.” In _Proceedings of the Seventh ACM SIGKDD International Conference on Knowledge Discovery and Data Mining_, 245–50. <https://doi.org/10.1145/502512.502546>.
-- Bini, Giulia. 2022. _Media spazio display: ZKM Zentrum für Kunst und Medien, HFG Hochschule für Gestaltung_. Milan: Mimesis.
-- Börner, Katy. 2010. _Atlas of Science: Visualizing What We Know_. Cambridge, MA: MIT Press.
-- Börner, Katy. 2015. _Atlas of Knowledge: Anyone Can Map_. Cambridge, MA: MIT Press.
-- Bostock, Mike. 2017. “A Better Way to Code.” _Medium_. <https://medium.com/@mbostock/a-better-way-to-code-2b1d2876a3a0>.
-- Bostock, Mike, Vadim Ogievetsky, and Jeffrey Heer. 2011. “D³: Data-Driven Documents.” _IEEE Transactions on Visualization and Computer Graphics_ 17 (12): 2301–9. <https://doi.org/10/b7bhhf>.
-- Caffaro, Jérôme, and Samuele Kaplun. 2010. “Invenio: A Modern Digital Library for Grey Literature.” CERN-OPEN-2010-027. CERN. <https://cds.cern.ch/record/1312678>.
-- Cameron, Fiona, and Sarah Kenderdine, eds. 2007. _Theorizing Digital Cultural Heritage: A Critical Discourse_. Cambridge, MA: MIT Press.
-- Cellard, Loup, and Anthony Masure. 2018. “Le design de la transparence: une rhétorique au cœur des interfaces numériques.” _Multitudes_ 73 (4): 100. <https://doi.org/10.3917/mult.073.0100>.
-- Cogdell, Christina. 2009. “Design and the Elastic Mind, Museum of Modern Art (Spring 2008).” _Design Issues_ 25 (3): 92–101. <https://doi.org/10/cqct95>.
-- Crawford, Kate, and Vladan Joler. 2018. “Anatomy of an AI System: The Amazon Echo as an Anatomical Map of Human Labor, Data and Planetary Resources.” SHARE Lab and AI Now Institute. <https://anatomyof.ai>.
-- DeNeef, A. Leigh, and Craufurd D. W. Goodwin, eds. 1995. _The Academic’s Handbook_. 2nd ed. Durham: Duke University Press.
-- Friendly, Michael. 2021. _A History of Data Visualization and Graphic Communication_. Cambridge, MA: Harvard University Press.
-- Geismar, Haidy. 2018. _Museum Object Lessons for the Digital Age_. London: UCL Press. <https://doi.org/10.2307/j.ctv1xz0wz>.
-- Gordon, Virginia N., Wesley R. Habley, Thomas J. Grites, and Associates, eds. 2008. _Academic Advising: A Comprehensive Handbook_. 2nd ed. San Francisco: Jossey-Bass.
-- Gorman, Michael John. 2020. _Idea Colliders: The Future of Science Museums_. Cambridge, MA: MIT Press. <https://doi.org/10.7551/mitpress/11019.001.0001>.
-- Hertig, Hans-Peter. 2016. _Universities, Rankings, and the Dynamics of Global Higher Education: Perspectives from Asia, Europe, and North America_. London: Palgrave Macmillan.
-- Honnibal, Matthew, Ines Montani, Sofie Van Landeghem, and Adriane Boyd. (2014) 2024. “spaCy: Industrial-Strength Natural Language Processing in Python.” <https://doi.org/10.5281/zenodo.1212303>.
-- Isaac, Gwyneira. 2008. “Technology Becomes the Object.” _Journal of Material Culture_ 13 (3): 287–310. <https://doi.org/10/btgw3r>.
-- Kenderdine, Sarah, Ian Mason, and Lily Hibberd. 2021. “Computational Archives for Experimental Museology.” In _Emerging Technologies and the Digital Transformation of Museums and Heritage Sites_, edited by Maria Shehade and Theopisti Stylianou-Lambert, 3–18. Cham: Springer International Publishing. <https://doi.org/10.1007/978-3-030-83647-4_1>.
-- Krzywinski, Martin, and Alberto Cairo. 2013. “Storytelling.” _Nature Methods_ 10 (8): 687. <https://doi.org/10.1038/nmeth.2571>.
-- Latour, Bruno, and Christophe Leclercq, eds. 2016. _Reset Modernity!_ Karlsruhe: ZKM, Center for Art and Media; Cambridge, MA: MIT Press.
-- Latour, Bruno, and Peter Weibel, eds. 2002. _Iconoclash_. Karlsruhe: ZKM, Centre for Art and Media; Cambridge, MA: MIT Press.
-- Latour, Bruno, and Peter Weibel, eds. 2005. _Making Things Public: Atmospheres of Democracy_. Cambridge, MA: MIT Press.
-- Latour, Bruno, and Peter Weibel, eds. 2020. _Critical Zones: Observatories for Earthly Politics_. Cambridge, MA: MIT Press.
-- Latour, Bruno, and Steve Woolgar. (1979) 1986. _Laboratory Life: The Construction of Scientific Facts_. Princeton: Princeton University Press.
-- Leutenegeer, Christophe, Bohumil Konopka, and Olivier Christinat. (2019) 2021. _Perspective on EPFL: Science, Architecture, People_. Chicago: University of Chicago Press.
-- Lupi, Giorgia, and Stefanie Posavec. 2016. _Dear Data_. New York: Princeton Architectural Press.
-- Lynch, Michael. 1988. “The Externalized Retina: Selection and Mathematization in the Visual Documentation of Objects in the Life Sciences.” _Human Studies_ 11 (2/3): 201–34. <https://doi.org/10.1007/BF00177304>.
-- Manning, Christopher D., and Hinrich Schütze. 1999. _Foundations of Statistical Natural Language Processing_. Cambridge, MA: MIT Press.
-- Manovich, Lev. 2008. “Data Visualization as New Abstraction and Anti-Sublime.” In _Small Tech: The Culture of Digital Tools_, edited by Byron Hawk, David M. Rieder, and Ollie O. Oviedo. Minneapolis: University of Minnesota Press.
-- Manovich, Lev. 2018. “Artistic Visualization.” In _A Companion to Digital Art_, edited by Christiane Paul. Hoboken: Wiley Blackwell.
-- McInnes, Leland, John Healy, and James Melville. 2018. “UMAP: Uniform Manifold Approximation and Projection for Dimension Reduction.” _arXiv_. <https://arxiv.org/pdf/1802.03426.pdf>.
-- Mediacom. 2016. “EPFL Keeps the Lead of ‘THE Young Universities Ranking.’” EPFL Website. <https://actu.epfl.ch/news/epfl-keeps-the-lead-of-the-young-universities-rank/>.
-- Meirelles, Isabel. 2013. _Design for Information: An Introduction to the Histories, Theories, and Best Practices Behind Effective Information Visualizations_. Beverly: Rockport.
-- Moon, Christine Yein Eun, and Dario Rodighiero. 2020. “Mapping as a Contemporary Instrument for Orientation in Conferences.” In _Proceedings of the IX Annual Conference of the Association for Humanities and Digital Culture (AIUCD). The Inevitable Turning Point: Challenges and Perspectives for Humanistic Informatics_, edited by Marco Passarotti, Eleonora M. G. Litta Modignani Picozzi, Greta Franzini, and Cristina Marras. Associazione per l’Informatica Umanistica e la Cultura Digitale. <https://doi.org/10.5281/zenodo.3611340>.
-- Obrist, Hans Ulrich, and Barbara Vanderlinden. 2001. _Laboratorium_. Antwerp: Dumont.
-- Paul, Christiane. 2015. _Digital Art_. 3rd ed. London: Thames & Hudson.
-- Rendgen, Sandra. 2018. _The Minard System: The Complete Statistical Graphics of Charles-Joseph Minard_. New York: Princeton Architectural Press.
-- Rodighiero, Dario. 2021a. “Ars Memorativa as the Genesis of Information Design: A Conversation with Manuel Lima.” _Nightingale_. <https://nightingaledvs.com/ars-memorativa-as-the-genesis-of-information-design-a-conversation-with-manuel-lima/>.
-- Rodighiero, Dario. 2021b. _Mapping Affinities: Democratizing Data Visualization_. Open-Access English Edition. Geneva: Métis Presses. <https://nrs.harvard.edu/URN-3:HUL.INSTREPOS:37368046>.
-- Rodighiero, Dario, Lins Derry, Douglas Duhaime, Jordan Kruguer, Maximilian C. Mueller, Christopher Pietsch, Jeffrey T. Schnapp, Jeff Steward, and metaLAB. 2022. “Surprise Machines: Revealing Harvard Art Museums’ Image Collection.” _Information Design Journal_ 27 (1): 21–34. <https://doi.org/10.1075/idj.22013.rod>.
-- Rodighiero, Dario, Frédéric Kaplan, and Boris Beaude. 2018. “Mapping Affinities in Academic Organizations.” _Frontiers in Research Metrics and Analytics_ 3 (4). <https://doi.org/10.3389/frma.2018.00004>.
-- Rodighiero, Dario, and Alberto Romele. 2022. “Reading Network Diagrams by Using Contour Lines and Word Clouds.” _Proceedings of Graphs and Networks in the Humanities_. <https://doi.org/10.31235/osf.io/3g7bt>.
-- Rodighiero, Dario, Eveline Wandl-Vogt, and Elian Carsenat. 2021. “Making Visible the Invisible Work of Scientists during the COVID-19 Pandemic.” _Visual Culture Studies_ 2: 143–65. <https://doi.org/10.5281/zenodo.5115621>.
-- Rodighiero, Dario, Eveline Wandl-Vogt, and Elian Carsenat. 2022. “A Visual Translation of the Pandemic.” _Leonardo_ 55 (3): 297–303. <https://doi.org/10.1162/leon_a_02203>.
-- Rodighiero, Dario, Eveline Wandl-Vogt, Elian Carsenat, Jörg Döring, Olga Elias, Mariia Fragner, and Sára Farkashazy. 2022. “Immersive Architectures for Visual Data Literacy.” _Information Design Journal_ 27 (3): 295–308. <https://doi.org/10.1075/idj.22016.rod>.
-- Rosenberg, Daniel, and Anthony Grafton. 2010. _Cartographies of Time_. New York: Princeton Architectural Press.
-- Rosnay, Joël de. 2014. _Le macroscope: vers une vision globale_. Paris: Éd. Points.
-- Salton, Gerard, A. Wong, and C. S. Yang. 1975. “A Vector Space Model for Automatic Indexing.” _Communications of the ACM_ 18 (11): 613–20. <https://doi.org/10/fw8vv8>.
-- Schmidt, Benjamin. 2018. “Stable Random Projection: Lightweight, General-Purpose Dimensionality Reduction for Digitized Libraries.” _Journal of Cultural Analytics_. <https://doi.org/10.22148/16.025>.
-- Shapin, Steven. 1992. “Why the Public Ought to Understand Science-in-the-Making.” _Public Understanding of Science_ 1 (1): 27–30. <https://doi.org/10.1088/0963-6625/1/1/006>.
-- Sismondo, Sergio. (2004) 2010. _An Introduction to Science and Technology Studies_. 2nd ed. Hoboken: Wiley-Blackwell.
-- Suber, Peter. 2012. _Open Access_. Cambridge, MA: MIT Press.
-- Urquhart, R. B. 1980. “Algorithms for Computation of Relative Neighbourhood Graph.” _Electronics Letters_ 16 (14): 556. <https://doi.org/10.1049/el:19800386>.
-- Van Dijck, José. 2014. “Datafication, Dataism and Dataveillance: Big Data between Scientific Paradigm and Ideology.” _Surveillance & Society_ 12 (2): 197–208. <https://doi.org/10/gd84d9>.
-- Willett, Wesley, Bon Adriel Aseniero, Sheelagh Carpendale, Pierre Dragicevic, Yvonne Jansen, Lora Oehlberg, and Petra Isenberg. 2022. “Perception! Immersion! Empowerment! Superpowers as Inspiration for Visualization.” _IEEE Transactions on Visualization and Computer Graphics_ 28 (1): 22–32. <https://doi.org/10.1109/TVCG.2021.3114844>.

@@ -1,16 +1,5 @@
----
-title: "Living Library of Trees: Mapping Knowledge Ecology in Arnold Arboretum"
-year: 2025
-venue: "IEEE VIS Arts Program (VISAP)"
-type: "conference"
-author: "Johan Malmstedt and Giacomo Nanni and Dario Rodighiero"
-doi: "https://doi.org/10.48550/arXiv.2509.00114"
-img: "living-library-of-trees-mapping-knowledge-ecology-in-arnold-arboretum/fig_001.webp"
-img_width: 1600
-img_height: 900
-figures: true
-excerpt_separator: "<!--more-->"
----
+# Living Library of Trees: Mapping Knowledge Ecology in Arnold Arboretum
+
 As biodiversity loss and climate change accelerate, botanical gardens serve as vital infrastructures for research, education, and conservation. This project focuses on the Arnold Arboretum of Harvard University, a 281-acre living museum founded in 1872 in Boston. Drawing on more than a century of curatorial data, the research combines historical analysis with computational methods to visualize the biographies of plants and people. The resulting platform reveals patterns of care and scientific observations, along with the collective dimensions embedded in botanical data. Using techniques from artificial intelligence, geospatial mapping, and information design, the project frames the arboretum as a system of shared agency—an active archive of more-than-human affinities that records the layered memory of curatorial labor, the situated nature of knowledge production, and the potential of design to bridge archival record and future care.
 
 <!--more-->
@@ -162,27 +151,3 @@ Several insights emerged in the process. The consistent annotations of certain c
 Humanities reasoning proved indispensable throughout. It guided the reading of ambiguous entries, the visual emphasis on absence, and the design of an interface that privileges meaning over utility. The work affirms Tuers’s (2022) idea of the “planted catalog” as a layered space where locality, labor, and metadata converge, and echoes Haraway’s argument that knowledge is always situated and co-produced (Haraway 1988, 2008)—here, through the entanglement of plants, people, and paper. In framing the arboretum as a knowledge infrastructure, the project contributes to broader conversations in science and technology studies about how care, classification, and ecological stewardship can be made legible through design.
 
 Ultimately, the project rests on a dual ambition: to honor the specificity and complexity of the Arnold Arboretum’s historical records, and to model how digital humanities can approach botanical collections not merely as archives of knowledge, but as infrastructures for co-creating meaning across time, species, and disciplines (Loukissas 2016; Star and Ruhleder 1996).
-
-## References
-
-- Advanced Data Visualization Project. 2025. *Advanced Data Visualization Project*. [advp.gsapp.org](https://advp.gsapp.org/).
-- Balick, Michael J., and Paul Alan Cox. 2020. *Plants, People, and Culture: The Science of Ethnobotany*. 2nd ed. New York: Garland Science. [doi:10.1201/9781003049074](https://doi.org/10.1201/9781003049074).
-- Bowker, Geoffrey C., and Susan Leigh Star. 1999. *Sorting Things Out: Classification and Its Consequences*. Cambridge, MA: MIT Press.
-- Çay, Damla, Dario Rodighiero, and Wendy Zhang. 2025. “Visualizing as a Form of Collective Care.” *Nightingale: The Journal of the Data Visualization Society*, June. [nightingaledvs.com](https://nightingaledvs.com).
-- Drucker, Johanna. 2014. *Graphesis: Visual Forms of Knowledge Production*. Cambridge, MA: Harvard University Press.
-- Haraway, Donna. 1988. “Situated Knowledges: The Science Question in Feminism and the Privilege of Partial Perspective.” *Feminist Studies* 14 (3): 575–99.
-- ———. 2008. *When Species Meet*. Minneapolis: University of Minnesota Press.
-- Hartigan, John J. 2021. “Knowing Animals: Multispecies Ethnography and the Scope of Anthropology.” *American Anthropologist* 123 (3): 530–44. [doi:10.1111/aman.13631](https://doi.org/10.1111/aman.13631).
-- Jones, Owain, and Paul Cloke. 2008. “Non-human Agencies: Trees in Place and Time.” In *Material Agency: Towards a Non-Anthropocentric Approach*, 79–96. New York: Springer.
-- Latour, Bruno. 1986. “Visualisation and Cognition: Drawing Things Together.” In *Knowledge and Society: Studies in the Sociology of Culture Past and Present*, vol. 6, 1–40. Greenwich, CT: JAI Press.
-- Latour, Bruno, and Steve Woolgar. 1986. *Laboratory Life: The Construction of Scientific Facts*. Princeton, NJ: Princeton University Press.
-- Loukissas, Yanni Alexander. 2016. “A Place for Big Data: Close and Distant Readings of Accessions Data from the Arnold Arboretum.” *Big Data & Society* 3 (2). [doi:10.1177/2053951716661365](https://doi.org/10.1177/2053951716661365).
-- Myers, Natasha. 2015. *Rendering Life Molecular: Models, Modelers, and Excitable Matter*. Durham, NC: Duke University Press.
-- Nanni, Giacomo, Johan Malmstedt, and Dario Rodighiero. 2025. *Arboretum*. [sinanatra.github.io/arboretum](https://sinanatra.github.io/arboretum/).
-- Puig de la Bellacasa, María. 2017. *Matters of Care: Speculative Ethics in More Than Human Worlds*. Minneapolis: University of Minnesota Press.
-- Rodighiero, Dario, and Jean Daniélou. 2023. “Weather Map: A Diachronic Visual Model for Controversy Mapping.” In *Zoomland*, 449–66. Berlin: De Gruyter. [doi:10.1515/9783111317779-017](https://doi.org/10.1515/9783111317779-017).
-- Sargent, Charles Sprague. 1878. *Report on the Arnold Arboretum, Harvard University*. Technical report.
-- Star, Susan Leigh, and Karen Ruhleder. 1996. “Steps toward an Ecology of Infrastructure: Design and Access for Large Information Spaces.” *Information Systems Research* 7 (1): 111–34.
-- Sutton, Ann D. 1970. *The Arnold Arboretum: A Century of Trees in Harvard’s Living Laboratory*. Cambridge, MA: Harvard University Press.
-- Tsing, Anna. 2015. *The Mushroom at the End of the World: On the Possibility of Life in Capitalist Ruins*. Princeton, NJ: Princeton University Press.
-- Tuers, D. 2022. “The Planted Catalog: The Role of the Botanical Garden in Botany.” *Journal of the South Carolina Academy of Science* 20 (1): Article 2.

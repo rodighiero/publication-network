@@ -1,18 +1,5 @@
----
-title: "Four Guiding Principles for Rethinking Organizational Charts"
-year: 2026
-venue: "Handbook of Digital and Computational Research Methods"
-type: "chapter"
-author: "Dario Rodighiero"
-editor: "Anders Koed Madsen and Anders Kristian Munk"
-publisher: "Edward Elgar Publishing"
-place: "Cheltenham"
-doi: "https://hdl.handle.net/11370/6021c844-43e3-4fe8-b3c2-b8afa1361872"
-img: "four-guiding-principles-for-rethinking-organizational-charts/fig_002.webp"
-figures: true
-img_width: 766
-img_height: 1200
----
+# Four Guiding Principles for Rethinking Organizational Charts
+
 This chapter explores the transformative impact of digital tools on visualizing large organizations, highlighting the shortcomings of traditional organizational charts in capturing the interconnected nature of human dynamics. Emphasizing a respectful distance from simplistic managerial logic, it discusses four guiding principles for rethinking organizational charts with careful consideration of digital traces and the valuable information employees leave during daily practice. These principles aim to reconsider the centrality of individuals and the complex dynamics of the whole organization. The first principle stresses comprehensive representation of every employee, promoting concepts like inclusivity and irreductionism. The second principle fosters a sense of community through mutual and collective self-recognition. The third challenges traditional hierarchical structures in favor of equal representation in network-based models. The fourth underscores transparency and bottom-up collaboration in design. The chapter combines theoretical insights with practical examples, including the Affinity Map case study. This approach, in the light of opportunities offered by datafication, as described by Brinton (1939, 59-67), reimagines organizational charts to be more accurate, realistic, and useful. It serves as a guide for using digital data and computational tools to better understand and design large organizations.
 
 <!--more-->
@@ -118,62 +105,3 @@ One of the most promising outcomes of the Affinity Map was the linguistic distan
 Scholars of organizational studies have to look at digital traces and network design to advance their studies at a moment when technology pervades organizations. Digital traces can extend the perception of the discipline by providing a more detailed level of information and revealing some unexpected patterns in human behavior. However, as demonstrated by the case study of the Affinity Map, some criticalities still have to be resolved, starting from the inaccuracy of datafication. The window of opportunity that computational means provide offers new solutions and challenging problems. The question of representing the dynamics of medium and large organizations is fascinating and helps to reflect on the current limits and future perspectives as the process of datafication is under development.
 
 If you want to read more, you can discover the further scope of the Affinity Map by reading _Mapping Affinities_, published by Métis Presses (Rodighiero 2021). Further studies about the democratization of organizational charts can be found in publications by the MIT Press (Rodighiero et al. 2022), IEEE (Rodighiero 2020), and De Gruyter (Rodighiero et al. 2024). A more recent review of the last ten years of research in mapping scientific communities has been published by Sage in open access (Rodighiero 2024).
-
-## References
-
-- Barabási, A.-L., M. Bello, J. Kluge-Fabényi, K. Forde, J. Készman, I. Meirelles, C. G. Ratti, M. Ritchie, A. Szántó, P. Weibel, and A. Stang. 2020. _Hidden Patterns: Visualizing Networks at BarabásiLab_. Berlin: Hatje Cantz Verlag.
-- Bostock, M., V. Ogievetsky, and J. Heer. 2011. “D3: Data-Driven Documents.” _IEEE Transactions on Visualization and Computer Graphics_ 17 (12): 2301–2309. https://doi.org/10.1109/TVCG.2011.185
-- Brinton, W. C. 1919. _Graphic Methods for Presenting Facts_. New York: The Engineering Magazine Company.
-- ———. 1939. _Graphic Presentation_. New York: Brinton Associates.
-- Bürdek, B. E. 2015. _Design: History, Theory and Practice of Product Design_. Berlin: Birkhäuser.
-- Cohen, S. M., and C. D. C. Reeve. 2020. “Aristotle’s Metaphysics.” In _The Stanford Encyclopedia of Philosophy_, edited by E. N. Zalta. https://plato.stanford.edu/archives/win2020/entries/aristotle-metaphysics/
-- Dick, S. 2019. “Artificial Intelligence.” _Harvard Data Science Review_, July 1. https://doi.org/10.1162/99608f92.92fe150c
-- Elias, N. 1991. _The Society of Individuals_. Edited by M. Schröter. Oxford: Basil Blackwell.
-- Euler, L. 1953. “Leonhard Euler and the Koenigsberg Bridges.” _Scientific American_ 189 (1): 66–72.
-- Garfield, E. 1970. “Citation Indexing for Studying Science.” _Nature_ 227 (5259): 669–671. https://doi.org/10/b9962z
-- ———. 2006. “The History and Meaning of the Journal Impact Factor.” _JAMA_ 295 (1): 90–93. https://doi.org/10/bgvhsf
-- Gingras, Y. 2014. _Les dérives de l’évaluation de la recherche: du bon usage de la bibliométrie_. Paris: Raisons d’agir éditions.
-- Groys, B. 2008. “The Obligation to Self-Design.” _E-Flux_, November 1. http://www.e-flux.com/journal/00/68457/the-obligation-to-self-design/
-- Hatch, M. J. 2011. _Organizations: A Very Short Introduction_. Vol. 264. New York: Oxford University Press.
-- Hatch, M. J., and A. L. Cunliffe. 2013. _Organization Theory: Modern, Symbolic, and Postmodern Perspectives_. 3rd ed. Oxford: Oxford University Press.
-- King, D. B., and M. Wertheimer. 2005. _Max Wertheimer & Gestalt Theory_. New Brunswick: Transaction Publishers.
-- Kitchin, R. 2014. _The Data Revolution: Big Data, Open Data, Data Infrastructures and Their Consequences_. London: SAGE Publications.
-- Latour, B. 2005. _Reassembling the Social: An Introduction to Actor-Network-Theory_. Oxford: Oxford University Press.
-- Latour, B., and S. Woolgar. 1986. _Laboratory Life: The Construction of Scientific Facts_. Princeton, NJ: Princeton University Press.
-- Lazer, D. M. J., A. Pentland, L. Adamic, S. Aral, A.-L. Barabási, D. Brewer, N. Christakis, N. Contractor, J. Fowler, M. Gutmann, T. Jebara, G. King, M. Macy, D. Roy, and M. V. Alstyne. 2009. “Computational Social Science.” _Science_ 323 (5915): 721–723. https://doi.org/10.1126/science.1167742
-- Leonelli, S. 2019. “Data Governance Is Key to Interpretation: Reconceptualizing Data in Data Science.” _Harvard Data Science Review_, July 1. https://doi.org/10.1162/99608f92.17405bb6
-- Lewin, K. 1951. _Field Theory in Social Science: Selected Theoretical Papers_. Oxford: Halpers.
-- Lima, M. 2011. _Visual Complexity: Mapping Patterns of Information_. New York: Princeton Architectural Press.
-- Löwgren, J., and E. Stolterman. 2004. _Thoughtful Interaction Design: A Design Perspective on Information Technology_. Cambridge, MA: MIT Press.
-- Mayer-Schonberger, V., and K. Cukier. 2013. _Big Data: A Revolution That Will Transform How We Live, Work, and Think_. London: John Murray.
-- Meirelles, I. 2013. _Design for Information: An Introduction to the Histories, Theories, and Best Practices behind Effective Information Visualizations_. Beverly, MA: Rockport.
-- Moreno, J. L. 1934. _Who Shall Survive?_ Washington: Nervous and Mental Disease Publishing Co.
-- Moretti, F. 2005. _Graphs, Maps, Trees: Abstract Models for a Literary History_. London: Verso.
-- Parviainen, P., M. Tihinen, J. Kääriäinen, and S. Teppola. 2022. “Tackling the Digitalization Challenge: How to Benefit from Digitalization in Practice.” _International Journal of Information Systems and Project Management_ 5 (1): 63–77. https://doi.org/10.12821/ijispm050104
-- Pentland, A. 2008. _Honest Signals: How They Shape Our World_. Cambridge, MA: MIT Press.
-- Rancière, J. 2000. _Le partage du sensible: esthétique et politique_. Paris: La Fabrique-éditions.
-- Rigal, A., and D. Rodighiero. 2015. “Trajectoire d’une représentation cartographique en réseau.” _Cartes & Géomatique_ 225: 33–41.
-- Rodighiero, D. 2018. “Printing Walkable Visualizations.” In _Proceedings of the 5th Biennial Research Transdisciplinary Imaging Conference_, 58–73. https://doi.org/10.6084/m9.figshare.6104693.v2
-- ———. 2020. “Drawing Network Visualizations on a Continuous, Spherical Surface.” _Proceedings of the 24th International Conference Information Visualisation (IV)_, 573–580. https://doi.org/10.1109/IV51561.2020.00097
-- ———. 2021. _Mapping Affinities: Democratizing Data Visualization_. Open-access English edition. Geneva: Métis Presses. https://doi.org/10.37866/0563-99-9
-- ———. 2022. “The Lemniscate of Data Visualization: Production and Consumption of Data from an Actor-Network Perspective.” Paper presented at _Images Today: Archives, Identities, and Algorithms_, Université de Liège, March 29.
-- ———. 2024. “In Praise of Visual Representation: An Inquiry into Text Analysis and Network Visualization for Charting Scientific Communities.” _Visual Communication_ 23 (3): 513–526. https://doi.org/10.1177/14703572241248408
-- Rodighiero, D., and L. Cellard. 2019. “Self-Recognition in Data Visualization: How Individuals See Themselves in Visual Representations.” _EspacesTemps.Net_, August. https://doi.org/10.26151/espacestemps.net-wztp-cc46
-- Rodighiero, D., and A. Romele. 2020. “The Hermeneutic Circle of Data Visualization: The Case Study of the Affinity Map.” _Techné: Research in Philosophy and Technology_ 24 (3): 357–375. https://doi.org/10/gg6w5p
-- Rodighiero, D., P. Rivière, and S. Kenderdine. 2024. “Super-Vision: Tracing EPFL History through 8,000 Doctoral Theses.” _Journal of Digital History_ 3 (1).
-- Rodighiero, D., E. Wandl-Vogt, and E. Carsenat. 2022. “A Visual Translation of the Pandemic.” _Leonardo_ 55 (3): 297–303. https://doi.org/10.1162/leon_a_02203
-- Romele, A., and D. Rodighiero. 2020. “Digital Habitus or Personalization without Personality.” _HUMANA.MENTE Journal of Philosophical Studies_ 13 (37): 98–126. https://doi.org/10/ghm6cn
-- Rosenthal, C. 2013. “Big Data in the Age of the Telegraph.” _McKinsey Quarterly_, March 1. https://www.mckinsey.com/capabilities/people-and-organizational-performance/our-insights/big-data-in-the-age-of-the-telegraph
-- Roussi, A. 2020. “Resisting the Rise of Facial Recognition.” _Nature_ 587 (7834): 350–353. https://doi.org/10.1038/d41586-020-03188-2
-- Satariano, A. 2020. “How My Boss Monitors Me While I Work from Home.” _The New York Times_, May 6. https://www.nytimes.com/2020/05/06/technology/employee-monitoring-work-from-home-virus.html
-- Schrage, M. 2020. _Recommendation Engines_. Cambridge, MA: MIT Press.
-- Scott, J. 2000. _Social Network Analysis: A Handbook_. 2nd ed. London: SAGE Publications.
-- Severo, M., and A. Romele, eds. 2015. _Traces numériques et territoires_. Paris: Presses de Mines. https://doi.org/10.4000/books.pressesmines.1984
-- Shedroff, N. 1999. “Information Interaction Design: A Unified Field Theory of Design.” In _Information Design_, edited by R. Jacobson. Cambridge, MA: MIT Press.
-- Tufte, E. R. 1997. _Visual Explanations: Images and Quantities, Evidence and Narrative_. Cheshire, CT: Graphics Press.
-- UNESCO. 2022. _Recommendation on the Ethics of Artificial Intelligence_. Programme and Meeting Document SHS/BIO/PI/2021/1. Paris. https://unesdoc.unesco.org/ark:/48223/pf0000381137.locale=en
-- van Dijck, J. 2014. “Datafication, Dataism and Dataveillance: Big Data between Scientific Paradigm and Ideology.” _Surveillance & Society_ 12 (2): 197–208. https://doi.org/10.24908/ss.v12i2.4776
-- Venturini, T., M. Jacomy, A. Meunier, and B. Latour. 2017. “An Unexpected Journey: A Few Lessons from Sciences Po Médialab’s Experience.” _Big Data & Society_ 4 (2). https://doi.org/10/gf7tk2
-- Von Ehrenfels, C. 1937. “On Gestalt-Qualities.” _Psychological Review_ 44 (6): 521–524. https://doi.org/10/bd8dpw
-- VSNU, NFU, KNAW, NWO, and ZonMw. 2019. _Room for Everyone’s Talent: Towards a New Balance in the Recognition and Rewards of Academics_. https://www.nwo.nl/en/position-paper-room-for-everyones-talent
-- Weber, M. 2019. _Economy and Society: A New Translation_. Edited by K. Tribe. Cambridge, MA: Harvard University Press.

@@ -1,10 +1,10 @@
 #!/usr/bin/env python3
-"""Build the publication similarity network for the home network view.
+"""Build the publication similarity network for the network view.
 
 Reads publications from _publications/, machine-translates non-English
 abstracts (cached), embeds title + abstract with BAAI/bge-base-en-v1.5, and
 writes _data/network.json with the node list and a pairwise cosine
-similarity matrix. The home page consumes it via Liquid as
+similarity matrix. _layouts/network.html consumes it via Liquid as
 site.data.network.
 
 Re-run after editing publications:
@@ -24,8 +24,11 @@ from pathlib import Path
 os.environ.setdefault("KMP_DUPLICATE_LIB_OK", "TRUE")
 
 import numpy as np
-import yaml
+from langdetect import DetectorFactory, LangDetectException, detect
 from sentence_transformers import SentenceTransformer
+
+# Make language detection deterministic so re-bakes are reproducible.
+DetectorFactory.seed = 0
 
 ROOT = Path(__file__).resolve().parent.parent
 PUBS_DIR = ROOT / "_publications"
@@ -40,12 +43,11 @@ def precompute_layout(
     """Bake the force-directed layout offline via the shared Node script.
 
     layout-network.js reuses the exact d3-force config the browser used to run
-    at render time, so the home page can draw the graph already settled without
-    running the simulation client-side. `translations` maps a translation node's
-    index to its original's index: those nodes join the simulation as regular
-    nodes but their only edge is a forced 1.00 link to the original (no
-    similarity edge), so the layout arranges them appended to their source.
-    Returns {canvas, positions, links}.
+    at render time, so the network page can draw the graph already settled
+    without running the simulation client-side. `translations` (index → original
+    index) is retained in the data contract but is always empty now that the
+    source files carry no `translation_of` metadata. Returns
+    {canvas, positions, links}.
     """
     payload = json.dumps(
         {"nodes": nodes, "similarity": similarity, "translations": translations}
@@ -65,38 +67,42 @@ MODEL_NAME = "BAAI/bge-base-en-v1.5"
 # bge-base-en-v1.5 has a 512 word-piece window; cap inputs there so longer
 # abstracts/full texts inform the embedding (the model clamps to its own max).
 MAX_SEQ_LENGTH = 512
-EXCERPT_SEPARATOR = "<!--more-->"
 TRANSLATE_CHUNK_CHARS = 1800  # Helsinki-NLP has a 512-token limit — chunk on sentences.
 
 
+def detect_lang(text: str) -> str:
+    """Best-effort ISO 639-1 language code for a publication's text.
+
+    langdetect returns the same codes Helsinki-NLP names its opus-mt-{lang}-en
+    models with (en, it, fr, …). Falls back to English when the text is too
+    short/empty to score (e.g. a stub abstract)."""
+    try:
+        return detect(text[:4000])
+    except LangDetectException:
+        return "en"
+
+
 def parse_pub(path: Path) -> dict | None:
-    text = path.read_text(encoding="utf-8")
-    if not text.startswith("---"):
+    text = path.read_text(encoding="utf-8").strip()
+    if not text:
         return None
-    parts = text.split("---", 2)
-    if len(parts) < 3:
-        return None
-    fm = yaml.safe_load(parts[1]) or {}
-    body = parts[2].replace(EXCERPT_SEPARATOR, " ").strip()
-    # Drop the bibliography: everything from "## References" / "## Bibliography"
-    # (or the French "## Références" / "## Bibliographie") to end.
-    body = re.split(r"^##\s+(?:References|Bibliography|Références|Bibliographie)\s*$", body, maxsplit=1, flags=re.M)[0]
-    # Kramdown footnote definitions, including indented continuation lines.
-    body = re.sub(r"^\[\^[^\]]+\]:.*(?:\n[ \t]+.*)*", "", body, flags=re.M)
-    body = re.sub(r"\[\^[^\]]+\]", "", body)
-    body = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", body)
-    body = re.sub(r"^#+ .*$", "", body, flags=re.M)
-    body = re.sub(r"`([^`]+)`", r"\1", body)
-    body = re.sub(r"<[^>]+>", "", body)
-    body = re.sub(r"\s+", " ", body).strip()
     slug = path.stem
+    # The title is the first ATX h1 ("# …"); the rest is the abstract body. The
+    # whole document — heading included — is embedded as-is, with no cleaning.
+    m = re.search(r"^#\s+(.+?)\s*$", text, flags=re.M)
+    title = m.group(1).strip() if m else slug
+
+    # Language is detected from the text (no metadata to declare it).
+    lang = detect_lang(text)
+    if lang != "en":
+        print(f"  + {slug}: detected '{lang}'", file=sys.stderr)
+
     return {
         "slug": slug,
-        "title": fm.get("title", slug),
-        "lang": (fm.get("lang") or "en").lower(),
-        "translation_of": fm.get("translation_of"),
+        "title": title,
+        "lang": lang,
         "url": f"/{slug}",
-        "text": f"{fm.get('title', '')}. {body}",
+        "text": text,
     }
 
 
@@ -162,19 +168,6 @@ def main() -> int:
     pubs: list[dict] = [r for r in (parse_pub(p) for p in sorted(PUBS_DIR.glob("*.md"))) if r]
     print(f"loaded {len(pubs)} publications", file=sys.stderr)
 
-    # Validate translation_of references up front: each must point to an
-    # existing publication that is not itself a translation.
-    by_slug = {p["slug"]: p for p in pubs}
-    for p in pubs:
-        src = p.get("translation_of")
-        if not src:
-            continue
-        orig = by_slug.get(src)
-        if orig is None:
-            raise SystemExit(f"{p['slug']}: translation_of '{src}' not found in _publications/")
-        if orig.get("translation_of"):
-            raise SystemExit(f"{p['slug']}: translation_of '{src}' is itself a translation")
-
     non_english = [p for p in pubs if p["lang"] != "en"]
     if non_english:
         print(f"translating {len(non_english)} non-English publications…", file=sys.stderr)
@@ -198,29 +191,10 @@ def main() -> int:
     ]
     similarity = [[round(float(s), 4) for s in row] for row in sim]
 
-    # ── Translations join the layout, appended to their originals ──
-    # A publication with `translation_of` is the same work in another language.
-    # It takes part in the force layout as a regular node, but its only edge is a
-    # forced 1.00 link to its original (translations are not similarity-link
-    # candidates for any node), so the simulation arranges it beside — and
-    # collision-separated from — its source. The full similarity matrix still
-    # covers every node, so the page's "three closest" panel works for them too.
-    slug_idx = {p["slug"]: i for i, p in enumerate(pubs)}
-    translations = {
-        i: slug_idx[p["translation_of"]]
-        for i, p in enumerate(pubs)
-        if p.get("translation_of")
-    }
-
-    print(
-        f"baking layout (node) — {len(nodes)} nodes, {len(translations)} translations…",
-        file=sys.stderr,
-    )
-    layout = precompute_layout(nodes, similarity, translations)
+    print(f"baking layout (node) — {len(nodes)} nodes…", file=sys.stderr)
+    layout = precompute_layout(nodes, similarity, {})
     for node, (x, y) in zip(nodes, layout["positions"]):
         node["x"], node["y"] = x, y
-    for i in translations:
-        nodes[i]["tr"] = True
 
     data = {
         "nodes": nodes,
