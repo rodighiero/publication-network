@@ -1,0 +1,278 @@
+---
+layout: default
+title: Studio
+permalink: /studio/
+styles: [network.css, studio.css]
+description: Build a similarity network in your browser — drop in text files and watch them arrange by meaning. Nothing leaves your machine.
+---
+<header class="page-head">
+  <h1>Studio</h1>
+  <p>Drop in a set of text files and watch them arrange into a similarity network — embedding, similarity, and layout all run live in your browser. Your files never leave this machine.</p>
+</header>
+
+<div id="network-view">
+  <aside class="sidebar">
+    <div class="studio-panel">
+      <p class="lede">Each file becomes a node, placed near the files it most resembles. Drop <code>.txt</code> or <code>.md</code> files (20–30 short ones works well).</p>
+
+      <label class="dropzone" id="dropzone">
+        <span id="dropzone-label"><strong>Drop files here</strong><br>or click to choose</span>
+        <input type="file" id="file-input" accept=".txt,.md,.markdown,text/plain" multiple>
+      </label>
+
+      <p class="studio-status" id="status" aria-live="polite"></p>
+
+      <div class="studio-control" id="threshold-control" hidden>
+        <label for="threshold">Connection threshold <span class="val" id="threshold-val">0.70</span></label>
+        <input type="range" id="threshold" min="0" max="0.95" step="0.01" value="0.70">
+        <p class="hint">Each node links to its single closest file, but only if their similarity clears this value. Raise it and the network fragments; lower it and everything connects.</p>
+      </div>
+
+      <ul class="file-list" id="file-list"></ul>
+    </div>
+  </aside>
+  <div class="stage">
+    <svg id="net" aria-label="Live similarity network"></svg>
+  </div>
+</div>
+
+<script src="{{ '/js/d3.v7.min.js' | relative_url }}"></script>
+<script type="module">
+  import { pipeline, env } from 'https://cdn.jsdelivr.net/npm/@huggingface/transformers@3';
+
+  // Fetch models from the Hugging Face hub (we don't vendor them).
+  env.allowLocalModels = false;
+
+  // Multilingual embedder: mixed-language corpora work without any translation
+  // step. Swap to 'Xenova/all-MiniLM-L6-v2' for a smaller/faster English model.
+  // e5 models expect a short instruction prefix on each input.
+  const MODEL = 'Xenova/multilingual-e5-small';
+  const PREFIX = 'query: ';
+
+  // Layout constants mirror scripts/layout-network.js so the live graph behaves
+  // like the baked one on the Network page.
+  const NODE_RADIUS = 3;
+  const NODE_SPACING = 24;
+  const CHARGE_STRENGTH = -280;
+  const DEFAULT_SIM = 0.70;
+
+  const d3 = window.d3;
+  const statusEl = document.getElementById('status');
+  const dropzone = document.getElementById('dropzone');
+  const fileInput = document.getElementById('file-input');
+  const fileListEl = document.getElementById('file-list');
+  const thresholdCtl = document.getElementById('threshold-control');
+  const thresholdEl = document.getElementById('threshold');
+  const thresholdVal = document.getElementById('threshold-val');
+
+  function setStatus(msg, isError) {
+    statusEl.textContent = msg || '';
+    statusEl.classList.toggle('error', !!isError);
+  }
+
+  // ── State ──
+  let docs = [];        // { name, text }
+  let vectors = [];     // Float32Array per doc (normalized)
+  let sim = [];         // sim[i][j]
+  let embedder = null;
+  let busy = false;
+
+  // ── File reading ──
+  function readFile(file) {
+    return new Promise(function (resolve, reject) {
+      const r = new FileReader();
+      r.onload = function () { resolve({ name: file.name.replace(/\.[^.]+$/, ''), text: String(r.result || '').trim() }); };
+      r.onerror = reject;
+      r.readAsText(file);
+    });
+  }
+
+  async function handleFiles(fileList) {
+    if (busy) return;
+    const files = Array.from(fileList).filter(function (f) {
+      return /\.(txt|md|markdown)$/i.test(f.name) || f.type === 'text/plain';
+    });
+    if (!files.length) { setStatus('No .txt or .md files found in that drop.', true); return; }
+
+    busy = true;
+    try {
+      setStatus('Reading ' + files.length + ' file' + (files.length === 1 ? '' : 's') + '…');
+      const read = await Promise.all(files.map(readFile));
+      docs = read.filter(function (d) { return d.text.length > 0; });
+      renderFileList();
+      if (docs.length < 2) { setStatus('Add at least two non-empty files to build a network.', true); busy = false; return; }
+
+      if (!embedder) {
+        setStatus('Loading the embedding model (first time downloads ~110 MB, then cached)…');
+        embedder = await pipeline('feature-extraction', MODEL);
+      }
+
+      vectors = [];
+      for (let i = 0; i < docs.length; i++) {
+        setStatus('Embedding ' + (i + 1) + ' of ' + docs.length + '…');
+        const out = await embedder(PREFIX + docs[i].text, { pooling: 'mean', normalize: true });
+        vectors.push(out.data);
+      }
+
+      computeSimilarity();
+      buildGraph();
+      setStatus(docs.length + ' files · drag nodes to rearrange · adjust the threshold below.');
+      thresholdCtl.hidden = false;
+    } catch (err) {
+      console.error(err);
+      setStatus('Something went wrong: ' + (err && err.message ? err.message : err), true);
+    } finally {
+      busy = false;
+    }
+  }
+
+  function renderFileList() {
+    fileListEl.innerHTML = docs.map(function (d) {
+      return '<li><span class="fname">' + escapeHtml(d.name) + '</span><span>' + d.text.length + ' ch</span></li>';
+    }).join('');
+  }
+
+  function escapeHtml(s) {
+    return String(s).replace(/[&<>"']/g, function (c) {
+      return { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c];
+    });
+  }
+
+  function computeSimilarity() {
+    const n = vectors.length;
+    sim = Array.from({ length: n }, function () { return new Array(n).fill(0); });
+    for (let i = 0; i < n; i++) {
+      for (let j = i + 1; j < n; j++) {
+        let dot = 0;
+        const a = vectors[i], b = vectors[j];
+        for (let k = 0; k < a.length; k++) dot += a[k] * b[k];
+        sim[i][j] = sim[j][i] = dot;
+      }
+    }
+  }
+
+  // Each node links to its single strongest neighbour, if it clears the threshold.
+  function buildLinks(threshold) {
+    const n = docs.length;
+    const seen = new Set();
+    const links = [];
+    for (let i = 0; i < n; i++) {
+      let bestJ = -1, bestS = -Infinity;
+      for (let j = 0; j < n; j++) {
+        if (i === j) continue;
+        if (sim[i][j] > bestS) { bestS = sim[i][j]; bestJ = j; }
+      }
+      if (bestJ >= 0 && bestS > threshold) {
+        const key = i < bestJ ? i + ':' + bestJ : bestJ + ':' + i;
+        if (!seen.has(key)) { seen.add(key); links.push({ source: i, target: bestJ, value: bestS }); }
+      }
+    }
+    return links;
+  }
+
+  // ── Live force graph (reuses the Network page's visual classes) ──
+  let svg, nodeSel, linkSel, labelSel, simulation, nodes;
+
+  function stageDim() {
+    const stage = document.querySelector('#network-view .stage');
+    return { w: stage.clientWidth, h: stage.clientHeight };
+  }
+
+  function buildGraph() {
+    const dim = stageDim();
+    nodes = docs.map(function (d, i) { return { i: i, name: d.name }; });
+
+    svg = d3.select('#net');
+    svg.selectAll('*').remove();
+    const linkLayer = svg.append('g').attr('class', 'links');
+    const nodeLayer = svg.append('g').attr('class', 'nodes');
+    const labelLayer = svg.append('g').attr('class', 'labels');
+
+    let links = buildLinks(+thresholdEl.value);
+
+    linkSel = linkLayer.selectAll('line');
+    labelSel = labelLayer.selectAll('text').data(nodes).enter().append('text');
+
+    const nodeEnter = nodeLayer.selectAll('g.node').data(nodes).enter()
+      .append('g').attr('class', 'node draggable');
+    nodeEnter.append('circle').attr('class', 'hit').attr('r', 12);
+    nodeEnter.append('circle').attr('class', 'marker').attr('r', NODE_RADIUS);
+    nodeEnter.append('circle').attr('class', 'ring').attr('r', NODE_RADIUS + 2);
+    nodeSel = nodeEnter;
+
+    nodeSel
+      .on('mouseenter', function (e, d) { d3.select(this).classed('hover', true); setLabel(d.i, d.name); })
+      .on('mouseleave', function (e, d) { d3.select(this).classed('hover', false); setLabel(d.i, ''); })
+      .call(d3.drag()
+        .on('start', function (e, d) { if (!e.active) simulation.alphaTarget(0.3).restart(); d.fx = d.x; d.fy = d.y; d3.select(this).classed('dragging', true); })
+        .on('drag', function (e, d) { d.fx = e.x; d.fy = e.y; })
+        .on('end', function (e, d) { if (!e.active) simulation.alphaTarget(0); d.fx = null; d.fy = null; d3.select(this).classed('dragging', false); }));
+
+    simulation = d3.forceSimulation(nodes)
+      .force('link', d3.forceLink(links).id(function (d) { return d.i; })
+        .distance(function (d) { return 15 + (1 - d.value) * 45; })
+        .strength(function (d) { return 0.5 + d.value * 0.5; }))
+      .force('charge', d3.forceManyBody().strength(CHARGE_STRENGTH).distanceMax(520))
+      .force('center', d3.forceCenter(dim.w / 2, dim.h / 2))
+      .force('collide', d3.forceCollide().radius(NODE_RADIUS + NODE_SPACING))
+      .on('tick', ticked);
+
+    drawLinks(links);
+  }
+
+  function drawLinks(links) {
+    linkSel = svg.select('g.links').selectAll('line').data(links, function (d) {
+      const s = d.source.i != null ? d.source.i : d.source;
+      const t = d.target.i != null ? d.target.i : d.target;
+      return s < t ? s + ':' + t : t + ':' + s;
+    });
+    linkSel.exit().remove();
+    linkSel = linkSel.enter().append('line').attr('class', 'link').merge(linkSel);
+  }
+
+  function ticked() {
+    if (linkSel) linkSel
+      .attr('x1', function (d) { return d.source.x; }).attr('y1', function (d) { return d.source.y; })
+      .attr('x2', function (d) { return d.target.x; }).attr('y2', function (d) { return d.target.y; });
+    nodeSel.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+    labelSel.attr('transform', function (d) { return 'translate(' + d.x + ',' + d.y + ')'; });
+  }
+
+  function setLabel(i, name) {
+    const el = labelSel.filter(function (d) { return d.i === i; });
+    el.selectAll('tspan').remove();
+    if (name) el.append('tspan').attr('x', 0).attr('y', -10).text(name);
+  }
+
+  // ── Threshold slider: rebuild links live ──
+  thresholdEl.addEventListener('input', function () {
+    thresholdVal.textContent = (+thresholdEl.value).toFixed(2);
+    if (!simulation) return;
+    const links = buildLinks(+thresholdEl.value);
+    simulation.force('link').links(links);
+    drawLinks(links);
+    simulation.alpha(0.6).restart();
+  });
+
+  // ── Drop zone wiring ──
+  ['dragenter', 'dragover'].forEach(function (ev) {
+    dropzone.addEventListener(ev, function (e) { e.preventDefault(); dropzone.classList.add('dragover'); });
+  });
+  ['dragleave', 'drop'].forEach(function (ev) {
+    dropzone.addEventListener(ev, function (e) { e.preventDefault(); dropzone.classList.remove('dragover'); });
+  });
+  dropzone.addEventListener('drop', function (e) { handleFiles(e.dataTransfer.files); });
+  fileInput.addEventListener('change', function () { handleFiles(fileInput.files); });
+
+  // Keep the simulation centered on resize.
+  let resizeTimer = null;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      if (!simulation) return;
+      const dim = stageDim();
+      simulation.force('center', d3.forceCenter(dim.w / 2, dim.h / 2));
+      simulation.alpha(0.3).restart();
+    }, 150);
+  });
+</script>

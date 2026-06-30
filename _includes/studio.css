@@ -1,0 +1,67 @@
+/* ── Studio: in-browser network builder ── */
+.studio-panel { font-size: var(--text-xs); line-height: var(--lh-normal); }
+.studio-panel .lede { color: var(--muted); margin: 0 0 1.2rem; }
+
+.dropzone {
+  border: 1.5px dashed var(--border-hover);
+  border-radius: 6px;
+  padding: 1.4rem 1rem;
+  text-align: center;
+  color: var(--muted);
+  cursor: pointer;
+  transition: border-color 0.15s ease, background 0.15s ease, color 0.15s ease;
+}
+.dropzone:hover { border-color: var(--fg); color: var(--fg); }
+.dropzone.dragover { border-color: var(--fg); background: var(--border); color: var(--fg); }
+.dropzone strong { color: var(--fg); font-weight: 600; }
+.dropzone input[type="file"] { display: none; }
+
+.studio-status {
+  margin: 1rem 0 0;
+  min-height: 1.2em;
+  color: var(--muted);
+  font-variant-numeric: tabular-nums;
+}
+.studio-status.error { color: #c0392b; }
+html.dark .studio-status.error { color: #ff7a6b; }
+
+/* Threshold control */
+.studio-control {
+  margin: 1.3rem 0 0;
+  padding-top: 1.1rem;
+  border-top: 1px solid var(--border);
+}
+.studio-control[hidden] { display: none; }
+.studio-control label {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  text-transform: uppercase;
+  letter-spacing: var(--tracking-caps);
+  font-size: var(--text-xxs);
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+.studio-control label .val {
+  font-variant-numeric: tabular-nums;
+  color: var(--fg);
+  letter-spacing: 0;
+}
+.studio-control input[type="range"] { width: 100%; accent-color: var(--fg); margin: 0; }
+.studio-control .hint { color: var(--muted); margin: 0.5rem 0 0; }
+
+/* Loaded-file list */
+.file-list { list-style: none; padding: 0; margin: 1.1rem 0 0; }
+.file-list li {
+  display: flex;
+  justify-content: space-between;
+  gap: 0.5rem;
+  padding: 0.25rem 0;
+  border-bottom: 1px solid var(--border);
+  color: var(--muted);
+}
+.file-list li .fname { color: var(--fg); min-width: 0; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+
+/* While dragging a node, hint that it's grabbable */
+#network-view .node.draggable .hit { cursor: grab; }
+#network-view .node.dragging .hit { cursor: grabbing; }
