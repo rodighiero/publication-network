@@ -57,7 +57,6 @@ description: Close-read a single document — counts, readability, keywords and 
       <figure class="fig">
         <div class="stat-grid" id="readability"></div>
         <div class="ease-scale" id="ease-scale"></div>
-        <p class="analysis-note" id="readability-note"></p>
       </figure>
     </div>
     <aside class="analysis-aside">
@@ -146,7 +145,6 @@ description: Close-read a single document — counts, readability, keywords and 
   const resultsEl = document.getElementById('results');
   const overviewEl = document.getElementById('overview');
   const readabilityEl = document.getElementById('readability');
-  const readabilityNote = document.getElementById('readability-note');
   const easeScaleEl = document.getElementById('ease-scale');
   const keywordsEl = document.getElementById('keywords');
   const keyphrasesEl = document.getElementById('keyphrases');
@@ -275,7 +273,6 @@ In conclusion, this text presents a series of experiments that explore the poten
       [spw.toFixed(2), 'syllables / word']
     ]);
     renderEaseScale(ease);
-    readabilityNote.textContent = easeLabel(ease);
 
     const kw = keywordCounts(words).slice(0, 15);
     const maxKw = kw.length ? kw[0][1] : 1;
@@ -350,21 +347,13 @@ In conclusion, this text presents a series of experiments that explore the poten
         '<span class="stat-lbl">' + escapeHtml(p[1]) + '</span></div>';
     }).join('');
   }
-  function easeLabel(ease) {
-    if (ease >= 80) return 'Very easy (80+) — plain, everyday prose.';
-    if (ease >= 60) return 'Fairly easy (60–79) — accessible to most readers.';
-    if (ease >= 45) return 'Moderate (45–59) — standard academic register.';
-    if (ease >= 30) return 'Difficult (30–44) — dense, specialist writing.';
-    return 'Very difficult (under 30) — highly technical or convoluted.';
-  }
-
   // Segments span the 0–100 scale by width (%); left = hard, right = easy.
   const EASE_BANDS = [
-    { w: 30, label: 'Very difficult' },
-    { w: 15, label: 'Difficult' },
-    { w: 15, label: 'Moderate' },
-    { w: 20, label: 'Fairly easy' },
-    { w: 20, label: 'Very easy' }
+    { w: 30, name: 'Very difficult', range: '0–30',   desc: 'highly technical or convoluted' },
+    { w: 15, name: 'Difficult',      range: '30–45',  desc: 'dense, specialist writing' },
+    { w: 15, name: 'Moderate',       range: '45–60',  desc: 'standard academic register' },
+    { w: 20, name: 'Fairly easy',    range: '60–80',  desc: 'accessible to most readers' },
+    { w: 20, name: 'Very easy',      range: '80–100', desc: 'plain, everyday prose' }
   ];
   function easeBandIndex(ease) {
     if (ease >= 80) return 4;
@@ -376,13 +365,18 @@ In conclusion, this text presents a series of experiments that explore the poten
   function renderEaseScale(ease) {
     const active = easeBandIndex(ease);
     const segs = EASE_BANDS.map(function (b, i) {
-      return '<div class="ease-seg' + (i === active ? ' on' : '') + '" style="width:' + b.w + '%">' + b.label + '</div>';
+      return '<div class="ease-seg' + (i === active ? ' on' : '') + '" style="width:' + b.w + '%"></div>';
+    }).join('');
+    const legend = EASE_BANDS.map(function (b, i) {
+      return '<li class="' + (i === active ? 'on' : '') + '"><span class="lg-name">' + b.name +
+        '</span> <span class="lg-range">' + b.range + '</span> — ' + b.desc + '</li>';
     }).join('');
     const pos = Math.max(2, Math.min(98, ease));
     easeScaleEl.innerHTML =
       '<div class="ease-pointer" style="left:' + pos + '%"><span class="ease-value">' + Math.round(ease) + '</span></div>' +
       '<div class="ease-bar">' + segs + '</div>' +
-      '<div class="ease-ends"><span>0 · harder</span><span>easier · 100</span></div>';
+      '<div class="ease-ends"><span>0 · harder</span><span>easier · 100</span></div>' +
+      '<ul class="ease-legend">' + legend + '</ul>';
   }
 
   // ── Input wiring ──

@@ -101,21 +101,12 @@
   overflow: hidden;
 }
 .ease-seg {
-  display: flex;
-  align-items: center;
-  justify-content: center;
   min-width: 0;
-  padding: 0 0.25rem;
-  font-size: var(--text-xxs);
-  color: var(--muted);
   background: var(--bg);
   border-right: 1px solid var(--border);
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
 }
 .ease-seg:last-child { border-right: none; }
-.ease-seg.on { background: var(--fg); color: var(--bg); font-weight: 600; }
+.ease-seg.on { background: var(--fg); }
 .ease-ends {
   display: flex;
   justify-content: space-between;
@@ -123,6 +114,17 @@
   font-size: var(--text-xxs);
   color: var(--muted);
 }
+.ease-legend { list-style: none; padding: 0; margin: 0.8rem 0 0; }
+.ease-legend li {
+  font-size: var(--text-xxs);
+  line-height: var(--lh-normal);
+  color: var(--muted);
+  padding: 0.15rem 0 0.15rem 0.6rem;
+  border-left: 2px solid transparent;
+}
+.ease-legend li.on { color: var(--fg); border-left-color: var(--fg); }
+.ease-legend .lg-name { font-weight: 600; }
+.ease-legend .lg-range { font-variant-numeric: tabular-nums; }
 
 /* Stat cards */
 .stat-grid {
