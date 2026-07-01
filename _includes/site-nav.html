@@ -1,6 +1,7 @@
 <header class="site-header">
   <nav class="site-nav" aria-label="Primary">
     <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} class="active" aria-current="page"{% endif %}>Home</a>
+    <a href="{{ '/text/' | relative_url }}"{% if page.url contains '/text' %} class="active" aria-current="page"{% endif %}>Text</a>
     <a href="{{ '/network/' | relative_url }}"{% if page.url contains '/network' %} class="active" aria-current="page"{% endif %}>Network</a>
   </nav>
   <a class="site-title" href="{{ '/' | relative_url }}">{{ site.title }}</a>
